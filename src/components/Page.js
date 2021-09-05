@@ -2,11 +2,15 @@ import React from "react";
 import { Element } from "react-scroll";
 
 const Page = (props) => {
+  const contentFormat = props.siteTitle
+    ? "flex flex-col content-start justify-end"
+    : "flex flex-col align-center";
+  const title = props.siteTitle ? props.siteTitle : props.title;
   return (
     <Element name={props.id} className="element">
       <section
         id={props.id}
-        className="mt-20 h-screen bg-black text-white"
+        className={`${contentFormat} mb-20 h-xl bg-black text-white`}
         style={{
           "background-image": `url(${props.background})`,
           backgroundPosition: "right",
@@ -14,7 +18,15 @@ const Page = (props) => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <h1>{props.title}</h1>
+        <h1
+          className={
+            props.siteTitle
+              ? "text-left font-display text-9xl  w-1/2"
+              : "text-center font-display text-3xl"
+          }
+        >
+          {title}
+        </h1>
         {props.children}
       </section>
     </Element>
