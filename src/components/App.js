@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import "./App.css";
 import MenuBar from "./MenuBar";
 import Page from "./Page";
+import bgImage from "../assets/zack-site-bg-1.jpg";
 
 const App = () => {
   const { t } = useTranslation();
@@ -15,7 +16,7 @@ const App = () => {
         id="main-container"
         className="bg-black fixed top-20 left-0 bottom-0 overflow-y-scroll"
       >
-        <Page id="main">
+        <Page id="main" background={bgImage}>
           <h1>Zachary Alford</h1>
         </Page>
         <Page id="bio" title={t("bio")}>
