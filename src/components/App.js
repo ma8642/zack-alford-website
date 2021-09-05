@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useTranslation } from "react-i18next";
 import "./App.css";
 import MenuBar from "./MenuBar";
@@ -7,10 +7,9 @@ import Page from "./Page";
 const App = () => {
   const { t } = useTranslation();
   const pages = ["main", "bio", "discography", "gallery", "gear", "connect"];
-  const [page, setPage] = useState("main");
 
   return (
-    <div className="App px-12 bg-black">
+    <div className="App px-12 bg-black text-white">
       <MenuBar pages={pages} />
       <main
         id="main-container"
@@ -22,6 +21,20 @@ const App = () => {
         <Page id="bio" title={t("bio")}>
           <p>{t("biography-text")}</p>
         </Page>
+        <Page id="discography" title={t("discography")}>
+          <div>Discography albums</div>
+        </Page>
+        <Page id="gallery" title={t("gallery")}>
+          <div>Gallery photos</div>
+        </Page>
+        <Page id="gear" title={t("gear")}>
+          <div>Gear</div>
+        </Page>
+        <Page id="connect" title={t("connect")}>
+          <div>Connect</div>
+        </Page>
+        <p>{t("zack-alford-copywrite")}</p>
+        <small>{t("marley-alford-site")}</small>
       </main>
     </div>
   );
