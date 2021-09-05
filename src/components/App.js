@@ -10,14 +10,19 @@ const App = () => {
   const [page, setPage] = useState("main");
 
   return (
-    <div className="App">
+    <div className="App px-12 bg-black">
       <MenuBar pages={pages} />
-      <Page>
-        <h1>Zachary Alford</h1>
-      </Page>
-      <Page id="main" title={t("bio")}>
-        <p>{t("biography-text")}</p>
-      </Page>
+      <main
+        id="main-container"
+        className="bg-black fixed top-20 left-0 bottom-0 overflow-y-scroll"
+      >
+        <Page id="main">
+          <h1>Zachary Alford</h1>
+        </Page>
+        <Page id="bio" title={t("bio")}>
+          <p>{t("biography-text")}</p>
+        </Page>
+      </main>
     </div>
   );
 };

@@ -4,4 +4,7 @@ This is the code for Zack Alford's website.
 
 # Notes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Helpful Links
+
+- [Internationalization](https://dev.to/adrai/how-to-properly-internationalize-a-react-application-using-i18next-3hdb)
+- [Smooth scrolling for react](https://github.com/fisshy/react-scroll)
