@@ -6,7 +6,7 @@ import Page from "./Page";
 import Biography from "./Biography";
 import Discography from "./Discography";
 import Gallery from "./Gallery";
-import GearPage from "./GearPage";
+import Gear from "./Gear";
 import ConnectPage from "./ConnectPage";
 import bgImage from "../assets/zack-site-bg-2.jpg";
 
@@ -36,7 +36,7 @@ const App = () => {
           <Gallery />
         </Page>
         <Page id="gear" title={t("gear")}>
-          <div>Gear</div>
+          <Gear />
         </Page>
         <Page id="connect" title={t("connect")}>
           <div>Connect</div>
