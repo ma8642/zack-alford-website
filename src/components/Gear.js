@@ -13,8 +13,8 @@ const Gear = () => {
   ));
 
   return (
-    <div className="flex w-full">
-      <div className="flex flex-col justify-center w-full">
+    <div className="flex justify-center">
+      <div className="flex flex-col justify-center w-full pr-4">
         <img
           src={bgImage}
           alt="Zack playing drums in dim, red lighting."
