@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "Gwen Stefani",
+    "year": "2011",
+    "src": "/images/galleries/gwen.png",
+    "href": "#"
+  },
+  {
+    "id": 3,
+    "title": "David Bowie",
+    "year": "2011",
+    "src": "/images/galleries/david.png",
+    "href": "#"
+  },
+  {
+    "id": 4,
+    "title": "Zucchero",
+    "year": "2011",
+    "src": "/images/galleries/zucchero.png",
+    "href": "#"
+  },
+  {
+    "id": 5,
+    "title": "Bruce Springsteen",
+    "year": "2011",
+    "src": "/images/galleries/bruce.png",
+    "href": "#"
+  },
+  {
+    "id": 6,
+    "title": "B52's",
+    "year": "2011",
+    "src": "/images/galleries/b52s.png",
+    "href": "#"
+  },
+  {
+    "id": 7,
+    "title": "Hotei",
+    "year": "2011",
+    "src": "/images/galleries/hotei.png",
+    "href": "#"
+  },
+  {
+    "id": 8,
+    "title": "Other",
+    "year": "2011",
+    "src": "/images/galleries/other.png",
+    "href": "#"
+  }
+]
