@@ -16,7 +16,7 @@ const Page = (props) => {
         }}
       >
         <h1 className="text-center font-display text-3xl">{props.title}</h1>
-        <div className="pt-10 pl-20 pr-20">{props.children}</div>
+        <div className="pt-10 pl-20 pr-20 h-full">{props.children}</div>
       </section>
     </Element>
   );

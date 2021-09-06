@@ -5,7 +5,7 @@ import bgImage from "../assets/gear/gear-bg.png";
 const Gear = () => {
   // TODO figure out a better way to have the on-hover happen so i don't have the a-tag warning anymore
   const gear = gearData.map((gear) => (
-    <div>
+    <div className="w-1/2">
       <a href={gear.href}>
         <img key={gear.id} src={gear.src} alt={gear.alt} maxWidth="5%" />
       </a>
@@ -21,7 +21,7 @@ const Gear = () => {
           maxWidth="30%"
         />
       </div>
-      <div className="flex flex-col">{gear}</div>
+      <div className="flex flex-col justify-around items-center">{gear}</div>
     </div>
   );
 };
