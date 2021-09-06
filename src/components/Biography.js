@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 const Biography = () => {
+  // TODO Add train line design to side
   const { t } = useTranslation();
   const text = [];
   let counter = 0;
@@ -17,7 +18,7 @@ const Biography = () => {
       counter += 1;
     }
   }
-  return <div className="font-body text-left pt-5 pl-20 pr-20">{text}</div>;
+  return <div className="font-body text-left">{text}</div>;
 };
 
 export default Biography;

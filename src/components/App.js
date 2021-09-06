@@ -4,7 +4,7 @@ import MenuBar from "./MenuBar";
 import LandingPage from "./LandingPage";
 import Page from "./Page";
 import Biography from "./Biography";
-import DiscographyPage from "./DiscographyPage";
+import Discography from "./Discography";
 import GalleryPage from "./GalleryPage";
 import GearPage from "./GearPage";
 import ConnectPage from "./ConnectPage";
@@ -30,7 +30,7 @@ const App = () => {
           <Biography />
         </Page>
         <Page id="discography" title={t("discography")}>
-          <div>Discography albums</div>
+          <Discography />
         </Page>
         <Page id="gallery" title={t("gallery")}>
           <div>Gallery photos</div>

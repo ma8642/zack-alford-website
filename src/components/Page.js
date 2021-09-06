@@ -2,6 +2,7 @@ import React from "react";
 import { Element } from "react-scroll";
 
 const Page = (props) => {
+  // TODO Add a View All button to see all albums
   return (
     <Element name={props.id} className="element">
       <section
@@ -15,7 +16,7 @@ const Page = (props) => {
         }}
       >
         <h1 className="text-center font-display text-3xl">{props.title}</h1>
-        {props.children}
+        <div className="pt-10 pl-20 pr-20">{props.children}</div>
       </section>
     </Element>
   );
