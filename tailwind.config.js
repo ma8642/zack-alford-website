@@ -3,7 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      display: ["IBM Plex Mono", "monospace"],
+      display: ["Audiowide", "monospace"],
       body: ["Roboto", "sans-serif"],
     },
     height: {

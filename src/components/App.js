@@ -1,8 +1,14 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import MenuBar from "./MenuBar";
+import LandingPage from "./LandingPage";
 import Page from "./Page";
-import bgImage from "../assets/zack-site-bg-1.jpg";
+import Biography from "./Biography";
+import DiscographyPage from "./DiscographyPage";
+import GalleryPage from "./GalleryPage";
+import GearPage from "./GearPage";
+import ConnectPage from "./ConnectPage";
+import bgImage from "../assets/zack-site-bg-2.jpg";
 
 const App = () => {
   const { t } = useTranslation();
@@ -13,11 +19,15 @@ const App = () => {
       <MenuBar pages={pages} />
       <main
         id="main-container"
-        className="bg-black fixed top-20 left-0 bottom-0 overflow-y-scroll"
+        className="bg-black fixed top-20 left-0 bottom-0 overflow-y-scroll p-5"
       >
-        <Page id="main" siteTitle="Zachary Alford" background={bgImage}></Page>
+        <LandingPage
+          id="main"
+          siteTitle="Zachary Alford"
+          background={bgImage}
+        ></LandingPage>
         <Page id="bio" title={t("bio")}>
-          <p className="font-body text-left">{t("biography-text")}</p>
+          <Biography />
         </Page>
         <Page id="discography" title={t("discography")}>
           <div>Discography albums</div>
