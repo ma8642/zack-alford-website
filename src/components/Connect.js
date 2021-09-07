@@ -7,6 +7,14 @@ import {
 
 const style = "p-5 bg-green-400 rounded flex items-center";
 
+const Email = (props) => (
+  <a
+    href={`mailto:${process.env.REACT_APP_FIRST}@${process.env.REACT_APP_LAST}`}
+  >
+    {props.children}
+  </a>
+);
+
 const Connect = (props) => {
   return (
     <div className="flex justify-evenly text-3xl">
@@ -28,9 +36,11 @@ const Connect = (props) => {
           <FacebookFilled />
         </div>
       </a>
-      <div className={style}>
-        <MailOutlined />
-      </div>
+      <Email>
+        <div className={style}>
+          <MailOutlined />
+        </div>
+      </Email>
     </div>
   );
 };
