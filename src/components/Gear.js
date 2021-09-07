@@ -3,7 +3,7 @@ import gearData from "../assets/gear/gear";
 import bgImage from "../assets/gear/gear-bg.png";
 
 const Gear = () => {
-  // TODO figure out how to align-items-center this page content!!  and how to add space between brand logos
+  // TODO figure out how to align-items-center this page content!
   const gear = gearData.map((gear) => (
     <div className="transform hover:scale-105">
       <a href={gear.href}>

@@ -7,7 +7,7 @@ import Biography from "./Biography";
 import Discography from "./Discography";
 import Gallery from "./Gallery";
 import Gear from "./Gear";
-import ConnectPage from "./ConnectPage";
+import Connect from "./Connect";
 import bgImage from "../assets/zack-site-bg-2.jpg";
 
 const App = () => {
@@ -39,7 +39,7 @@ const App = () => {
           <Gear />
         </Page>
         <Page id="connect" title={t("connect")}>
-          <div>Connect</div>
+          <Connect />
         </Page>
         <p>{t("zack-alford-copywrite")}</p>
         <small>{t("marley-alford-site")}</small>
