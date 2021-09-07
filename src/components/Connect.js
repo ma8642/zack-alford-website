@@ -5,7 +5,8 @@ import {
   MailOutlined,
 } from "@ant-design/icons";
 
-const style = "p-5 bg-green-400 rounded flex items-center";
+const style =
+  "p-5 bg-green-400 rounded flex items-center transform hover:scale-105";
 
 const Email = (props) => (
   <a
