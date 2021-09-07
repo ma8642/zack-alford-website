@@ -6,7 +6,7 @@ import {
 } from "@ant-design/icons";
 
 const style =
-  "p-5 bg-green-400 rounded flex items-center transform hover:scale-105";
+  "p-5 text-black bg-green-400 rounded flex items-center transform hover:scale-105";
 
 const Email = (props) => (
   <a
@@ -25,7 +25,7 @@ const Connect = (props) => {
         rel="noreferrer"
       >
         <div className={style}>
-          <InstagramOutlined />
+          <InstagramOutlined alt="instagram" />
         </div>
       </a>
       <a
@@ -34,12 +34,12 @@ const Connect = (props) => {
         rel="noreferrer"
       >
         <div className={style}>
-          <FacebookFilled />
+          <FacebookFilled alt="facebook" />
         </div>
       </a>
       <Email>
         <div className={style}>
-          <MailOutlined />
+          <MailOutlined alt="email" />
         </div>
       </Email>
     </div>

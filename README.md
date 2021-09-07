@@ -2,6 +2,14 @@
 
 This is the code for Zack Alford's website.
 
+# To-Do
+
+- [ ] Create image carousel
+- [ ] Create image for Bio page
+- [ ] Create "view all" button for discography page
+- [ ] Host gallery photos
+- [ ] Add language change ability
+
 # Notes
 
 ## Helpful Links
