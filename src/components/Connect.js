@@ -10,22 +10,15 @@ const style =
 
 const Connect = (props) => {
   const [email, showEmail] = useState(false);
+  console.log(process.env);
   return (
     <div className="flex justify-evenly text-3xl">
-      <a
-        href="https://www.instagram.com/gourmetjedi/?hl=en"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href={process.env.REACT_APP_INSTA} target="_blank" rel="noreferrer">
         <div className={style}>
           <InstagramOutlined alt="instagram" />
         </div>
       </a>
-      <a
-        href="https://www.facebook.com/zachary.alford.3"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href={process.env.REACT_APP_FB} target="_blank" rel="noreferrer">
         <div className={style}>
           <FacebookFilled alt="facebook" />
         </div>
