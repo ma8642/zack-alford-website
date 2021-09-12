@@ -9,10 +9,20 @@ module.exports = {
     height: {
       xl: "90vh",
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        fade: {
+          "0%, 100%": { opacity: 0 },
+          "50%": { opacity: 1 },
+        },
+      },
+      animation: {
+        fade: "fade 5s infinite",
+      },
+    },
+    variants: {
+      extend: {},
+    },
+    plugins: [],
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
 };
