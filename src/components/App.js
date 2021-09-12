@@ -8,7 +8,6 @@ import Discography from "./Discography";
 import Gallery from "./Gallery";
 import Gear from "./Gear";
 import Connect from "./Connect";
-import bgImage from "../assets/zack-site-bg-2.jpg";
 
 const App = () => {
   const { t } = useTranslation();
@@ -21,11 +20,7 @@ const App = () => {
         id="main-container"
         className="bg-black fixed top-20 left-0 bottom-0 overflow-y-scroll p-5"
       >
-        <LandingPage
-          id="main"
-          siteTitle="Zachary Alford"
-          background={bgImage}
-        ></LandingPage>
+        <LandingPage id="main" siteTitle="Zachary Alford"></LandingPage>
         <Page id="bio" title={t("bio")}>
           <Biography />
         </Page>
