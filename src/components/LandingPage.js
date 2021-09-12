@@ -10,21 +10,10 @@ const LandingPage = (props) => {
 
   return (
     <Element name={props.id} className="element">
-      <section
-        id={props.id}
-        className={
-          "flex flex-col content-start justify-end mb-20 h-xl bg-black text-white"
-        }
-      >
-        <h1
-          className={
-            props.siteTitle
-              ? "text-left font-display text-9xl  w-1/2"
-              : "text-center font-display text-3xl"
-          }
-        >
-          {title}
-        </h1>
+      <section id={props.id} className="flex mb-20 h-xl bg-black text-white">
+        <div className="flex flex-col content-start justify-end">
+          <h1 className="text-left font-display text-9xl  w-1/2">{title}</h1>
+        </div>
         <div className="carousel">{carousel}</div>
       </section>
     </Element>
