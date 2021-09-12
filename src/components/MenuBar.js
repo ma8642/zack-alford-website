@@ -5,11 +5,11 @@ const MenuBar = ({ pages }) => {
   const menuItems = pages.map((title) => {
     const style =
       title === "connect"
-        ? "inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-black hover:bg-white mt-4 lg:mt-0"
-        : "block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4";
+        ? "inline-block text-sm px-4 py-2 leading-none border rounded border-white hover:border-transparent hover:text-black hover:bg-green-400  lg:mt-0"
+        : "block lg:inline-block lg:mt-0 hover:text-green-400 mr-4";
 
     return (
-      <div key={title} className={style}>
+      <div key={title} className={`text-white mt-4 ${style}`}>
         <button className="uppercase">
           <Link
             activeClass="active"
