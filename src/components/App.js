@@ -20,7 +20,7 @@ const App = () => {
         id="main-container"
         className="bg-black fixed top-20 left-0 bottom-0 overflow-y-scroll p-5"
       >
-        <LandingPage id="main" siteTitle="Zachary Alford"></LandingPage>
+        <LandingPage id="main" siteTitle="Zachary Alford" />
         <Page id="bio" title={t("bio")}>
           <Biography />
         </Page>
