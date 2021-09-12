@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   FacebookFilled,
   InstagramOutlined,
@@ -8,15 +8,8 @@ import {
 const style =
   "p-5 text-black bg-green-400 rounded flex items-center transform hover:scale-105";
 
-const Email = (props) => (
-  <a
-    href={`mailto:${process.env.REACT_APP_FIRST}@${process.env.REACT_APP_LAST}`}
-  >
-    {props.children}
-  </a>
-);
-
 const Connect = (props) => {
+  const [email, showEmail] = useState(false);
   return (
     <div className="flex justify-evenly text-3xl">
       <a
@@ -37,11 +30,9 @@ const Connect = (props) => {
           <FacebookFilled alt="facebook" />
         </div>
       </a>
-      <Email>
-        <div className={style}>
-          <MailOutlined alt="email" />
-        </div>
-      </Email>
+      <button className={style} onClick={() => alert("Hi!")}>
+        <MailOutlined alt="email" />
+      </button>
     </div>
   );
 };
