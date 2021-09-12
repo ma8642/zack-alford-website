@@ -19,6 +19,9 @@ module.exports = {
       animation: {
         fade: "fade 5s infinite",
       },
+      zIndex: {
+        "-1": "-10",
+      },
     },
     variants: {
       extend: {},
