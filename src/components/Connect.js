@@ -4,15 +4,16 @@ import {
   InstagramOutlined,
   MailOutlined,
 } from "@ant-design/icons";
+import EmailDiv from "./EmailDiv";
 
 const style =
   "p-5 text-black bg-green-400 rounded flex items-center transform hover:scale-105";
 
 const Connect = (props) => {
-  const [email, showEmail] = useState(false);
+  const [showEmail, setShowEmail] = useState(false);
   console.log(process.env);
   return (
-    <div className="flex justify-evenly text-3xl">
+    <div className="flex flex-col items-center justify-around text-3xl h-screen">
       <a href={process.env.REACT_APP_INSTA} target="_blank" rel="noreferrer">
         <div className={style}>
           <InstagramOutlined alt="instagram" />
@@ -23,9 +24,12 @@ const Connect = (props) => {
           <FacebookFilled alt="facebook" />
         </div>
       </a>
-      <button className={style} onClick={() => alert("Hi!")}>
-        <MailOutlined alt="email" />
-      </button>
+      <div className="flex items-center">
+        <button className={style} onClick={() => setShowEmail(true)}>
+          <MailOutlined alt="email" />
+        </button>
+        {showEmail && <EmailDiv />}
+      </div>
     </div>
   );
 };
