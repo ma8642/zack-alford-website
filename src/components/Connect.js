@@ -25,10 +25,9 @@ const Connect = (props) => {
         </div>
       </a>
       <div className="flex items-center">
-        <button className={style} onClick={() => setShowEmail(true)}>
-          <MailOutlined alt="email" />
+        <button className={style} onClick={() => setShowEmail(!showEmail)}>
+          {showEmail ? <EmailDiv /> : <MailOutlined alt="email" />}
         </button>
-        {showEmail && <EmailDiv />}
       </div>
     </div>
   );
