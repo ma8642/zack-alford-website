@@ -13,7 +13,7 @@ const Connect = (props) => {
   const [showEmail, setShowEmail] = useState(false);
   console.log(process.env);
   return (
-    <div className="flex flex-col items-center justify-around text-3xl h-screen">
+    <div className="flex flex-col items-center justify-around text-3xl h-full">
       <a href={process.env.REACT_APP_INSTA} target="_blank" rel="noreferrer">
         <div className={style}>
           <InstagramOutlined alt="instagram" />

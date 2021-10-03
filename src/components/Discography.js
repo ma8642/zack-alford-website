@@ -11,6 +11,8 @@ const Discography = () => {
     />
   ));
 
+  // TODO make this album page only show more if user chooses to
+
   return (
     <div className="grid grid-cols-3 lg:grid-cols-5 gap-4">{albumsElt}</div>
   );

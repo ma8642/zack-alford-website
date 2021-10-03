@@ -7,7 +7,9 @@ module.exports = {
       body: ["Roboto", "sans-serif"],
     },
     height: {
+      full: "100%",
       xl: "90vh",
+      screen: "100vh",
     },
     extend: {
       keyframes: {
