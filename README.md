@@ -21,3 +21,4 @@ This is the code for Zack Alford's website.
 - [Image carousel](http://css3.bradshawenterprises.com/cfimg/)
 - [TODO - spam resistant contact info](https://dev.to/hkievet/react-protecting-an-email-address-3cp0)
 - [TODO - make buttons shake](https://www.w3schools.com/howto/howto_css_shake_image.asp)
+- [Check screen size using javascript](https://dev.to/yanns1/how-to-render-different-components-based-on-screen-size-2p35)
