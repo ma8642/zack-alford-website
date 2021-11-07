@@ -24,7 +24,7 @@ const App = () => {
         <Page id="bio" title={t("bio")}>
           <Biography />
         </Page>
-        <Page id="discography" title={t("discography")}>
+        <Page id="discography" title={t("discography")} expandable={true}>
           <Discography />
         </Page>
         <Page id="gallery" title={t("gallery")}>
