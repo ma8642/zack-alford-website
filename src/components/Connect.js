@@ -12,20 +12,29 @@ const style =
 
 const Connect = (props) => {
   const [showEmail, setShowEmail] = useState(false);
-  console.log(process.env);
   return (
-    <div className="flex flex-col items-center justify-around text-3xl h-full">
-      <a href={process.env.REACT_APP_INSTA} target="_blank" rel="noreferrer">
+    <div className="flex flex-col items-center text-3xl h-full">
+      <a
+        href={process.env.REACT_APP_INSTA}
+        target="_blank"
+        rel="noreferrer"
+        className="pb-8"
+      >
         <div className={style}>
           <InstagramOutlined alt="instagram" />
         </div>
       </a>
-      <a href={process.env.REACT_APP_FB} target="_blank" rel="noreferrer">
+      <a
+        href={process.env.REACT_APP_FB}
+        target="_blank"
+        rel="noreferrer"
+        className="pb-8"
+      >
         <div className={style}>
           <FacebookFilled alt="facebook" />
         </div>
       </a>
-      <div className="flex items-center">
+      <div className="flex items-center pb-8">
         <FilledButton onClick={() => setShowEmail(!showEmail)}>
           {showEmail ? <EmailDiv /> : <MailOutlined alt="email" />}
         </FilledButton>

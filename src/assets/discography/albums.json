@@ -70,5 +70,53 @@
     "title": "Supersonic Generation",
     "artist": "Hotei",
     "src": "/images/supersonic.png"
+  },
+  {
+    "id": 13,
+    "title": "Media",
+    "artist": "Media",
+    "src": "/images/media.png"
+  },
+  {
+    "id": 14,
+    "title": "Good Stuff",
+    "artist": "B52's",
+    "src": "/images/goodstuff.png"
+  },
+  {
+    "id": 15,
+    "title": "(bod'e-bag)",
+    "artist": "Bodybag",
+    "src": "/images/bodybag.png"
+  },
+  {
+    "id": 16,
+    "title": "Kenza",
+    "artist": "Khaled",
+    "src": "/images/kenza.png"
+  },
+  {
+    "id": 17,
+    "title": "Monter Amoureuse",
+    "artist": "Maya Barsony",
+    "src": "/images/maya.png"
+  },
+  {
+    "id": 18,
+    "title": "I Used to Be",
+    "artist": "Gail Ann Dorsey",
+    "src": "/images/gail.png"
+  },
+  {
+    "id": 19,
+    "title": "Alive and Well",
+    "artist": "David Bowie",
+    "src": "/images/aliveandwell.png"
+  },
+  {
+    "id": 20,
+    "title": "Change for the Better",
+    "artist": "Maggies Dream",
+    "src": "/images/maggiesdream.png"
   }
 ]
