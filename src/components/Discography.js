@@ -29,7 +29,7 @@ const Discography = () => {
   return (
     <div>
       <div className="grid grid-cols-3 lg:grid-cols-5 gap-4">
-        {albumsElt.slice(0, maxAlbums - 1)}
+        {albumsElt.slice(0, maxAlbums)}
       </div>
       <div className="flex justify-center mt-4">
         <FilledButton onClick={() => setMaxAlbums(maxAlbums + increment)}>
