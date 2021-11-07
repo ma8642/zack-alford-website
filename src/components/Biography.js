@@ -11,7 +11,7 @@ const Biography = () => {
       text.push(<br />);
     } else {
       text.push(
-        <p key={i} className="mb-10 text-lg">
+        <p key={i} className="mb-10 sm:text-base md:text-lg">
           {t(`biography-para-${counter + 1}`)}
         </p>
       );
