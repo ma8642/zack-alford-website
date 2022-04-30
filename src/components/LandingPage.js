@@ -21,7 +21,7 @@ const LandingPage = (props) => {
         </h1>
         <div className="flex justify-end content-end h-xl">
           <img
-            className="carousel animate-fade"
+            className="carousel" // TODO figure out how to do animate-fade without it being out of sync
             src={carouselData[currentImage].src}
             alt={carouselData[currentImage].alt}
           />
