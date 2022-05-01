@@ -21,7 +21,10 @@ const Connect = (props) => {
         className="pb-8"
       >
         <div className={style}>
-          <InstagramOutlined alt="instagram" />
+          <InstagramOutlined
+            alt="instagram"
+            onClick={() => setShowEmail(false)}
+          />
         </div>
       </a>
       <a
@@ -31,7 +34,7 @@ const Connect = (props) => {
         className="pb-8"
       >
         <div className={style}>
-          <FacebookFilled alt="facebook" />
+          <FacebookFilled alt="facebook" onClick={() => setShowEmail(false)} />
         </div>
       </a>
       <div className="flex items-center pb-8">
