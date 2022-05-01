@@ -5,7 +5,7 @@ import FilledButton from "./buttons/FilledButton";
 const Discography = () => {
   const [increment, setIncrement] = useState(8);
   const [maxAlbums, setMaxAlbums] = useState(increment);
-  const albumsElt = albums.map((album) => (
+  const albumsData = albums.map((album) => (
     <img
       key={album.id}
       src={album.src}
@@ -24,17 +24,23 @@ const Discography = () => {
     }
   }, []);
 
-  // TODO make this album page only show more if user chooses to
+  const handleClickButton = () => {
+    if (maxAlbums < albumsData.length) {
+      setMaxAlbums(maxAlbums + increment);
+    } else {
+      setMaxAlbums(increment);
+    }
+  };
+
+  const buttonCopy = maxAlbums < albumsData.length ? "More" : "Less";
 
   return (
     <div>
       <div className="grid grid-cols-3 lg:grid-cols-5 gap-4">
-        {albumsElt.slice(0, maxAlbums)}
+        {albumsData.slice(0, maxAlbums)}
       </div>
       <div className="flex justify-center mt-4">
-        <FilledButton onClick={() => setMaxAlbums(maxAlbums + increment)}>
-          More
-        </FilledButton>
+        <FilledButton onClick={handleClickButton}>{buttonCopy}</FilledButton>
       </div>
     </div>
   );
