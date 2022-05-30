@@ -9,18 +9,24 @@ const GalleryCollection = ({ photos }) => {
   return (
     <div className="collection flex flex-col justify-center content-center">
       <div className="focused-image flex justify-center">
-        <img src={focusedImage} height="100vh" />
+        <img src={focusedImage.src} height="100vh" alt={focusedImage.alt} />
       </div>
 
       <div className="thumbnail-row flex">
-        {photos.map((url, i) => {
+        {photos.map((photo, i) => {
           return (
             <div
               key={i}
-              onClick={() => setFocusedImage(url)}
-              className="cursor-pointer mx-1"
+              onClick={() => setFocusedImage(photo)}
+              className="cursor-pointer mx-1 overflow-x-auto" // TODO fix overflow
             >
-              <img key={i} src={url} height="70px" width="70px" />
+              <img
+                key={i}
+                src={photo.src}
+                height="70px"
+                width="70px"
+                alt={photo.alt}
+              />
             </div>
           );
         })}
