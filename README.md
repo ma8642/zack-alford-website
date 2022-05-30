@@ -6,7 +6,7 @@ This is the code for Zack Alford's website.
 
 - [x] Create image carousel
 - [ ] Create image for Bio page
-- [ ] Create "view all" button for discography page
+- [x] Create "view all" button for discography page
 - [ ] Host gallery photos
 - [ ] Add language change ability
 - [ ] make buttons shake
