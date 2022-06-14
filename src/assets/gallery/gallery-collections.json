@@ -76,5 +76,24 @@
     { "src": "/images/rumble-doll.png", "alt": "bar" },
     { "src": "/images/billy-joel.png", "alt": "bar" },
     { "src": "/images/funplex.png", "alt": "bar" }
+  ],
+  "8": [
+    { "src": "/images/the-next-day.png", "alt": "foo" },
+    { "src": "/images/lettie.png", "alt": "bar" },
+    { "src": "/images/je-sais.png", "alt": "bar" },
+    { "src": "/images/231-pacific.png", "alt": "bar" },
+    { "src": "/images/bruce-springsteen.png", "alt": "bar" },
+    { "src": "/images/earthling.png", "alt": "bar" },
+    { "src": "/images/rumble-doll.png", "alt": "bar" },
+    { "src": "/images/billy-joel.png", "alt": "bar" },
+    { "src": "/images/the-next-day.png", "alt": "foo" },
+    { "src": "/images/lettie.png", "alt": "bar" },
+    { "src": "/images/je-sais.png", "alt": "bar" },
+    { "src": "/images/231-pacific.png", "alt": "bar" },
+    { "src": "/images/bruce-springsteen.png", "alt": "bar" },
+    { "src": "/images/earthling.png", "alt": "bar" },
+    { "src": "/images/rumble-doll.png", "alt": "bar" },
+    { "src": "/images/billy-joel.png", "alt": "bar" },
+    { "src": "/images/funplex.png", "alt": "bar" }
   ]
 }
