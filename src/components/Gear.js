@@ -6,7 +6,7 @@ const Gear = () => {
   // TODO figure out how to align-items-center this page content!
   const gear = gearData.map((gear) => (
     <div className="transform hover:scale-105">
-      <a href={gear.href}>
+      <a href={gear.href} target="_blank" rel="noreferrer">
         <img key={gear.id} src={gear.src} alt={gear.alt} maxWidth="100%" />
       </a>
     </div>
