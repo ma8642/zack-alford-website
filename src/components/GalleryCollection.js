@@ -12,13 +12,13 @@ const GalleryCollection = ({ photos }) => {
         <img src={focusedImage.src} height="100vh" alt={focusedImage.alt} />
       </div>
 
-      <div className="thumbnail-row flex">
+      <div className="thumbnail-row grid gap-1 grid-cols-6 grid-rows-1 overflow-x-auto">
         {photos.map((photo, i) => {
           return (
             <div
               key={i}
               onClick={() => setFocusedImage(photo)}
-              className="cursor-pointer mx-1 overflow-x-auto" // TODO fix overflow
+              className="cursor-pointer" // TODO fix overflow
             >
               <img
                 key={i}
