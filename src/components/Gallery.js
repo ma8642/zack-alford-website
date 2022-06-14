@@ -29,7 +29,12 @@ const Gallery = () => {
   ));
 
   if (openCollection) {
-    return <GalleryCollection photos={openCollection} />;
+    return (
+      <GalleryCollection
+        photos={openCollection}
+        handleBackClick={() => setOpenCollection(false)}
+      />
+    );
   }
 
   return <div className="grid grid-cols-4 gap-4">{galleries}</div>;
