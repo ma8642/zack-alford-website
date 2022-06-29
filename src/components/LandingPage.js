@@ -1,17 +1,19 @@
 import React, { useEffect } from "react";
 import { Element } from "react-scroll";
 import carouselData from "../assets/carousel/carousel.json";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 
 const LandingPage = (props) => {
-  const [currentImage, setCurrentImage] = React.useState(0);
-
-  useEffect(() => {
-    const next = (currentImage + 1) % carouselData.length;
-    const id = setTimeout(() => setCurrentImage(next), 5000);
-    return () => clearTimeout(id);
-  }, [currentImage]);
-
   const title = props.siteTitle ? props.siteTitle : props.title;
+
+  const carouselArr = carouselData.map((data, i) => {
+    return (
+      <div>
+        <img src={carouselData[i].src} alt={carouselData[i].alt} />
+      </div>
+    );
+  });
 
   return (
     <Element name={props.id} className="element">
@@ -19,13 +21,16 @@ const LandingPage = (props) => {
         <h1 className="text-left font-display text-8xl md:text-9xl w-1/2 z-10 absolute bottom-0 left-0">
           {title}
         </h1>
-        <div className="flex justify-end content-end h-xl">
-          <img
-            className="carousel" // TODO figure out how to do animate-fade without it being out of sync
-            src={carouselData[currentImage].src}
-            alt={carouselData[currentImage].alt}
-          />
-        </div>
+        <Carousel
+          className="flex justify-end content-end h-xl"
+          autoPlay={true}
+          infiniteLoop={true}
+          showArrows={false}
+          showStatus={false}
+          showThumbs={false}
+        >
+          {carouselArr}
+        </Carousel>
       </section>
     </Element>
   );
