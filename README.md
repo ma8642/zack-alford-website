@@ -5,11 +5,11 @@ This is the code for Zack Alford's website.
 # To-Do
 
 - [x] Create image carousel
-- [ ] Create image for Bio page
 - [x] Create "view all" button for discography page
+- [ ] Fix page heading getting cut off on page scroll
+- [ ] Fix menu bar not reaching all the way across the page
+- [ ] Create image for Bio page
 - [ ] Host gallery photos
-- [ ] Add language change ability
-- [ ] make buttons shake
 
 # Notes
 
@@ -22,3 +22,4 @@ This is the code for Zack Alford's website.
 - [TODO - spam resistant contact info](https://dev.to/hkievet/react-protecting-an-email-address-3cp0)
 - [TODO - make buttons shake](https://www.w3schools.com/howto/howto_css_shake_image.asp)
 - [Check screen size using javascript](https://dev.to/yanns1/how-to-render-different-components-based-on-screen-size-2p35)
+- [React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel)

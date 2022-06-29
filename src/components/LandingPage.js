@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Element } from "react-scroll";
 import carouselData from "../assets/carousel/carousel.json";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
