@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import albums from "../assets/discography/albums";
 import FilledButton from "./buttons/FilledButton";
 
 const Discography = () => {
-  const [increment, setIncrement] = useState(8);
+  const increment = 8;
   const [maxAlbums, setMaxAlbums] = useState(increment);
   const albumsData = albums.map((album) => (
     <img
@@ -13,16 +13,6 @@ const Discography = () => {
       maxWidth="50%"
     />
   ));
-
-  useEffect(() => {
-    const mql = window.matchMedia("(max-width: 480px)");
-    let mobileView = mql.matches;
-    if (mobileView) {
-      console.log("mobile view!");
-      setIncrement(6);
-      setMaxAlbums(6);
-    }
-  }, []);
 
   const handleClickButton = () => {
     if (maxAlbums < albumsData.length) {
