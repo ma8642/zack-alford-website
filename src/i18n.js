@@ -24,6 +24,7 @@ i18n
             "In 1987 he went to Switzerland with Melvin Gibbs and Vernon Ried and again in 1988 with Kelvynator to play on jazz/funk festival tours. 1989 saw him matched up with the B52's and in the '90s such names as Bruce Springsteen('92-'94) and David Bowie ('95-'98). Zachary 's recording credits include other luminaries such as Billy Joel, Suzanna Hoffs, The Manic Street Preachers, Jeffery Gains, David Torn, Patti Scialfa and international superstars Zucchero Fornaciari, Khaled and Tomoyasu Hotei.",
           discography: "Discography",
           gallery: "Gallery",
+          "view-album": "View",
           gear: "Gear",
           connect: "Connect",
           "zack-alford-copywrite": "(c) Zachary Alford 2021",

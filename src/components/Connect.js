@@ -5,7 +5,7 @@ import {
   MailOutlined,
 } from "@ant-design/icons";
 import EmailDiv from "./EmailDiv";
-import FilledButton from "./buttons/FilledButton";
+import FilledContactButton from "./buttons/FilledContactButton";
 
 const style =
   "p-5 text-black bg-green-400 rounded flex items-center transform hover:scale-105";
@@ -38,9 +38,9 @@ const Connect = (props) => {
         </div>
       </a>
       <div className="flex items-center pb-8">
-        <FilledButton onClick={() => setShowEmail(!showEmail)}>
+        <FilledContactButton onClick={() => setShowEmail(!showEmail)}>
           {showEmail ? <EmailDiv /> : <MailOutlined alt="email" />}
-        </FilledButton>
+        </FilledContactButton>
       </div>
     </div>
   );
