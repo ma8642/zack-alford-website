@@ -26,7 +26,7 @@ const MenuBar = ({ pages }) => {
     );
   });
   return (
-    <nav className="flex items-center justify-between flex-wrap p-6 bg-black sticky top-0 z-50">
+    <nav className="flex items-center justify-between flex-wrap p-6 bg-black z-50 w-xl">
       <div className="w-full block">
         <div className="text-sm flex flex-row justify-end items-center font-body">
           {menuItems}

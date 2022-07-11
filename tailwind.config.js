@@ -11,6 +11,11 @@ module.exports = {
       xl: "90vh",
       screen: "100vh",
     },
+    width: {
+      full: "100%",
+      xl: "95vw",
+      screen: "100vw",
+    },
     extend: {
       keyframes: {
         fade: {

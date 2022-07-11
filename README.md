@@ -6,8 +6,8 @@ This is the code for Zack Alford's website.
 
 - [x] Create image carousel
 - [x] Create "view all" button for discography page
-- [ ] Fix page heading getting cut off on page scroll
-- [ ] Fix menu bar not reaching all the way across the page
+- [x] Fix page heading getting cut off on page scroll
+- [x] Fix menu bar not reaching all the way across the page
 - [ ] Create image for Bio page
 - [ ] Host gallery photos
 
