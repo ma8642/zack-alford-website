@@ -8,10 +8,17 @@ const Gallery = () => {
   const [openCollection, setOpenCollection] = useState(null);
   const galleries = galleryData.map((gallery) => (
     <div className="relative" onClick={() => setOpenCollection(gallery)}>
-      <div className="absolute inset-0 z-10 bg-green-300 text-center text-black flex flex-col items-center justify-center opacity-0 hover:opacity-100 bg-opacity-90 duration-300 cursor-pointer">
-        <h1 className="tracking-wider">{gallery.title}</h1>
-        <p className="mx-auto">{gallery.year}</p>
-        <button className="view-album-button">{t("view-album")}</button>
+      <div className="gallery">
+        <div>
+          <h1 className="tracking-wider text-3xl font-black -mt-2">
+            {gallery.title.toUpperCase()}
+          </h1>
+          <p className="mx-auto tracking-wider">{gallery.year}</p>
+        </div>
+        <button className="view-album-button text-black font-bold rounded p-2 m-2">
+          {t("view-album")}
+        </button>
+        <div className="p-6"></div>
       </div>
       <a href={gallery.href} className="relative">
         <div className="h-48 flex flex-wrap content-center">
