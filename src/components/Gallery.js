@@ -8,7 +8,7 @@ const Gallery = () => {
   const [openCollection, setOpenCollection] = useState(null);
   const galleries = galleryData.map((gallery) => (
     <div className="relative" onClick={() => setOpenCollection(gallery)}>
-      <div className="gallery">
+      <div className="absolute inset-0 z-10 flex flex-col justify-between bg-green-300 text-black opacity-0 opacity-100 bg-opacity-90 duration-300 cursor-pointer">
         <div>
           <h1 className="tracking-wider text-3xl font-black -mt-2">
             {gallery.title.toUpperCase()}

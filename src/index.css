@@ -3,19 +3,3 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto&display=swap");
-
-body {
-  background-color: black;
-}
-
-@media screen and (min-width: 600px) {
-  // tablets and laptops
-  gallery {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: "red";
-  }
-}

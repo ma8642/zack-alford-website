@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { CloseOutlined } from "@ant-design/icons";
-// import galleryData from "../assets/gallery/galleries";
 import collectionsData from "../assets/gallery/gallery-collections";
 
 const GalleryCollection = ({ gallery, handleCloseClick }) => {
