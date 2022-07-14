@@ -6,14 +6,25 @@ import galleryData from "../assets/gallery/galleries";
 const Gallery = () => {
   const { t } = useTranslation();
   const [openCollection, setOpenCollection] = useState(null);
+
+  const laptop =
+    "lg:hover:bg-green-300 lg:hover:bg-opacity-90 lg:hover:text-black";
+  const mobile = "bg-green-300 bg-opacity-90";
+  const largeScreen = "lg:bg-transparent";
   const galleries = galleryData.map((gallery) => (
     <div className="relative" onClick={() => setOpenCollection(gallery)}>
-      <div className="absolute inset-0 z-10 flex flex-col justify-between bg-green-300 text-black opacity-0 opacity-100 bg-opacity-90 duration-300 cursor-pointer">
+      <div
+        className={`absolute inset-0 z-10 flex flex-col justify-between ${laptop} duration-300 cursor-pointer`}
+      >
         <div>
-          <h1 className="tracking-wider text-3xl font-black -mt-2">
+          <h1
+            className={`tracking-wider text-3xl font-black -mt-2 ${mobile} ${largeScreen}`}
+          >
             {gallery.title.toUpperCase()}
           </h1>
-          <p className="mx-auto tracking-wider">{gallery.year}</p>
+          <p className={`mx-auto tracking-wider ${mobile} ${largeScreen}`}>
+            {gallery.year}
+          </p>
         </div>
         <button className="view-album-button text-black font-bold rounded p-2 m-2">
           {t("view-album")}
