@@ -8,7 +8,6 @@ This is the code for Zack Alford's website.
 - [x] Create "view all" button for discography page
 - [x] Fix page heading getting cut off on page scroll
 - [x] Fix menu bar not reaching all the way across the page
-- [ ] Add button to galleries that user must click to view album on mobile
 - [ ] Make Gear page mobile-friendly
 - [ ] Create image for Bio page
 - [ ] Host gallery photos

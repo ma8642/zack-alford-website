@@ -7,23 +7,25 @@ const Gallery = () => {
   const { t } = useTranslation();
   const [openCollection, setOpenCollection] = useState(null);
 
-  const laptop =
+  const largeScreenGalleryStyling =
     "lg:hover:bg-green-300 lg:hover:bg-opacity-90 lg:hover:text-black";
-  const mobile = "bg-green-300 bg-opacity-90";
-  const largeScreen = "lg:bg-transparent";
+  const mobileTitleStyling = "bg-green-300 bg-opacity-90";
+  const largeScreenTitleStyling = "lg:bg-transparent";
 
   const galleries = galleryData.map((gallery) => (
     <div className="relative" onClick={() => setOpenCollection(gallery)}>
       <div
-        className={`absolute inset-0 z-10 flex flex-col justify-between ${laptop} duration-300 cursor-pointer`}
+        className={`absolute inset-0 z-10 flex flex-col justify-between ${largeScreenGalleryStyling} duration-300 cursor-pointer`}
       >
         <div>
           <h1
-            className={`tracking-wider text-3xl font-black -mt-2 ${mobile} ${largeScreen}`}
+            className={`tracking-wider text-3xl font-black -mt-2 ${mobileTitleStyling} ${largeScreenTitleStyling}`}
           >
             {gallery.title.toUpperCase()}
           </h1>
-          <p className={`mx-auto tracking-wider ${mobile} ${largeScreen}`}>
+          <p
+            className={`mx-auto tracking-wider ${mobileTitleStyling} ${largeScreenTitleStyling}`}
+          >
             {gallery.year}
           </p>
         </div>
