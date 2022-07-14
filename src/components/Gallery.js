@@ -11,6 +11,7 @@ const Gallery = () => {
     "lg:hover:bg-green-300 lg:hover:bg-opacity-90 lg:hover:text-black";
   const mobile = "bg-green-300 bg-opacity-90";
   const largeScreen = "lg:bg-transparent";
+
   const galleries = galleryData.map((gallery) => (
     <div className="relative" onClick={() => setOpenCollection(gallery)}>
       <div
@@ -26,9 +27,6 @@ const Gallery = () => {
             {gallery.year}
           </p>
         </div>
-        <button className="view-album-button text-black font-bold rounded p-2 m-2">
-          {t("view-album")}
-        </button>
         <div className="p-6"></div>
       </div>
       <a href={gallery.href} className="relative">
