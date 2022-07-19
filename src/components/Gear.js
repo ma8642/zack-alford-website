@@ -13,17 +13,15 @@ const Gear = () => {
   ));
 
   return (
-    <div className="flex justify-center">
-      <div className="flex flex-col justify-center w-full pr-4">
+    <div className="grid grid-cols-gear">
+      <div className="">
         <img
           src={bgImage}
           alt="Zack playing drums in dim, red lighting."
           maxWidth="30%"
         />
       </div>
-      <div className="flex flex-col justify-evenly items-center w-1/2">
-        {gear}
-      </div>
+      <div className="flex flex-col justify-center">{gear}</div>
     </div>
   );
 };

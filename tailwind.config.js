@@ -29,6 +29,9 @@ module.exports = {
       zIndex: {
         "-1": "-10",
       },
+      gridTemplateColumns: {
+        gear: "2fr 1fr",
+      },
     },
     variants: {
       extend: {},

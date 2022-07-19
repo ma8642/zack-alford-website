@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import { useTranslation } from "react-i18next";
 import GalleryCollection from "./GalleryCollection";
 import galleryData from "../assets/gallery/galleries";
 
 const Gallery = () => {
-  const { t } = useTranslation();
   const [openCollection, setOpenCollection] = useState(null);
 
   const largeScreenGalleryStyling =
