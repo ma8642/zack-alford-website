@@ -9,7 +9,7 @@ const Page = (props) => {
         id={props.id}
         className="section h-full flex flex-col justify-center items-center"
       >
-        <h1 className="title text-center font-display sm:text-2xl md:text-3xl">
+        <h1 className="title text-center font-display text-3xl md:text-5xl">
           {props.title}
         </h1>
         <div className="p-10 h-full">{props.children}</div>
