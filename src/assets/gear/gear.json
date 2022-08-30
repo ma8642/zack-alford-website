@@ -2,19 +2,19 @@
   {
     "id": 1,
     "alt": "Zildjian Symbols Logo",
-    "src": "/images/gear/zildjian.jpg",
+    "src": "zildjian.jpg",
     "href": "https://zildjian.com/"
   },
   {
     "id": 2,
     "alt": "Vater Drumsticks Logo",
-    "src": "/images/gear/vater.png",
+    "src": "vater.png",
     "href": "https://www.vater.com/"
   },
   {
     "id": 3,
     "alt": "Yamaha Drums Logo",
-    "src": "/images/gear/yamaha.jpg",
+    "src": "yamaha.jpg",
     "href": "https://usa.yamaha.com/products/musical_instruments/drums/index.html"
   }
 ]

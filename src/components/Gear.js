@@ -14,7 +14,7 @@ const Gear = () => {
 
   return (
     <div className="grid grid-cols-gear">
-      <div className="">
+      <div data-testid="gear-photo">
         <img
           src={bgImage}
           alt="Zack playing drums in dim, red lighting."
