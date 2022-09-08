@@ -1,20 +1,188 @@
 {
   "1": [
-    { "src": "/images/the-next-day.png", "alt": "foo" },
-    { "src": "/images/lettie.png", "alt": "bar" },
-    { "src": "/images/je-sais.png", "alt": "bar" },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn01.jpg?raw=true",
+      "alt": "foo"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn02.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn03.jpg?raw=true",
+      "alt": "bar"
+    },
     { "src": "/images/231-pacific.png", "alt": "bar" },
-    { "src": "/images/bruce-springsteen.png", "alt": "bar" },
-    { "src": "/images/earthling.png", "alt": "bar" },
-    { "src": "/images/rumble-doll.png", "alt": "bar" },
-    { "src": "/images/billy-joel.png", "alt": "bar" },
-    { "src": "/images/je-sais.png", "alt": "bar" },
-    { "src": "/images/231-pacific.png", "alt": "bar" },
-    { "src": "/images/bruce-springsteen.png", "alt": "bar" },
-    { "src": "/images/earthling.png", "alt": "bar" },
-    { "src": "/images/rumble-doll.png", "alt": "bar" },
-    { "src": "/images/billy-joel.png", "alt": "bar" },
-    { "src": "/images/funplex.png", "alt": "bar" }
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn05.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn06.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn07.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn08.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn09.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn10.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn11.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn12.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn13.jpg?raw=true",
+      "alt": "bar"
+    },
+    { "src": "/images/14.png", "alt": "bar" },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn15.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn16.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn17.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn18.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn19.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn20.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn21.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn22.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn23.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn24.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn25.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn26.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn27.jpg?raw=true",
+      "alt": "bar"
+    },
+    { "src": "/images/28.png", "alt": "bar" },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn29.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn30.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn31.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn32.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn33.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn34.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn35.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn36.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn37.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn38.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn39.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn40.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn41.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn42.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn43.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn44.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn45.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn46.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn47.jpg?raw=true",
+      "alt": "bar"
+    },
+    {
+      "src": "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/gwen_stefani/gwn48.jpg?raw=true",
+      "alt": "bar"
+    }
   ],
   "2": [
     { "src": "/images/the-next-day.png", "alt": "foo" },
