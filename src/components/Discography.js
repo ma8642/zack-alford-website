@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import albums from "../assets/discography";
 import FilledContactButton from "./buttons/FilledContactButton";
-// import coverImages from "../assets/img/album_covers";
-// import { albumCovers } from "../assets/img";
 
 const Discography = () => {
   const increment = 8;

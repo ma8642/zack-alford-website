@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import GalleryCollection from "./GalleryCollection";
-import galleryData from "../assets/gallery/galleries";
+import { galleries as GalleryData } from "../assets/gallery";
 
 const Gallery = () => {
   const [openCollection, setOpenCollection] = useState(null);
@@ -10,7 +10,7 @@ const Gallery = () => {
   const mobileTitleStyling = "bg-green-300 bg-opacity-90";
   const largeScreenTitleStyling = "lg:bg-transparent";
 
-  const galleries = galleryData.map((gallery) => (
+  const galleries = GalleryData.map((gallery) => (
     <div className="relative" onClick={() => setOpenCollection(gallery)}>
       <div
         className={`absolute inset-0 z-10 flex flex-col justify-between ${largeScreenGalleryStyling} duration-300 cursor-pointer`}
