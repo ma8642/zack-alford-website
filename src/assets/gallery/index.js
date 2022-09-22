@@ -23,6 +23,9 @@ import b5217 from "../img/galleries/b52s/B52_17.jpg";
 import b5218 from "../img/galleries/b52s/B52_18.jpg";
 import b5220 from "../img/galleries/b52s/B52_20.jpg";
 import b5221 from "../img/galleries/b52s/B52_21.jpg";
+import b5222 from "../img/galleries/b52s/B52_22.jpg";
+import b5223 from "../img/galleries/b52s/B52_23.jpg";
+import b5224 from "../img/galleries/b52s/B52_24.jpg";
 
 const galleryData = [
   {
@@ -297,6 +300,21 @@ const collectionsData = {
     { src: b526, alt: "bar" },
     { src: b527, alt: "bar" },
     { src: b528, alt: "bar" },
+    { src: b529, alt: "we" },
+    { src: b5210, alt: "are" },
+    { src: b5211, alt: "the" },
+    { src: b5212, alt: "b" },
+    { src: b5213, alt: "52s" },
+    { src: b5214, alt: "bar" },
+    { src: b5215, alt: "bar" },
+    { src: b5216, alt: "bar" },
+    { src: b5217, alt: "we" },
+    { src: b5218, alt: "are" },
+    { src: b5220, alt: "the" },
+    { src: b5221, alt: "b" },
+    { src: b5222, alt: "52s" },
+    { src: b5223, alt: "bar" },
+    { src: b5224, alt: "bar" },
   ],
   5: [
     { src: "/images/the-next-day.png", alt: "foo" },
