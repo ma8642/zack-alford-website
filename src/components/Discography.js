@@ -1,11 +1,13 @@
 import React, { useState } from "react";
-import albums from "../assets/discography/albums";
+import albums from "../assets/discography";
 import FilledContactButton from "./buttons/FilledContactButton";
+// import coverImages from "../assets/img/album_covers";
+// import { albumCovers } from "../assets/img";
 
 const Discography = () => {
   const increment = 8;
   const [maxAlbums, setMaxAlbums] = useState(increment);
-  const albumsData = albums.map((album) => (
+  const albumsData = albums.map((album, i) => (
     <img
       key={album.id}
       src={album.src}
