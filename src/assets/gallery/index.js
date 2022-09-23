@@ -1,7 +1,8 @@
+import gwenStefaniMain from "../img/galleries/gwen_stefani/gwn_main.png";
+import davidBowieMain from "../img/galleries/david_bowie/bowie_main.png";
+import zuccheroMain from "../img/galleries/zucchero/zucchero_main.png";
 import b52sMain from "../img/galleries/b52s/b52s_main.png";
 import springsteenMain from "../img/galleries/bruce_springsteen/bspring_main.png";
-import davidBowieMain from "../img/galleries/david_bowie/bowie_main.png";
-import gwenStefaniMain from "../img/galleries/gwen_stefani/gwn_main.png";
 
 // gwen stefani images
 import gwn01 from "../img/galleries/gwen_stefani/gwn01.png";
@@ -74,6 +75,18 @@ import bowie66 from "../img/galleries/david_bowie/bowie66.png";
 import bowie67 from "../img/galleries/david_bowie/bowie67.png";
 import bowie68 from "../img/galleries/david_bowie/bowie68.png";
 
+// zucchero images
+import zucchero1 from "../img/galleries/zucchero/zucchero1.png";
+import zucchero2 from "../img/galleries/zucchero/zucchero2.png";
+import zucchero3 from "../img/galleries/zucchero/zucchero3.png";
+import zucchero4 from "../img/galleries/zucchero/zucchero4.png";
+import zucchero5 from "../img/galleries/zucchero/zucchero5.png";
+import zucchero6 from "../img/galleries/zucchero/zucchero6.png";
+import zucchero7 from "../img/galleries/zucchero/zucchero7.png";
+import zucchero8 from "../img/galleries/zucchero/zucchero8.png";
+import zucchero9 from "../img/galleries/zucchero/zucchero9.png";
+import zucchero10 from "../img/galleries/zucchero/zucchero10.png";
+
 // b52s images
 import b521 from "../img/galleries/b52s/B52_1.jpg";
 import b522 from "../img/galleries/b52s/B52_2.jpg";
@@ -119,7 +132,7 @@ const galleryData = [
     id: 2,
     title: "Zucchero",
     year: "2011",
-    src: "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/zucchero/zucchero_main.png?raw=true",
+    src: zuccheroMain,
     href: "#",
   },
   {
@@ -361,10 +374,16 @@ const collectionsData = {
     { src: bowie68, alt: "foo" },
   ],
   2: [
-    { src: "/images/the-next-day.png", alt: "foo" },
-    { src: "/images/lettie.png", alt: "bar" },
-    { src: "/images/je-sais.png", alt: "bar" },
-    { src: "/images/231-pacific.png", alt: "bar" },
+    { src: zucchero1, alt: "foo" },
+    { src: zucchero2, alt: "foo" },
+    { src: zucchero3, alt: "foo" },
+    { src: zucchero4, alt: "foo" },
+    { src: zucchero5, alt: "foo" },
+    { src: zucchero6, alt: "foo" },
+    { src: zucchero7, alt: "foo" },
+    { src: zucchero8, alt: "foo" },
+    { src: zucchero9, alt: "foo" },
+    { src: zucchero10, alt: "foo" },
   ],
   3: [
     { src: "/images/the-next-day.png", alt: "foo" },
