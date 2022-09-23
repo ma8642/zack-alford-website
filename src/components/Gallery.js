@@ -33,7 +33,7 @@ const Gallery = () => {
         <div className="h-48 flex flex-wrap content-center">
           <img
             key={gallery.id}
-            src={gallery.src}
+            src={`.${gallery.src}`}
             alt={`${gallery.title} gallery`}
             maxWidth="10%"
           />

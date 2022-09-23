@@ -87,6 +87,9 @@ import zucchero8 from "../img/galleries/zucchero/zucchero8.png";
 import zucchero9 from "../img/galleries/zucchero/zucchero9.png";
 import zucchero10 from "../img/galleries/zucchero/zucchero10.png";
 
+// // springsteen images
+// import
+
 // b52s images
 import b521 from "../img/galleries/b52s/B52_1.jpg";
 import b522 from "../img/galleries/b52s/B52_2.jpg";
@@ -387,12 +390,12 @@ const collectionsData = {
   ],
   3: [
     { src: "/images/the-next-day.png", alt: "foo" },
-    { src: "/images/lettie.png", alt: "bar" },
-    { src: "/images/je-sais.png", alt: "bar" },
-    { src: "/images/231-pacific.png", alt: "bar" },
-    { src: "/images/bruce-springsteen.png", alt: "bar" },
-    { src: "/images/earthling.png", alt: "bar" },
-    { src: "/images/funplex.png", alt: "bar" },
+    { src: "images/lettie.png", alt: "bar" },
+    { src: "images/je-sais.png", alt: "bar" },
+    { src: "images/231-pacific.png", alt: "bar" },
+    { src: "images/bruce-springsteen.png", alt: "bar" },
+    { src: "images/earthling.png", alt: "bar" },
+    { src: "images/funplex.png", alt: "bar" },
   ],
   4: [
     { src: b521, alt: "we" },
