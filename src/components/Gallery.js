@@ -19,7 +19,7 @@ const Gallery = () => {
           <h1
             className={`tracking-wider text-3xl font-black -mt-2 ${mobileTitleStyling} ${largeScreenTitleStyling}`}
           >
-            {gallery.title.toUpperCase()}
+            Testing
           </h1>
           <p
             className={`mx-auto tracking-wider ${mobileTitleStyling} ${largeScreenTitleStyling}`}
@@ -33,7 +33,7 @@ const Gallery = () => {
         <div className="h-48 flex flex-wrap content-center">
           <img
             key={gallery.id}
-            src={"./images/galleries/bruce.png"}
+            src={gallery.src}
             alt={`${gallery.title} gallery`}
             maxWidth="10%"
           />
