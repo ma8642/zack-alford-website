@@ -53,6 +53,27 @@ import gwn46 from "../img/galleries/gwen_stefani/gwn46.png";
 import gwn47 from "../img/galleries/gwen_stefani/gwn47.png";
 import gwn48 from "../img/galleries/gwen_stefani/gwn48.png";
 
+// david bowie images
+import bowie50 from "../img/galleries/david_bowie/bowie50.png";
+import bowie51 from "../img/galleries/david_bowie/bowie51.png";
+import bowie52 from "../img/galleries/david_bowie/bowie52.png";
+import bowie53 from "../img/galleries/david_bowie/bowie53.png";
+import bowie54 from "../img/galleries/david_bowie/bowie54.png";
+import bowie55 from "../img/galleries/david_bowie/bowie55.png";
+import bowie56 from "../img/galleries/david_bowie/bowie56.png";
+import bowie57 from "../img/galleries/david_bowie/bowie57.png";
+import bowie58 from "../img/galleries/david_bowie/bowie58.png";
+import bowie59 from "../img/galleries/david_bowie/bowie59.png";
+import bowie60 from "../img/galleries/david_bowie/bowie60.png";
+import bowie61 from "../img/galleries/david_bowie/bowie61.png";
+import bowie62 from "../img/galleries/david_bowie/bowie62.png";
+import bowie63 from "../img/galleries/david_bowie/bowie63.png";
+import bowie64 from "../img/galleries/david_bowie/bowie64.png";
+import bowie65 from "../img/galleries/david_bowie/bowie65.png";
+import bowie66 from "../img/galleries/david_bowie/bowie66.png";
+import bowie67 from "../img/galleries/david_bowie/bowie67.png";
+import bowie68 from "../img/galleries/david_bowie/bowie68.png";
+
 // b52s images
 import b521 from "../img/galleries/b52s/B52_1.jpg";
 import b522 from "../img/galleries/b52s/B52_2.jpg";
@@ -319,15 +340,25 @@ const collectionsData = {
     },
   ],
   1: [
-    { src: "/images/the-next-day.png", alt: "foo" },
-    { src: "/images/lettie.png", alt: "bar" },
-    { src: "/images/je-sais.png", alt: "bar" },
-    { src: "/images/231-pacific.png", alt: "bar" },
-    { src: "/images/bruce-springsteen.png", alt: "bar" },
-    { src: "/images/earthling.png", alt: "bar" },
-    { src: "/images/rumble-doll.png", alt: "bar" },
-    { src: "/images/billy-joel.png", alt: "bar" },
-    { src: "/images/funplex.png", alt: "bar" },
+    { src: bowie50, alt: "foo" },
+    { src: bowie51, alt: "foo" },
+    { src: bowie52, alt: "foo" },
+    { src: bowie53, alt: "foo" },
+    { src: bowie54, alt: "foo" },
+    { src: bowie55, alt: "foo" },
+    { src: bowie56, alt: "foo" },
+    { src: bowie57, alt: "foo" },
+    { src: bowie58, alt: "foo" },
+    { src: bowie59, alt: "foo" },
+    { src: bowie60, alt: "foo" },
+    { src: bowie61, alt: "foo" },
+    { src: bowie62, alt: "foo" },
+    { src: bowie63, alt: "foo" },
+    { src: bowie64, alt: "foo" },
+    { src: bowie65, alt: "foo" },
+    { src: bowie66, alt: "foo" },
+    { src: bowie67, alt: "foo" },
+    { src: bowie68, alt: "foo" },
   ],
   2: [
     { src: "/images/the-next-day.png", alt: "foo" },
