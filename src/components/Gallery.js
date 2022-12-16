@@ -19,7 +19,7 @@ const Gallery = () => {
           <h1
             className={`tracking-wider text-3xl font-black -mt-2 ${mobileTitleStyling} ${largeScreenTitleStyling}`}
           >
-            Testing
+            {gallery.title.toUpperCase()}
           </h1>
           <p
             className={`mx-auto tracking-wider ${mobileTitleStyling} ${largeScreenTitleStyling}`}

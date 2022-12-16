@@ -3,6 +3,8 @@ import davidBowieMain from "../img/galleries/david_bowie/bowie_main.png";
 import zuccheroMain from "../img/galleries/zucchero/zucchero_main.png";
 import b52sMain from "../img/galleries/b52s/b52s_main.png";
 import springsteenMain from "../img/galleries/bruce_springsteen/bspring_main.png";
+import hoteiMain from "../img/galleries/hotei/hotei_main.png";
+import otherMain from "../img/galleries/other/other_main.png";
 
 // gwen stefani images
 import gwn01 from "../img/galleries/gwen_stefani/gwn01.png";
@@ -156,14 +158,14 @@ const galleryData = [
     id: 5,
     title: "Hotei",
     year: "2011",
-    src: "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/hotei/hotei_main.png?raw=true",
+    src: hoteiMain,
     href: "#",
   },
   {
     id: 6,
     title: "Other",
     year: "2011",
-    src: "https://github.com/ma8642/zack-alford-website/blob/main/public/images/galleries/other/other_main.png?raw=true",
+    src: otherMain,
     href: "#",
   },
 ];
