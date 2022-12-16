@@ -1,6 +1,11 @@
 # About
 
-This is the code for Zack Alford's website.
+This is the code for Zack Alford's website. [Github pages link](https://ma8642.github.io/zack-alford-website/)
+
+# To Run
+
+1. `npm run start`
+2. If you make changes, stop the server and run `npm run deploy` to deploy changes to the `gh-pages` branch.
 
 # To-Do
 
