@@ -90,7 +90,13 @@ import zucchero9 from "../img/galleries/zucchero/zucchero9.png";
 import zucchero10 from "../img/galleries/zucchero/zucchero10.png";
 
 // // springsteen images
-// import
+import springsteen1 from "../img/galleries/bruce_springsteen/bspring25.jpg";
+import springsteen2 from "../img/galleries/bruce_springsteen/bspring26.jpg";
+import springsteen3 from "../img/galleries/bruce_springsteen/bspring27.jpg";
+import springsteen4 from "../img/galleries/bruce_springsteen/bspring28.jpg";
+import springsteen5 from "../img/galleries/bruce_springsteen/bspring29.jpg";
+import springsteen6 from "../img/galleries/bruce_springsteen/bspring30.jpg";
+import springsteen7 from "../img/galleries/bruce_springsteen/bspring31.jpg";
 
 // b52s images
 import b521 from "../img/galleries/b52s/B52_1.jpg";
@@ -117,6 +123,34 @@ import b5221 from "../img/galleries/b52s/B52_21.jpg";
 import b5222 from "../img/galleries/b52s/B52_22.jpg";
 import b5223 from "../img/galleries/b52s/B52_23.jpg";
 import b5224 from "../img/galleries/b52s/B52_24.jpg";
+
+// hotei images
+import hotei1 from "../img/galleries/hotei/hotei01.jpg";
+import hotei2 from "../img/galleries/hotei/hotei02.jpg";
+import hotei3 from "../img/galleries/hotei/hotei03.jpg";
+import hotei4 from "../img/galleries/hotei/hotei04.jpg";
+import hotei5 from "../img/galleries/hotei/hotei05.jpg";
+import hotei6 from "../img/galleries/hotei/hotei06.jpg";
+import hotei7 from "../img/galleries/hotei/hotei07.jpg";
+import hotei8 from "../img/galleries/hotei/hotei08.jpg";
+import hotei9 from "../img/galleries/hotei/hotei09.jpg";
+import hotei10 from "../img/galleries/hotei/hotei10.jpg";
+import hotei11 from "../img/galleries/hotei/hotei11.jpg";
+// import hotei12 from "../img/galleries/hotei/hotei01.jpg";
+// import hotei13 from "../img/galleries/hotei/hotei01.jpg";
+// import hotei14 from "../img/galleries/hotei/hotei01.jpg";
+// import hotei15 from "../img/galleries/hotei/hotei01.jpg";
+// import hotei16 from "../img/galleries/hotei/hotei01.jpg";
+// import hotei17 from "../img/galleries/hotei/hotei01.jpg";
+// import hotei18 from "../img/galleries/hotei/hotei01.jpg";
+// import hotei19 from "../img/galleries/hotei/hotei01.jpg";
+// import hotei20 from "../img/galleries/hotei/hotei01.jpg";
+// import hotei21 from "../img/galleries/hotei/hotei01.jpg";
+// import hotei22 from "../img/galleries/hotei/hotei01.jpg";
+// import hotei23 from "../img/galleries/hotei/hotei01.jpg";
+// import hotei24 from "../img/galleries/hotei/hotei01.jpg";
+// import hotei25 from "../img/galleries/hotei/hotei01.jpg";
+// import hotei26 from "../img/galleries/hotei/hotei01.jpg";
 
 const galleryData = [
   {
@@ -391,13 +425,13 @@ const collectionsData = {
     { src: zucchero10, alt: "foo" },
   ],
   3: [
-    { src: "/images/the-next-day.png", alt: "foo" },
-    { src: "images/lettie.png", alt: "bar" },
-    { src: "images/je-sais.png", alt: "bar" },
-    { src: "images/231-pacific.png", alt: "bar" },
-    { src: "images/bruce-springsteen.png", alt: "bar" },
-    { src: "images/earthling.png", alt: "bar" },
-    { src: "images/funplex.png", alt: "bar" },
+    { src: springsteen1, alt: "foo" },
+    { src: springsteen2, alt: "foo" },
+    { src: springsteen3, alt: "foo" },
+    { src: springsteen4, alt: "foo" },
+    { src: springsteen5, alt: "foo" },
+    { src: springsteen6, alt: "foo" },
+    { src: springsteen7, alt: "foo" },
   ],
   4: [
     { src: b521, alt: "we" },
@@ -425,10 +459,17 @@ const collectionsData = {
     { src: b5224, alt: "bar" },
   ],
   5: [
-    { src: "/images/the-next-day.png", alt: "foo" },
-    { src: "/images/rumble-doll.png", alt: "bar" },
-    { src: "/images/billy-joel.png", alt: "bar" },
-    { src: "/images/funplex.png", alt: "bar" },
+    { src: hotei1, alt: "foo" },
+    { src: hotei2, alt: "foo" },
+    { src: hotei3, alt: "foo" },
+    { src: hotei4, alt: "foo" },
+    { src: hotei5, alt: "foo" },
+    { src: hotei6, alt: "foo" },
+    { src: hotei7, alt: "foo" },
+    { src: hotei8, alt: "foo" },
+    { src: hotei9, alt: "foo" },
+    { src: hotei10, alt: "foo" },
+    { src: hotei11, alt: "foo" },
   ],
   6: [
     { src: "/images/the-next-day.png", alt: "foo" },

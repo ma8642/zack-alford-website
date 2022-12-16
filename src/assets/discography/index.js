@@ -8,7 +8,7 @@ const albums = [
     id: 1,
     title: "The Next Day",
     artist: "David Bowie",
-    src: "/images/the-next-day.png",
+    src: "images/the-next-day.png",
   },
   {
     id: 2,
