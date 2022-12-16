@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/zack-alford-website/static/css/main.d0de7a80.chunk.css",
-    "main.js": "/zack-alford-website/static/js/main.4c2ac8e7.chunk.js",
-    "main.js.map": "/zack-alford-website/static/js/main.4c2ac8e7.chunk.js.map",
+    "main.js": "/zack-alford-website/static/js/main.bd734568.chunk.js",
+    "main.js.map": "/zack-alford-website/static/js/main.bd734568.chunk.js.map",
     "runtime-main.js": "/zack-alford-website/static/js/runtime-main.5100ae37.js",
     "runtime-main.js.map": "/zack-alford-website/static/js/runtime-main.5100ae37.js.map",
     "static/css/2.f30b721a.chunk.css": "/zack-alford-website/static/css/2.f30b721a.chunk.css",
-    "static/js/2.0fb1df5e.chunk.js": "/zack-alford-website/static/js/2.0fb1df5e.chunk.js",
-    "static/js/2.0fb1df5e.chunk.js.map": "/zack-alford-website/static/js/2.0fb1df5e.chunk.js.map",
+    "static/js/2.0731a5e7.chunk.js": "/zack-alford-website/static/js/2.0731a5e7.chunk.js",
+    "static/js/2.0731a5e7.chunk.js.map": "/zack-alford-website/static/js/2.0731a5e7.chunk.js.map",
     "index.html": "/zack-alford-website/index.html",
     "static/css/2.f30b721a.chunk.css.map": "/zack-alford-website/static/css/2.f30b721a.chunk.css.map",
     "static/css/main.d0de7a80.chunk.css.map": "/zack-alford-website/static/css/main.d0de7a80.chunk.css.map",
-    "static/js/2.0fb1df5e.chunk.js.LICENSE.txt": "/zack-alford-website/static/js/2.0fb1df5e.chunk.js.LICENSE.txt",
+    "static/js/2.0731a5e7.chunk.js.LICENSE.txt": "/zack-alford-website/static/js/2.0731a5e7.chunk.js.LICENSE.txt",
     "static/media/231-pacific.358bdc18.png": "/zack-alford-website/static/media/231-pacific.358bdc18.png",
     "static/media/B52_1.94049d74.jpg": "/zack-alford-website/static/media/B52_1.94049d74.jpg",
     "static/media/B52_10.2c533990.jpg": "/zack-alford-website/static/media/B52_10.2c533990.jpg",
@@ -38,6 +38,8 @@
     "static/media/B52_9.c6bd7251.jpg": "/zack-alford-website/static/media/B52_9.c6bd7251.jpg",
     "static/media/aliveandwell.3f34a62e.png": "/zack-alford-website/static/media/aliveandwell.3f34a62e.png",
     "static/media/b52s_main.88087bbe.png": "/zack-alford-website/static/media/b52s_main.88087bbe.png",
+    "static/media/bg-1.df8d8d63.jpg": "/zack-alford-website/static/media/bg-1.df8d8d63.jpg",
+    "static/media/bg-2.6c516013.jpg": "/zack-alford-website/static/media/bg-2.6c516013.jpg",
     "static/media/billy-joel.26f7dfcb.png": "/zack-alford-website/static/media/billy-joel.26f7dfcb.png",
     "static/media/bodybag.5090e404.png": "/zack-alford-website/static/media/bodybag.5090e404.png",
     "static/media/bowie50.3bd40d2e.png": "/zack-alford-website/static/media/bowie50.3bd40d2e.png",
@@ -198,8 +200,8 @@
   "entrypoints": [
     "static/js/runtime-main.5100ae37.js",
     "static/css/2.f30b721a.chunk.css",
-    "static/js/2.0fb1df5e.chunk.js",
+    "static/js/2.0731a5e7.chunk.js",
     "static/css/main.d0de7a80.chunk.css",
-    "static/js/main.4c2ac8e7.chunk.js"
+    "static/js/main.bd734568.chunk.js"
   ]
 }
