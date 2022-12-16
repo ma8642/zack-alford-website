@@ -15,7 +15,7 @@ This is the code for Zack Alford's website. [Github pages link](https://ma8642.g
 - [x] Fix menu bar not reaching all the way across the page
 - [x] Make Gear page mobile-friendly
 - [ ] Create image for Bio page
-- [ ] Host gallery photos
+- [x] Host gallery photos
 
 # Notes
 
