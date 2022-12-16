@@ -136,21 +136,46 @@ import hotei8 from "../img/galleries/hotei/hotei08.jpg";
 import hotei9 from "../img/galleries/hotei/hotei09.jpg";
 import hotei10 from "../img/galleries/hotei/hotei10.jpg";
 import hotei11 from "../img/galleries/hotei/hotei11.jpg";
-// import hotei12 from "../img/galleries/hotei/hotei01.jpg";
-// import hotei13 from "../img/galleries/hotei/hotei01.jpg";
-// import hotei14 from "../img/galleries/hotei/hotei01.jpg";
-// import hotei15 from "../img/galleries/hotei/hotei01.jpg";
-// import hotei16 from "../img/galleries/hotei/hotei01.jpg";
-// import hotei17 from "../img/galleries/hotei/hotei01.jpg";
-// import hotei18 from "../img/galleries/hotei/hotei01.jpg";
-// import hotei19 from "../img/galleries/hotei/hotei01.jpg";
-// import hotei20 from "../img/galleries/hotei/hotei01.jpg";
-// import hotei21 from "../img/galleries/hotei/hotei01.jpg";
-// import hotei22 from "../img/galleries/hotei/hotei01.jpg";
-// import hotei23 from "../img/galleries/hotei/hotei01.jpg";
-// import hotei24 from "../img/galleries/hotei/hotei01.jpg";
-// import hotei25 from "../img/galleries/hotei/hotei01.jpg";
-// import hotei26 from "../img/galleries/hotei/hotei01.jpg";
+import hotei12 from "../img/galleries/hotei/hotei12.jpg";
+import hotei13 from "../img/galleries/hotei/hotei13.jpg";
+import hotei14 from "../img/galleries/hotei/hotei14.jpg";
+import hotei15 from "../img/galleries/hotei/hotei15.jpg";
+import hotei16 from "../img/galleries/hotei/hotei16.jpg";
+import hotei17 from "../img/galleries/hotei/hotei17.jpg";
+import hotei18 from "../img/galleries/hotei/hotei18.jpg";
+import hotei19 from "../img/galleries/hotei/hotei19.jpg";
+import hotei20 from "../img/galleries/hotei/hotei20.jpg";
+import hotei21 from "../img/galleries/hotei/hotei21.jpg";
+import hotei22 from "../img/galleries/hotei/hotei22.jpg";
+import hotei23 from "../img/galleries/hotei/hotei23.jpg";
+import hotei24 from "../img/galleries/hotei/hotei24.jpg";
+
+// other images
+import other1 from "../img/galleries/other/other01.jpg";
+import other2 from "../img/galleries/other/other02.jpg";
+import other3 from "../img/galleries/other/other03.jpg";
+import other4 from "../img/galleries/other/other04.jpg";
+import other5 from "../img/galleries/other/other05.jpg";
+import other6 from "../img/galleries/other/other06.jpg";
+import other7 from "../img/galleries/other/other07.jpg";
+import other8 from "../img/galleries/other/other08.jpg";
+import other9 from "../img/galleries/other/other09.jpg";
+import other10 from "../img/galleries/other/other10.jpg";
+import other11 from "../img/galleries/other/other11.jpg";
+import other12 from "../img/galleries/other/other12.jpg";
+import other13 from "../img/galleries/other/other13.jpg";
+import other14 from "../img/galleries/other/other14.jpg";
+import other15 from "../img/galleries/other/other15.jpg";
+import other16 from "../img/galleries/other/other16.jpg";
+import other17 from "../img/galleries/other/other17.jpg";
+import other18 from "../img/galleries/other/other18.jpg";
+import other19 from "../img/galleries/other/other19.jpg";
+import other20 from "../img/galleries/other/other20.jpg";
+import other21 from "../img/galleries/other/other21.jpg";
+import other22 from "../img/galleries/other/other22.jpg";
+import other23 from "../img/galleries/other/other23.jpg";
+import other24 from "../img/galleries/other/other24.jpg";
+import other25 from "../img/galleries/other/other25.jpg";
 
 const galleryData = [
   {
@@ -470,44 +495,46 @@ const collectionsData = {
     { src: hotei9, alt: "foo" },
     { src: hotei10, alt: "foo" },
     { src: hotei11, alt: "foo" },
+    { src: hotei12, alt: "foo" },
+    { src: hotei13, alt: "foo" },
+    { src: hotei14, alt: "foo" },
+    { src: hotei15, alt: "foo" },
+    { src: hotei16, alt: "foo" },
+    { src: hotei17, alt: "foo" },
+    { src: hotei18, alt: "foo" },
+    { src: hotei19, alt: "foo" },
+    { src: hotei20, alt: "foo" },
+    { src: hotei21, alt: "foo" },
+    { src: hotei22, alt: "foo" },
+    { src: hotei23, alt: "foo" },
+    { src: hotei24, alt: "foo" },
   ],
   6: [
-    { src: "/images/the-next-day.png", alt: "foo" },
-    { src: "/images/lettie.png", alt: "bar" },
-    { src: "/images/je-sais.png", alt: "bar" },
-    { src: "/images/231-pacific.png", alt: "bar" },
-    { src: "/images/bruce-springsteen.png", alt: "bar" },
-    { src: "/images/earthling.png", alt: "bar" },
-    { src: "/images/rumble-doll.png", alt: "bar" },
-    { src: "/images/billy-joel.png", alt: "bar" },
-    { src: "/images/the-next-day.png", alt: "foo" },
-    { src: "/images/lettie.png", alt: "bar" },
-    { src: "/images/je-sais.png", alt: "bar" },
-    { src: "/images/231-pacific.png", alt: "bar" },
-    { src: "/images/bruce-springsteen.png", alt: "bar" },
-    { src: "/images/earthling.png", alt: "bar" },
-    { src: "/images/rumble-doll.png", alt: "bar" },
-    { src: "/images/billy-joel.png", alt: "bar" },
-    { src: "/images/funplex.png", alt: "bar" },
-  ],
-  7: [
-    { src: "/images/the-next-day.png", alt: "foo" },
-    { src: "/images/lettie.png", alt: "bar" },
-    { src: "/images/je-sais.png", alt: "bar" },
-    { src: "/images/231-pacific.png", alt: "bar" },
-    { src: "/images/bruce-springsteen.png", alt: "bar" },
-    { src: "/images/earthling.png", alt: "bar" },
-    { src: "/images/rumble-doll.png", alt: "bar" },
-    { src: "/images/billy-joel.png", alt: "bar" },
-    { src: "/images/the-next-day.png", alt: "foo" },
-    { src: "/images/lettie.png", alt: "bar" },
-    { src: "/images/je-sais.png", alt: "bar" },
-    { src: "/images/231-pacific.png", alt: "bar" },
-    { src: "/images/bruce-springsteen.png", alt: "bar" },
-    { src: "/images/earthling.png", alt: "bar" },
-    { src: "/images/rumble-doll.png", alt: "bar" },
-    { src: "/images/billy-joel.png", alt: "bar" },
-    { src: "/images/funplex.png", alt: "bar" },
+    { src: other1, alt: "foo" },
+    { src: other2, alt: "foo" },
+    { src: other3, alt: "foo" },
+    { src: other4, alt: "foo" },
+    { src: other5, alt: "foo" },
+    { src: other6, alt: "foo" },
+    { src: other7, alt: "foo" },
+    { src: other8, alt: "foo" },
+    { src: other9, alt: "foo" },
+    { src: other10, alt: "foo" },
+    { src: other11, alt: "foo" },
+    { src: other12, alt: "foo" },
+    { src: other13, alt: "foo" },
+    { src: other14, alt: "foo" },
+    { src: other15, alt: "foo" },
+    { src: other16, alt: "foo" },
+    { src: other17, alt: "foo" },
+    { src: other18, alt: "foo" },
+    { src: other19, alt: "foo" },
+    { src: other20, alt: "foo" },
+    { src: other21, alt: "foo" },
+    { src: other22, alt: "foo" },
+    { src: other23, alt: "foo" },
+    { src: other24, alt: "foo" },
+    { src: other25, alt: "foo" },
   ],
 };
 export { galleryData, collectionsData };

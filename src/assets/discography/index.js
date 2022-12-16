@@ -1,7 +1,7 @@
-import pacific231 from "../img/album_covers/231-pacific.png";
 import aliveAndWell from "../img/album_covers/aliveandwell.png";
 import billyJoel from "../img/album_covers/billy-joel.png";
 import bodyBag from "../img/album_covers/bodybag.png";
+import pacific231 from "../img/album_covers/231-pacific.png";
 
 const albums = [
   {
