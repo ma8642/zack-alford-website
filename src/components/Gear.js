@@ -1,5 +1,5 @@
 import React from "react";
-import gearData from "../assets/gear/gear";
+import { gearData } from "../assets/gear";
 import bgImage from "../assets/gear/gear-bg.png";
 
 const Gear = () => {
