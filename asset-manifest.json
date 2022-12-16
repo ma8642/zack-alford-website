@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/zack-alford-website/static/css/main.d0de7a80.chunk.css",
-    "main.js": "/zack-alford-website/static/js/main.d9fce985.chunk.js",
-    "main.js.map": "/zack-alford-website/static/js/main.d9fce985.chunk.js.map",
+    "main.js": "/zack-alford-website/static/js/main.3c122131.chunk.js",
+    "main.js.map": "/zack-alford-website/static/js/main.3c122131.chunk.js.map",
     "runtime-main.js": "/zack-alford-website/static/js/runtime-main.5100ae37.js",
     "runtime-main.js.map": "/zack-alford-website/static/js/runtime-main.5100ae37.js.map",
     "static/css/2.f30b721a.chunk.css": "/zack-alford-website/static/css/2.f30b721a.chunk.css",
@@ -60,6 +60,13 @@
     "static/media/bowie67.0d8b7de8.png": "/zack-alford-website/static/media/bowie67.0d8b7de8.png",
     "static/media/bowie68.cb7983c3.png": "/zack-alford-website/static/media/bowie68.cb7983c3.png",
     "static/media/bowie_main.65c3595b.png": "/zack-alford-website/static/media/bowie_main.65c3595b.png",
+    "static/media/bspring25.446c0b49.jpg": "/zack-alford-website/static/media/bspring25.446c0b49.jpg",
+    "static/media/bspring26.2e900412.jpg": "/zack-alford-website/static/media/bspring26.2e900412.jpg",
+    "static/media/bspring27.5bc25a46.jpg": "/zack-alford-website/static/media/bspring27.5bc25a46.jpg",
+    "static/media/bspring28.d14767d0.jpg": "/zack-alford-website/static/media/bspring28.d14767d0.jpg",
+    "static/media/bspring29.0255d9df.jpg": "/zack-alford-website/static/media/bspring29.0255d9df.jpg",
+    "static/media/bspring30.cb25d077.jpg": "/zack-alford-website/static/media/bspring30.cb25d077.jpg",
+    "static/media/bspring31.e88eafd1.jpg": "/zack-alford-website/static/media/bspring31.e88eafd1.jpg",
     "static/media/bspring_main.059040a0.png": "/zack-alford-website/static/media/bspring_main.059040a0.png",
     "static/media/gear-bg.ab51926b.png": "/zack-alford-website/static/media/gear-bg.ab51926b.png",
     "static/media/gwn01.984e33ad.png": "/zack-alford-website/static/media/gwn01.984e33ad.png",
@@ -109,6 +116,17 @@
     "static/media/gwn47.185eb976.png": "/zack-alford-website/static/media/gwn47.185eb976.png",
     "static/media/gwn48.3b500e56.png": "/zack-alford-website/static/media/gwn48.3b500e56.png",
     "static/media/gwn_main.a2a2c0a5.png": "/zack-alford-website/static/media/gwn_main.a2a2c0a5.png",
+    "static/media/hotei01.c1554e33.jpg": "/zack-alford-website/static/media/hotei01.c1554e33.jpg",
+    "static/media/hotei02.5ed241f7.jpg": "/zack-alford-website/static/media/hotei02.5ed241f7.jpg",
+    "static/media/hotei03.ea992472.jpg": "/zack-alford-website/static/media/hotei03.ea992472.jpg",
+    "static/media/hotei04.94f178f2.jpg": "/zack-alford-website/static/media/hotei04.94f178f2.jpg",
+    "static/media/hotei05.63ccff33.jpg": "/zack-alford-website/static/media/hotei05.63ccff33.jpg",
+    "static/media/hotei06.de536c50.jpg": "/zack-alford-website/static/media/hotei06.de536c50.jpg",
+    "static/media/hotei07.0db2316c.jpg": "/zack-alford-website/static/media/hotei07.0db2316c.jpg",
+    "static/media/hotei08.a7ef5707.jpg": "/zack-alford-website/static/media/hotei08.a7ef5707.jpg",
+    "static/media/hotei09.a3145520.jpg": "/zack-alford-website/static/media/hotei09.a3145520.jpg",
+    "static/media/hotei10.c9251a2f.jpg": "/zack-alford-website/static/media/hotei10.c9251a2f.jpg",
+    "static/media/hotei11.829961cc.jpg": "/zack-alford-website/static/media/hotei11.829961cc.jpg",
     "static/media/hotei_main.2de2270d.png": "/zack-alford-website/static/media/hotei_main.2de2270d.png",
     "static/media/other_main.a32f416e.png": "/zack-alford-website/static/media/other_main.a32f416e.png",
     "static/media/zucchero1.b8b9660f.png": "/zack-alford-website/static/media/zucchero1.b8b9660f.png",
@@ -128,6 +146,6 @@
     "static/css/2.f30b721a.chunk.css",
     "static/js/2.0fb1df5e.chunk.js",
     "static/css/main.d0de7a80.chunk.css",
-    "static/js/main.d9fce985.chunk.js"
+    "static/js/main.3c122131.chunk.js"
   ]
 }
