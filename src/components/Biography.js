@@ -2,7 +2,6 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 const Biography = () => {
-  // TODO Add train line design to side
   const { t } = useTranslation();
   const text = [];
   let counter = 0;
@@ -11,14 +10,19 @@ const Biography = () => {
       text.push(<br />);
     } else {
       text.push(
-        <p key={i} className="mb-10 sm:text-base md:text-lg">
-          {t(`biography-para-${counter + 1}`)}
-        </p>
+        <li class="mt-3 mb-3 ml-6">
+          <div class="absolute -left-2 mt-6 rounded-full border-4 bg-white"></div>
+          <p key={i} className="sm:text-base md:text-lg text-white">
+            {t(`biography-para-${counter + 1}`)}
+          </p>
+        </li>
       );
       counter += 1;
     }
   }
-  return <div className="font-body text-left">{text}</div>;
+  return (
+    <ol className="relative border-l-8 border-red-700 ml-2 pb-2">{text}</ol>
+  );
 };
 
 export default Biography;
