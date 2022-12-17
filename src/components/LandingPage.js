@@ -22,7 +22,7 @@ const LandingPage = (props) => {
           {title}
         </h1>
         <Carousel
-          className="flex justify-end content-end h-xl"
+          className="flex justify-end content-end max-h-full"
           autoPlay={true}
           infiniteLoop={true}
           showArrows={false}
