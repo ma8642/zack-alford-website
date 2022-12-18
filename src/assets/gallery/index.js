@@ -234,186 +234,236 @@ const collectionsData = {
     {
       src: gwn01,
       alt: "foo",
+      desc: [
+        <p>Zack with Music and Love of "L.A.M.B"</p>,
+        <p>(Love, Angel, Music, Baby)</p>,
+        <p>Rehearsals Los Angeles 9/05</p>,
+      ],
     },
     {
       src: gwn02,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn03,
       alt: "foo",
+      desc: "",
     },
     {
       src: gwn04,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn05,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn06,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn07,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn08,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn09,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn10,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn11,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn12,
       alt: "foo",
+      desc: "",
     },
     {
       src: gwn13,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn15,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn16,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn17,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn18,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn19,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn20,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn21,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn22,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn23,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn24,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn25,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn26,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn27,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn29,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn30,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn31,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn32,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn33,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn34,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn35,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn36,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn37,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn38,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn39,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn40,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn41,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn42,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn43,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn44,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn45,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn46,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn47,
       alt: "bar",
+      desc: "",
     },
     {
       src: gwn48,
       alt: "bar",
+      desc: "",
     },
   ],
   1: [

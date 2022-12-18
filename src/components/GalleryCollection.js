@@ -22,8 +22,9 @@ const GalleryCollection = ({ gallery, handleCloseClick }) => {
         />
       </div>
       <div className="flex flex-col justify-center content-center">
-        <div className="focused-image flex justify-center">
+        <div className="focused-image flex justify-center flex-col">
           <img src={focusedImage.src} height="100vh" alt={focusedImage.alt} />
+          <div id="description">{focusedImage.desc}</div>
         </div>
 
         <div className="thumbnail-row grid gap-1 grid-cols-6 grid-rows-1 overflow-x-auto">
