@@ -494,7 +494,6 @@ const collectionsData = {
     { src: bowie57, alt: "foo" },
     { src: bowie58, alt: "foo" },
     { src: bowie59, alt: "foo" },
-    { src: bowie60, alt: "foo" },
     { src: bowie61, alt: "foo" },
     { src: bowie62, alt: "foo" },
     { src: bowie63, alt: "foo" },
