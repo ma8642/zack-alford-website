@@ -480,7 +480,11 @@ const collectionsData = {
     },
   ],
   1: [
-    { src: bowie50, alt: "foo" },
+    {
+      src: bowie50,
+      alt: "foo",
+      desc: 'set list for "Earthling" tour / festival leg',
+    },
     { src: bowie51, alt: "foo" },
     { src: bowie52, alt: "foo" },
     { src: bowie53, alt: "foo" },
