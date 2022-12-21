@@ -29,3 +29,4 @@ This is the code for Zack Alford's website. [Github pages link](https://ma8642.g
 - [TODO - make buttons shake](https://www.w3schools.com/howto/howto_css_shake_image.asp)
 - [Check screen size using javascript](https://dev.to/yanns1/how-to-render-different-components-based-on-screen-size-2p35)
 - [React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel)
+- [Simple Hamburger Menu Using React and Tailwind](https://www.codementor.io/@giorgiasambrotta/hamburger-menu-with-react-and-tailwind-css-1qx6sruvua)
