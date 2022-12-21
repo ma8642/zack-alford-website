@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/zack-alford-website/static/css/main.af249c13.chunk.css",
-    "main.js": "/zack-alford-website/static/js/main.eb29161f.chunk.js",
-    "main.js.map": "/zack-alford-website/static/js/main.eb29161f.chunk.js.map",
+    "main.css": "/zack-alford-website/static/css/main.385699d9.chunk.css",
+    "main.js": "/zack-alford-website/static/js/main.501de919.chunk.js",
+    "main.js.map": "/zack-alford-website/static/js/main.501de919.chunk.js.map",
     "runtime-main.js": "/zack-alford-website/static/js/runtime-main.5100ae37.js",
     "runtime-main.js.map": "/zack-alford-website/static/js/runtime-main.5100ae37.js.map",
     "static/css/2.f30b721a.chunk.css": "/zack-alford-website/static/css/2.f30b721a.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.60541a1f.chunk.js.map": "/zack-alford-website/static/js/2.60541a1f.chunk.js.map",
     "index.html": "/zack-alford-website/index.html",
     "static/css/2.f30b721a.chunk.css.map": "/zack-alford-website/static/css/2.f30b721a.chunk.css.map",
-    "static/css/main.af249c13.chunk.css.map": "/zack-alford-website/static/css/main.af249c13.chunk.css.map",
+    "static/css/main.385699d9.chunk.css.map": "/zack-alford-website/static/css/main.385699d9.chunk.css.map",
     "static/js/2.60541a1f.chunk.js.LICENSE.txt": "/zack-alford-website/static/js/2.60541a1f.chunk.js.LICENSE.txt",
     "static/media/231-pacific.358bdc18.png": "/zack-alford-website/static/media/231-pacific.358bdc18.png",
     "static/media/B52_1.94049d74.jpg": "/zack-alford-website/static/media/B52_1.94049d74.jpg",
@@ -204,7 +204,7 @@
     "static/js/runtime-main.5100ae37.js",
     "static/css/2.f30b721a.chunk.css",
     "static/js/2.60541a1f.chunk.js",
-    "static/css/main.af249c13.chunk.css",
-    "static/js/main.eb29161f.chunk.js"
+    "static/css/main.385699d9.chunk.css",
+    "static/js/main.501de919.chunk.js"
   ]
 }
