@@ -18,7 +18,7 @@ const LandingPage = (props) => {
   return (
     <Element name={props.id} className="element">
       <section id={props.id} className="mb-20 h-xl bg-black text-white">
-        <h1 className="text-left font-display text-7xl md:text-9xl w-1/2 z-10 absolute bottom-0 left-0">
+        <h1 className="text-left font-display text-7xl md:text-9xl w-1/2 z-10 absolute bottom-12 md:bottom-0 left-0">
           {title}
         </h1>
         <Carousel
