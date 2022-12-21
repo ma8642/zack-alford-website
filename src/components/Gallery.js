@@ -17,7 +17,9 @@ const Gallery = () => {
       >
         <div>
           <h1
-            className={`tracking-wider text-2xl md:text-3xl font-black -mt-2 ${mobileTitleStyling} ${largeScreenTitleStyling}`}
+            className={`tracking-wider ${
+              gallery.titleSize ?? "text-lg"
+            } md:text-3xl font-black -mt-2 ${mobileTitleStyling} ${largeScreenTitleStyling}`}
           >
             {gallery.title.toUpperCase()}
           </h1>

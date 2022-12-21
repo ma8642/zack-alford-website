@@ -67,7 +67,6 @@ import bowie56 from "../img/galleries/david_bowie/bowie56.png";
 import bowie57 from "../img/galleries/david_bowie/bowie57.png";
 import bowie58 from "../img/galleries/david_bowie/bowie58.png";
 import bowie59 from "../img/galleries/david_bowie/bowie59.png";
-import bowie60 from "../img/galleries/david_bowie/bowie60.png";
 import bowie61 from "../img/galleries/david_bowie/bowie61.png";
 import bowie62 from "../img/galleries/david_bowie/bowie62.png";
 import bowie63 from "../img/galleries/david_bowie/bowie63.png";
@@ -202,6 +201,7 @@ const galleryData = [
   {
     id: 3,
     title: "Bruce Springsteen",
+    titleSize: "text-base",
     year: "2011",
     src: springsteenMain,
     href: "#",
