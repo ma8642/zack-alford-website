@@ -560,13 +560,21 @@ const collectionsData = {
     { src: zucchero10, alt: "foo", desc: "guess where ???" },
   ],
   3: [
-    { src: springsteen1, alt: "foo" },
+    {
+      src: springsteen1,
+      alt: "foo",
+      desc: "pre tour show at The Bottom Line NYC 1992",
+    },
     { src: springsteen2, alt: "foo" },
     { src: springsteen3, alt: "foo" },
-    { src: springsteen4, alt: "foo" },
+    { src: springsteen4, alt: "foo", desc: 'mid show "moment"' },
     { src: springsteen5, alt: "foo" },
-    { src: springsteen6, alt: "foo" },
-    { src: springsteen7, alt: "foo" },
+    {
+      src: springsteen6,
+      alt: "foo",
+      desc: "from front page of a Swedish newspaper",
+    },
+    { src: springsteen7, alt: "foo", desc: "Spain" },
   ],
   4: [
     { src: b521, alt: "we" },
