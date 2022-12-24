@@ -828,31 +828,182 @@ const collectionsData = {
     },
   ],
   6: [
-    { src: other1, alt: "foo" },
-    { src: other2, alt: "foo" },
-    { src: other3, alt: "foo" },
-    { src: other4, alt: "foo" },
-    { src: other5, alt: "foo" },
-    { src: other6, alt: "foo" },
-    { src: other7, alt: "foo" },
-    { src: other8, alt: "foo" },
-    { src: other9, alt: "foo" },
-    { src: other10, alt: "foo" },
-    { src: other11, alt: "foo" },
-    { src: other12, alt: "foo" },
-    { src: other13, alt: "foo" },
-    { src: other14, alt: "foo" },
-    { src: other15, alt: "foo" },
-    { src: other16, alt: "foo" },
-    { src: other17, alt: "foo" },
-    { src: other18, alt: "foo" },
-    { src: other19, alt: "foo" },
-    { src: other20, alt: "foo" },
-    { src: other21, alt: "foo" },
-    { src: other22, alt: "foo" },
-    { src: other23, alt: "foo" },
-    { src: other24, alt: "foo" },
-    { src: other25, alt: "foo" },
+    { src: other1, alt: "foo", desc: "Zack with David Bowie and the 'Prez'" },
+    { src: other2, alt: "foo", desc: "Zack, J.R. Robinson & Tommy Campbell" },
+    { src: other3, alt: "foo", desc: "Zack, J.R.Robinson & Tommy Campbell" },
+    {
+      src: other4,
+      alt: "foo",
+      desc: [<p>Zack and J.R. Robinson</p>, <small>Japan 2003</small>],
+    },
+    {
+      src: other5,
+      alt: "foo",
+      desc: [
+        <p>George Clinton</p>,
+        <small>Church of Universal Love</small>,
+        <small>2003</small>,
+      ],
+    },
+    {
+      src: other6,
+      alt: "foo",
+      desc: "Zack with Sara Lee & Dennis Chambers (2000)",
+    },
+    {
+      src: other7,
+      alt: "foo",
+      desc: [
+        <p>OhhhhYeah !....Actor Jeffrey Jones and Zack</p>,
+        <small>Universal Ampitheatre L.A. 1989</small>,
+      ],
+    },
+    {
+      src: other8,
+      alt: "foo",
+      desc: [
+        <p>Zack, Paul Reubens (aka...you know) , Kate Pierson</p>,
+        <small>Universal Ampitheatre L.A. (1989)</small>,
+      ],
+    },
+    {
+      src: other9,
+      alt: "foo",
+      desc: [
+        <p>
+          Steven Bernstein, Adam Rogers <small>(almost)</small> Pablo Calogero
+          and Zack <small>(sans wig)</small>
+        </p>,
+        <p>Knitting factory NYC 1987</p>,
+        <small>PHOTO by David Freed</small>,
+      ],
+    },
+    {
+      src: other10,
+      alt: "foo",
+      desc: [
+        <p>Don Was , Zack, Keith Strickland, Pat Irwin</p>,
+        <small>Bearsville Studio 1991</small>,
+      ],
+    },
+    {
+      src: other11,
+      alt: "foo",
+      desc: [
+        <p>The awesome Frank Finley and Zack</p>,
+        <small>Bodybag gig NYC 1993</small>,
+      ],
+    },
+    {
+      src: other12,
+      alt: "foo",
+      desc: [
+        <p>Jerome Smith and Zack</p>,
+        <b>Built to Rock !</b>,
+        <small>Bodybag gig NYC 1993</small>,
+      ],
+    },
+    {
+      src: other13,
+      alt: "foo",
+      desc: [<p>Frank Finley</p>, <small>Green Street Studios NYC 1991</small>],
+    },
+    {
+      src: other14,
+      alt: "foo",
+      desc: [
+        <p>Zack at Green Street Studios</p>,
+        <small>New York City 1991</small>,
+      ],
+    },
+    {
+      src: other15,
+      alt: "foo",
+      desc: [<p>Hang glide anyone?</p>, <small>Zack in Rio 1991</small>],
+    },
+    {
+      src: other16,
+      alt: "foo",
+      desc: [
+        <p>
+          Sterling Campbell, Keith Strickland (Mike Scarfe picture diving) and
+          Zack
+        </p>,
+        <small>2000</small>,
+      ],
+    },
+    {
+      src: other17,
+      alt: "foo",
+      desc: [
+        <p>Tommy Aldridge and Zack</p>,
+        <small>2006 NAMM Show Annaheim CA</small>,
+        <small>January 2006</small>,
+      ],
+    },
+    {
+      src: other18,
+      alt: "foo",
+      desc: [
+        <p>Zack and Fergie</p>,
+        <small>backstage at Gwen Stefani show</small>,
+        <small>January 2006</small>,
+      ],
+    },
+    {
+      src: other19,
+      alt: "foo",
+      desc: [
+        <p>Zack and legend Steve Gadd</p>,
+        <small>Groove All stars Cerritos, CA</small>,
+        <small>January 2006</small>,
+      ],
+    },
+    {
+      src: other20,
+      alt: "foo",
+      desc: [
+        <p>Zack and Lenny Kravitz</p>,
+        <small>backstage at Rolling Stones show</small>,
+        <small>March 14, 2006</small>,
+      ],
+    },
+    {
+      src: other21,
+      alt: "foo",
+      desc: [
+        <p>Pam Greer and Zack</p>,
+        <small>on location at "L Word "</small>,
+        <small>2005</small>,
+      ],
+    },
+    {
+      src: other22,
+      alt: "foo",
+      desc: [
+        <p>Group Shot</p>,
+        <small>Groove All stars Cerritos, CA.</small>,
+        <small>January 2006</small>,
+      ],
+    },
+    {
+      src: other23,
+      alt: "foo",
+      desc: "Kelly' Clarkson's \"Addicted tour\" summer 2006",
+    },
+    {
+      src: other24,
+      alt: "foo",
+      desc: "Kelly' Clarkson's \"Addicted tour\" summer 2006",
+    },
+    {
+      src: other25,
+      alt: "foo",
+      desc: [
+        <p>Zack in the shadows behind Einar</p>,
+        <small>(dude from the hills have eyes...NOT!)</small>,
+      ],
+    },
   ],
 };
 export { galleryData, collectionsData };
