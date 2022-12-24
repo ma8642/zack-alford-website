@@ -674,30 +674,158 @@ const collectionsData = {
     { src: b5224, alt: "bar" },
   ],
   5: [
-    { src: hotei1, alt: "foo" },
-    { src: hotei2, alt: "foo" },
-    { src: hotei3, alt: "foo" },
+    {
+      src: hotei1,
+      alt: "foo",
+      desc: [
+        <p>Zack and Geisha. Osaka, Japan 2003</p>,
+        <small>PHOTO by Kishi Toshiyuki</small>,
+      ],
+    },
+    {
+      src: hotei2,
+      alt: "foo",
+      desc: [<p>introducing...</p>, <small>PHOTO by Kishi Toshiyuki</small>],
+    },
+    {
+      src: hotei3,
+      alt: "foo",
+      desc: [<p>lighting check</p>, <small>PHOTO by Kishi Toshiyuki</small>],
+    },
     { src: hotei4, alt: "foo" },
-    { src: hotei5, alt: "foo" },
-    { src: hotei6, alt: "foo" },
-    { src: hotei7, alt: "foo" },
-    { src: hotei8, alt: "foo" },
-    { src: hotei9, alt: "foo" },
-    { src: hotei10, alt: "foo" },
-    { src: hotei11, alt: "foo" },
-    { src: hotei12, alt: "foo" },
-    { src: hotei13, alt: "foo" },
-    { src: hotei14, alt: "foo" },
-    { src: hotei15, alt: "foo" },
-    { src: hotei16, alt: "foo" },
-    { src: hotei17, alt: "foo" },
-    { src: hotei18, alt: "foo" },
-    { src: hotei19, alt: "foo" },
-    { src: hotei20, alt: "foo" },
-    { src: hotei21, alt: "foo" },
-    { src: hotei22, alt: "foo" },
-    { src: hotei23, alt: "foo" },
-    { src: hotei24, alt: "foo" },
+    {
+      src: hotei5,
+      alt: "foo",
+      desc: [
+        <p>bullet train blues</p>,
+        <small>PHOTO by Kishi Toshiyuki</small>,
+      ],
+    },
+    {
+      src: hotei6,
+      alt: "foo",
+      desc: [
+        <p>Zack's caricature of Kishi Toshiyuki backstage</p>,
+        <small>PHOTO by Kishi Toshiyuki</small>,
+      ],
+    },
+    {
+      src: hotei7,
+      alt: "foo",
+      desc: [
+        <p>party animal Jyuichi Watanabe</p>,
+        <small>PHOTO by Kishi Toshiyuki</small>,
+      ],
+    },
+    {
+      src: hotei8,
+      alt: "foo",
+      desc: [
+        <p>tour massuer Niigata and friend</p>,
+        <small>PHOTO by Kishi Toshiyuki</small>,
+      ],
+    },
+    {
+      src: hotei9,
+      alt: "foo",
+      desc: [
+        <p>Zack's caricature of Jyuich</p>,
+        <small>PHOTO by Kishi Toshiyuki</small>,
+      ],
+    },
+    {
+      src: hotei10,
+      alt: "foo",
+      desc: [<p>Sendai stage shot</p>, <small>PHOTO by Kishi Toshiyuki</small>],
+    },
+    {
+      src: hotei11,
+      alt: "foo",
+      desc: [<small>PHOTO by Kishi Toshiyuki</small>],
+    },
+    {
+      src: hotei12,
+      alt: "foo",
+      desc: [<small>PHOTO by Kishi Toshiyuki</small>],
+    },
+    {
+      src: hotei13,
+      alt: "foo",
+      desc: [<small>PHOTO by Kishi Toshiyuki</small>],
+    },
+    {
+      src: hotei14,
+      alt: "foo",
+      desc: [
+        <p>soundcheck in Osaka</p>,
+        <small>PHOTO by Kishi Toshiyuki</small>,
+      ],
+    },
+    {
+      src: hotei15,
+      alt: "foo",
+      desc: [
+        <p>Birthday in Kokura</p>,
+        <small>PHOTO by Kishi Toshiyuki</small>,
+      ],
+    },
+    {
+      src: hotei16,
+      alt: "foo",
+      desc: [<small>PHOTO by Kishi Toshiyuki</small>],
+    },
+    {
+      src: hotei17,
+      alt: "foo",
+      desc: [<small>PHOTO by Kishi Toshiyuki</small>],
+    },
+    {
+      src: hotei18,
+      alt: "foo",
+      desc: [
+        <p>playing in Niigata</p>,
+        <small>PHOTO by Kishi Toshiyuki</small>,
+      ],
+    },
+    {
+      src: hotei19,
+      alt: "foo",
+      desc: [<small>PHOTO by Kishi Toshiyuki</small>],
+    },
+    {
+      src: hotei20,
+      alt: "foo",
+      desc: [<small>PHOTO by Kishi Toshiyuki</small>],
+    },
+    {
+      src: hotei21,
+      alt: "foo",
+      desc: [
+        <p>Some of the best bars have a resident crocodile.</p>,
+        <small>PHOTO by Kishi Toshiyuki</small>,
+      ],
+    },
+    {
+      src: hotei22,
+      alt: "foo",
+      desc: [
+        <p>Aaaah in Japanese is aaaah.</p>,
+        <small>PHOTO by Kishi Toshiyuki</small>,
+      ],
+    },
+    {
+      src: hotei23,
+      alt: "foo",
+      desc: [
+        <p>I'm only gonna ask one more time...where are my drum sticks.</p>,
+        <small>PHOTO by Kishi Toshiyuki</small>,
+      ],
+    },
+    {
+      src: hotei24,
+      alt: "foo",
+      desc: [<p>Omiya Kanpai</p>, <small>PHOTO by Kishi Toshiyuki</small>],
+    },
   ],
   6: [
     { src: other1, alt: "foo" },
