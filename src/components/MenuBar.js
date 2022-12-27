@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { CloseOutlined } from "@ant-design/icons";
 import { Link } from "react-scroll";
 
 const MenuBar = ({ pages }) => {
@@ -57,23 +58,10 @@ const MenuBar = ({ pages }) => {
               <span className="w-8 bg-green-400 px-4 py-0.5 mb-2 mr-4"> </span>
             </>
             <div className={isMobileMenuOpen ? "showMenuNav" : "hideMenuNav"}>
-              <div
-                className="absolute top-0 right-0 px-8 py-8"
+              <CloseOutlined
+                className="absolute top-0 right-0 px-4 py-4 text-2xl text-green-400 bg-black"
                 onClick={() => setIsMobileMenuOpen(false)}
-              >
-                <svg
-                  className="h-8 w-8 text-green-400"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <line x1="18" y1="6" x2="6" y2="18" />
-                  <line x1="6" y1="6" x2="18" y2="18" />
-                </svg>
-              </div>
+              />
               <ul>{mobileMenuItems}</ul>
             </div>
           </div>
@@ -91,7 +79,7 @@ const MenuBar = ({ pages }) => {
         height: 100vh;
         top: 0;
         left: 0;
-        background: white;
+        background: black;
         z-index: 10;
         display: flex;
         flex-direction: column;
