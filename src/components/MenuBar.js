@@ -38,6 +38,8 @@ const MenuBar = ({ pages }) => {
           smooth={true}
           duration={250}
           containerId="main-container"
+          onClick={() => setIsMobileMenuOpen(false)}
+          className="block px-20 py-4 text-lg tracking-wide"
         >
           {title}
         </Link>
@@ -59,7 +61,7 @@ const MenuBar = ({ pages }) => {
             </>
             <div className={isMobileMenuOpen ? "showMenuNav" : "hideMenuNav"}>
               <CloseOutlined
-                className="absolute top-0 right-0 px-4 py-4 text-2xl text-green-400 bg-black"
+                className="absolute top-0 right-0 px-4 py-4 text-2xl text-green-400"
                 onClick={() => setIsMobileMenuOpen(false)}
               />
               <ul>{mobileMenuItems}</ul>
