@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import Nav from "./Nav/Nav";
+import MenuBar from "./MenuBar";
 import LandingPage from "./LandingPage";
 import Page from "./Page";
 import Biography from "./Biography";
@@ -15,7 +15,7 @@ const App = () => {
 
   return (
     <div className="App px-12 bg-black text-white">
-      <Nav pages={pages} />
+      <MenuBar pages={pages} />
       <main
         id="main-container"
         className="bg-black fixed top-20 left-0 bottom-0 overflow-y-scroll p-5"
