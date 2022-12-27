@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 
 const MenuBar = ({ pages }) => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const desktopMenuItems = pages.map((title) => {
     const style =
       title === "connect"
@@ -46,10 +47,25 @@ const MenuBar = ({ pages }) => {
     <nav className="flex items-center justify-between flex-wrap p-6 bg-black z-50 w-xl">
       <div className="w-full block">
         <div className="text-sm flex flex-row justify-end items-center font-body">
-          <div className="MOBILE-MENU flex flex-col lg:hidden">
-            <span className="w-8 bg-green-400 px-4 py-0.5 mb-2"> </span>
-            <span className="w-8 bg-green-400 px-4 py-0.5 mb-2"> </span>
-            <span className="w-8 bg-green-400 px-4 py-0.5 mb-2"> </span>
+          <div
+            className="MOBILE-MENU flex flex-col lg:hidden"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            {isMobileMenuOpen ? (
+              <ul>{mobileMenuItems}</ul>
+            ) : (
+              <>
+                <span className="w-8 bg-green-400 px-4 py-0.5 mb-2 mr-4">
+                  {" "}
+                </span>
+                <span className="w-8 bg-green-400 px-4 py-0.5 mb-2 mr-4">
+                  {" "}
+                </span>
+                <span className="w-8 bg-green-400 px-4 py-0.5 mb-2 mr-4">
+                  {" "}
+                </span>
+              </>
+            )}
           </div>
           <div className="DESKTOP-MENU hidden lg:flex">{desktopMenuItems}</div>
         </div>
