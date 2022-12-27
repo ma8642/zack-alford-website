@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/zack-alford-website/static/css/main.2ea89e4a.chunk.css",
-    "main.js": "/zack-alford-website/static/js/main.7c695d7a.chunk.js",
-    "main.js.map": "/zack-alford-website/static/js/main.7c695d7a.chunk.js.map",
+    "main.css": "/zack-alford-website/static/css/main.f8f6c3aa.chunk.css",
+    "main.js": "/zack-alford-website/static/js/main.efac98fb.chunk.js",
+    "main.js.map": "/zack-alford-website/static/js/main.efac98fb.chunk.js.map",
     "runtime-main.js": "/zack-alford-website/static/js/runtime-main.5100ae37.js",
     "runtime-main.js.map": "/zack-alford-website/static/js/runtime-main.5100ae37.js.map",
     "static/css/2.f30b721a.chunk.css": "/zack-alford-website/static/css/2.f30b721a.chunk.css",
-    "static/js/2.60541a1f.chunk.js": "/zack-alford-website/static/js/2.60541a1f.chunk.js",
-    "static/js/2.60541a1f.chunk.js.map": "/zack-alford-website/static/js/2.60541a1f.chunk.js.map",
+    "static/js/2.a21d7712.chunk.js": "/zack-alford-website/static/js/2.a21d7712.chunk.js",
+    "static/js/2.a21d7712.chunk.js.map": "/zack-alford-website/static/js/2.a21d7712.chunk.js.map",
     "index.html": "/zack-alford-website/index.html",
     "static/css/2.f30b721a.chunk.css.map": "/zack-alford-website/static/css/2.f30b721a.chunk.css.map",
-    "static/css/main.2ea89e4a.chunk.css.map": "/zack-alford-website/static/css/main.2ea89e4a.chunk.css.map",
-    "static/js/2.60541a1f.chunk.js.LICENSE.txt": "/zack-alford-website/static/js/2.60541a1f.chunk.js.LICENSE.txt",
+    "static/css/main.f8f6c3aa.chunk.css.map": "/zack-alford-website/static/css/main.f8f6c3aa.chunk.css.map",
+    "static/js/2.a21d7712.chunk.js.LICENSE.txt": "/zack-alford-website/static/js/2.a21d7712.chunk.js.LICENSE.txt",
     "static/media/231-pacific.358bdc18.png": "/zack-alford-website/static/media/231-pacific.358bdc18.png",
     "static/media/B52_1.94049d74.jpg": "/zack-alford-website/static/media/B52_1.94049d74.jpg",
     "static/media/B52_10.2c533990.jpg": "/zack-alford-website/static/media/B52_10.2c533990.jpg",
@@ -202,8 +202,8 @@
   "entrypoints": [
     "static/js/runtime-main.5100ae37.js",
     "static/css/2.f30b721a.chunk.css",
-    "static/js/2.60541a1f.chunk.js",
-    "static/css/main.2ea89e4a.chunk.css",
-    "static/js/main.7c695d7a.chunk.js"
+    "static/js/2.a21d7712.chunk.js",
+    "static/css/main.f8f6c3aa.chunk.css",
+    "static/js/main.efac98fb.chunk.js"
   ]
 }
