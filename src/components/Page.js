@@ -7,7 +7,7 @@ const Page = (props) => {
     <Element name={props.id} className="element min-h-screen">
       <section
         id={props.id}
-        className="section h-full flex flex-col justify-center items-center"
+        className="section h-full flex flex-col justify-center items-center p-5"
       >
         <h1 className="title text-center font-display text-3xl md:text-5xl">
           {props.title}
