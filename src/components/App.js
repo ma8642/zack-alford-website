@@ -37,7 +37,9 @@ const App = () => {
           <Connect />
         </Page>
         <p>{t("zack-alford-copywrite")}</p>
-        <small>{t("marley-alford-site")}</small>
+        <a href="https://github.com/ma8642">
+          <small>{t("marley-alford-site")}</small>
+        </a>
       </main>
     </div>
   );
