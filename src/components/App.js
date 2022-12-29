@@ -37,8 +37,14 @@ const App = () => {
           <Connect />
         </Page>
         <p>{t("zack-alford-copywrite")}</p>
-        <a href="https://github.com/ma8642">
-          <small>{t("marley-alford-site")}</small>
+        <small>{t("site-by")}</small>
+        <a
+          href="https://github.com/ma8642"
+          className="hover:underline"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <small>Marley Alford</small>
         </a>
       </main>
     </div>

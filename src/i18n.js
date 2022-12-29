@@ -28,7 +28,7 @@ i18n
           gear: "Gear",
           connect: "Connect",
           "zack-alford-copywrite": "(c) Zachary Alford 2021",
-          "marley-alford-site": "Site by Marley Alford",
+          "site-by": "Site by ",
         },
       },
     },
