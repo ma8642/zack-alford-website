@@ -7,11 +7,11 @@ const MenuBar = ({ pages }) => {
   const desktopMenuItems = pages.map((title) => {
     const style =
       title === "connect"
-        ? "inline-block text-sm px-4 py-2 leading-none border rounded border-white hover:border-transparent hover:text-black hover:bg-green-400  lg:mt-0"
-        : "block lg:inline-block lg:mt-0 hover:text-green-400 mr-4";
+        ? "flex items-center text-sm px-4 py-2 leading-none border rounded border-white hover:border-transparent hover:text-black hover:bg-green-400"
+        : "flex items-center pr-4 py-2 hover:text-green-400";
 
     return (
-      <div key={title} className={`text-white mt-4 ${style}`}>
+      <div key={title} className={`text-white ${style}`}>
         <button className="uppercase">
           <Link
             activeClass="active"
