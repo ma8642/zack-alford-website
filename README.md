@@ -1,6 +1,6 @@
 # About
 
-This is the code for Zack Alford's website. [Github pages link](https://ma8642.github.io/zack-alford-website/)
+This is the code for Zack Alford's professional website.
 
 # To Run
 
@@ -30,3 +30,4 @@ This is the code for Zack Alford's website. [Github pages link](https://ma8642.g
 - [Check screen size using javascript](https://dev.to/yanns1/how-to-render-different-components-based-on-screen-size-2p35)
 - [React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel)
 - [Simple Hamburger Menu Using React and Tailwind](https://www.codementor.io/@giorgiasambrotta/hamburger-menu-with-react-and-tailwind-css-1qx6sruvua)
+- [Configuring a website domain while hosting with github pages](https://stackoverflow.com/questions/49571103/reactjs-app-published-to-github-pages-with-custom-domain)
