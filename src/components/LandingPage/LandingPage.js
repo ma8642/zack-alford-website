@@ -1,16 +1,21 @@
 import React from "react";
 import { Element } from "react-scroll";
-import { carouselData } from "../assets/carousel";
+import { carouselData } from "../../assets/carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
+import "./overrides.css"; // change this to the file path of your overrides
 
 const LandingPage = (props) => {
   const title = props.siteTitle ? props.siteTitle : props.title;
 
   const carouselArr = carouselData.map((data, i) => {
     return (
-      <div>
-        <img src={carouselData[i].src} alt={carouselData[i].alt} />
+      <div className="h-xl">
+        <img
+          src={carouselData[i].src}
+          alt={carouselData[i].alt}
+          className="max-h-full max-w-full h-full"
+        />
       </div>
     );
   });

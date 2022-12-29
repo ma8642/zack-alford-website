@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import MenuBar from "./MenuBar";
-import LandingPage from "./LandingPage";
+import LandingPage from "./LandingPage/LandingPage";
 import Page from "./Page";
 import Biography from "./Biography";
 import Discography from "./Discography";
@@ -18,7 +18,7 @@ const App = () => {
       <MenuBar pages={pages} />
       <main
         id="main-container"
-        className="bg-black fixed top-20 left-0 bottom-0 overflow-y-scroll p-5"
+        className="bg-black fixed top-20 left-0 bottom-0 overflow-y-scroll"
       >
         <LandingPage id="main" siteTitle="Zachary Alford" />
         <Page id="bio" title={t("bio")}>
