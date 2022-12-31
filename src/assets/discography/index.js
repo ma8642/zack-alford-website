@@ -3,21 +3,32 @@ import billyJoel from "../img/album_covers/billy-joel.png";
 import bruceSpringsteen from "../img/album_covers/bruce-springsteen.png";
 import bodyBag from "../img/album_covers/bodybag.png";
 import earthling from "../img/album_covers/earthling.png";
+import fetish from "../img/album_covers/fetish.png";
 import funplex from "../img/album_covers/funplex.png";
 import gail from "../img/album_covers/gail.png";
+import galore from "../img/album_covers/galore.png";
 import goodStuff from "../img/album_covers/goodstuff.png";
+import hoffs from "../img/album_covers/hoffs.png";
+import hoteiGreatestHits from "../img/album_covers/hotei-greatest-hits.png";
 import jeSais from "../img/album_covers/je-sais.png";
+import kane from "../img/album_covers/kane.png";
 import kenza from "../img/album_covers/kenza.png";
 import lettie from "../img/album_covers/lettie.png";
 import maggiesDream from "../img/album_covers/maggiesdream.png";
+import makeItBeautiful from "../img/album_covers/make-it-beautiful.png";
 import mainStreetPreachers from "../img/album_covers/main-street-preachers.png";
 import maya from "../img/album_covers/maya.png";
 import media from "../img/album_covers/media.png";
 import nextDay from "../img/album_covers/the-next-day.png";
 import pacific231 from "../img/album_covers/231-pacific.png";
+import puraFe from "../img/album_covers/pura-fe.png";
 import rumbleDoll from "../img/album_covers/rumble-doll.png";
+import scorpioRising from "../img/album_covers/scorpio-rising.png";
 import shake from "../img/album_covers/shake.png";
+import soleils123 from "../img/album_covers/123-soleils.png";
 import supersonic from "../img/album_covers/supersonic.png";
+import timeWas from "../img/album_covers/time-was.png";
+import tonightImYours from "../img/album_covers/tonight-im-yours.png";
 
 const albums = [
   {
@@ -139,6 +150,72 @@ const albums = [
     title: "Change for the Better",
     artist: "Maggies Dream",
     src: maggiesDream,
+  },
+  {
+    id: 21,
+    title: "Taha Khaled Faudel",
+    artist: "123 Soleils",
+    src: soleils123,
+  },
+  {
+    id: 22,
+    title: "Galore",
+    artist: "Jeffrey Gaines",
+    src: galore,
+  },
+  {
+    id: 23,
+    title: "When You're a Boy",
+    artist: "Susanna Hoffs",
+    src: hoffs,
+  },
+  {
+    id: 24,
+    title: "Greatest Hits",
+    artist: "Hotei",
+    src: hoteiGreatestHits,
+  },
+  {
+    id: 25,
+    title: "Catwalk Criminals",
+    artist: "Kane",
+    src: kane,
+  },
+  {
+    id: 26,
+    title: "Make It Beautiful",
+    artist: "Sara Lee",
+    src: makeItBeautiful,
+  },
+  {
+    id: 27,
+    title: "Caution to the Wind",
+    artist: "Pura Fe",
+    src: puraFe,
+  },
+  {
+    id: 28,
+    title: "Scorpio Rising",
+    artist: "Hotei",
+    src: scorpioRising,
+  },
+  {
+    id: 29,
+    title: "Time Was",
+    artist: "Curtis Stiger",
+    src: timeWas,
+  },
+  {
+    id: 30,
+    title: "Tonight I'm Yours",
+    artist: "Hotei",
+    src: tonightImYours,
+  },
+  {
+    id: 31,
+    title: "Fetish",
+    artist: "Hotei",
+    src: fetish,
   },
 ];
 
