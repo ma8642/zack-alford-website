@@ -1,6 +1,6 @@
 import React from "react";
 
-const FilledContactButton = (props) => {
+const FilledButton = (props) => {
   return (
     <button
       className="p-5 text-black bg-green-400 rounded flex items-center transform hover:scale-105"
@@ -11,4 +11,4 @@ const FilledContactButton = (props) => {
   );
 };
 
-export default FilledContactButton;
+export default FilledButton;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import albums from "../assets/discography";
-import FilledContactButton from "./buttons/FilledContactButton";
+import FilledButton from "./buttons/FilledButton";
 
 const Discography = () => {
   const increment = 8;
@@ -30,9 +30,7 @@ const Discography = () => {
         {albumsData.slice(0, maxAlbums)}
       </div>
       <div className="flex justify-center mt-4">
-        <FilledContactButton onClick={handleClickButton}>
-          {buttonCopy}
-        </FilledContactButton>
+        <FilledButton onClick={handleClickButton}>{buttonCopy}</FilledButton>
       </div>
     </div>
   );

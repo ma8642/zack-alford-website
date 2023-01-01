@@ -1,17 +1,10 @@
-import React, { useState } from "react";
-import {
-  FacebookFilled,
-  InstagramOutlined,
-  MailOutlined,
-} from "@ant-design/icons";
-import EmailDiv from "./EmailDiv";
-import FilledContactButton from "./buttons/FilledContactButton";
+import React from "react";
+import { FacebookFilled, InstagramOutlined } from "@ant-design/icons";
 
 const style =
   "p-5 text-black bg-green-400 rounded flex items-center transform hover:scale-105";
 
 const Connect = (props) => {
-  const [showEmail, setShowEmail] = useState(false);
   return (
     <div className="flex flex-col items-center text-lg lg:text-3xl h-full">
       <a
@@ -21,10 +14,7 @@ const Connect = (props) => {
         className="pb-8"
       >
         <div className={style}>
-          <InstagramOutlined
-            alt="instagram"
-            onClick={() => setShowEmail(false)}
-          />
+          <InstagramOutlined alt="instagram" />
         </div>
       </a>
       <a
@@ -34,14 +24,9 @@ const Connect = (props) => {
         className="pb-8"
       >
         <div className={style}>
-          <FacebookFilled alt="facebook" onClick={() => setShowEmail(false)} />
+          <FacebookFilled alt="facebook" />
         </div>
       </a>
-      <div className="flex items-center pb-8">
-        <FilledContactButton onClick={() => setShowEmail(!showEmail)}>
-          {showEmail ? <EmailDiv /> : <MailOutlined alt="email" />}
-        </FilledContactButton>
-      </div>
     </div>
   );
 };
