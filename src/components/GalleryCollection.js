@@ -10,8 +10,8 @@ const GalleryCollection = ({ gallery, handleCloseClick }) => {
   const [focusedImage, setFocusedImage] = useState(collection[0]);
 
   return (
-    <div className="collection-container">
-      <div className="flex justify-between">
+    <div className="collection-container flex flex-col items-center w-full">
+      <div className="flex justify-between w-full">
         <div className="gallery-info flex font-body">
           <h2 className="mr-2">{gallery.title.toUpperCase()}</h2>{" "}
           <h3>{gallery.year}</h3>

@@ -14,7 +14,9 @@ const Page = (props) => {
         <h1 className="title text-center font-display text-3xl md:text-5xl">
           {props.title}
         </h1>
-        <div className="p-10 h-full">{props.children}</div>
+        <div className={`p-10 h-full ${props.fixed ? "w-full" : "w-auto"}`}>
+          {props.children}
+        </div>
       </section>
     </Element>
   );

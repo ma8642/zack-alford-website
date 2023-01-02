@@ -6,23 +6,13 @@ const style =
 
 const Connect = (props) => {
   return (
-    <div className="flex items-center text-lg lg:text-3xl h-full">
-      <a
-        href={process.env.REACT_APP_INSTA}
-        target="_blank"
-        rel="noreferrer"
-        className="pb-8"
-      >
+    <div className="flex justify-around items-center text-lg lg:text-3xl h-full">
+      <a href={process.env.REACT_APP_INSTA} target="_blank" rel="noreferrer">
         <div className={style}>
           <InstagramOutlined alt="instagram" />
         </div>
       </a>
-      <a
-        href={process.env.REACT_APP_FB}
-        target="_blank"
-        rel="noreferrer"
-        className="pb-8"
-      >
+      <a href={process.env.REACT_APP_FB} target="_blank" rel="noreferrer">
         <div className={style}>
           <FacebookFilled alt="facebook" />
         </div>
