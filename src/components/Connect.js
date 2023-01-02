@@ -6,7 +6,7 @@ const style =
 
 const Connect = (props) => {
   return (
-    <div className="flex flex-col items-center text-lg lg:text-3xl h-full">
+    <div className="flex items-center text-lg lg:text-3xl h-full">
       <a
         href={process.env.REACT_APP_INSTA}
         target="_blank"

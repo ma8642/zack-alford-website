@@ -24,16 +24,16 @@ const App = () => {
         <Page id="bio" title={t("bio")}>
           <Biography />
         </Page>
-        <Page id="discography" title={t("discography")} expandable={true}>
+        <Page id="discography" title={t("discography")}>
           <Discography />
         </Page>
         <Page id="gallery" title={t("gallery")}>
           <Gallery />
         </Page>
-        <Page id="gear" title={t("gear")}>
+        <Page id="gear" title={t("gear")} fixed={true}>
           <Gear />
         </Page>
-        <Page id="connect" title={t("connect")}>
+        <Page id="connect" title={t("connect")} fixed={true}>
           <Connect />
         </Page>
         <p>{t("zack-alford-copywrite")}</p>
