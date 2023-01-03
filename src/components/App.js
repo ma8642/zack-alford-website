@@ -33,7 +33,7 @@ const App = () => {
         <Page id="gear" title={t("gear")} fixed={true}>
           <Gear />
         </Page>
-        <div className="bg-connect bg-cover bg-left md:bg-center">
+        <div className="bg-connect bg-contain bg-no-repeat md:bg-cover bg-left md:bg-center">
           <Page id="connect" title={t("connect")} fixed={true}>
             <Connect />
           </Page>
