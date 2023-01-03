@@ -13,16 +13,18 @@ const Gear = () => {
   ));
 
   return (
-    <div className="flex flex-col items-center lg:grid lg:grid-cols-gear lg:gap-x-4">
-      <div data-testid="gear-photo">
-        <img
-          src={bgImage}
-          alt="Zack playing drums in dim, red lighting."
-          maxWidth="30%"
-          className="hidden md:block"
-        />
+    <div className="h-full flex items-center">
+      <div className="flex flex-col items-center lg:grid lg:grid-cols-gear lg:gap-x-4">
+        <div data-testid="gear-photo">
+          <img
+            src={bgImage}
+            alt="Zack playing drums in dim, red lighting."
+            maxWidth="30%"
+            className="hidden md:block"
+          />
+        </div>
+        <div className="flex flex-col justify-center">{gear}</div>
       </div>
-      <div className="flex flex-col justify-center">{gear}</div>
     </div>
   );
 };
