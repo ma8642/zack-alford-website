@@ -2,7 +2,7 @@ import React from "react";
 import { FacebookFilled, InstagramOutlined } from "@ant-design/icons";
 
 const style =
-  "p-5 text-black bg-green-400 rounded flex items-center transform hover:scale-105";
+  "p-5 md:px-10 text-black bg-green-400 rounded flex items-center transform hover:scale-105";
 
 const Connect = (props) => {
   return (
