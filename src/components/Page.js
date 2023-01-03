@@ -11,7 +11,11 @@ const Page = (props) => {
           props.fixed ? "h-xl" : "h-full"
         } flex flex-col justify-center items-center p-5`}
       >
-        <h1 className="title text-center font-display text-3xl md:text-5xl">
+        <h1
+          className={`title text-center ${
+            props.titleContrast ? "text-red-700" : "text-white"
+          } font-display text-3xl md:text-5xl`}
+        >
           {props.title}
         </h1>
         <div className={`p-10 h-full ${props.fixed ? "w-full" : "w-auto"}`}>
