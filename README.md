@@ -14,7 +14,7 @@ This is the code for Zack Alford's professional website.
 - [x] Fix page heading getting cut off on page scroll
 - [x] Fix menu bar not reaching all the way across the page
 - [x] Make Gear page mobile-friendly
-- [ ] Create image for Bio page
+- [x] Create image for Bio page
 - [x] Host gallery photos
 
 # Notes
