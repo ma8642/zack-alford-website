@@ -14,7 +14,7 @@ const App = () => {
   const pages = ["main", "bio", "discography", "gallery", "gear", "connect"];
 
   return (
-    <div className="App px-12 bg-black text-white">
+    <div className="App px-4 bg-black text-white">
       <MenuBar pages={pages} />
       <main
         id="main-container"

@@ -47,36 +47,33 @@ const MenuBar = ({ pages }) => {
     );
   });
   return (
-    <nav className="flex items-center justify-between flex-wrap p-6 bg-black w-xl">
-      <div className="w-full block">
-        <div className="text-sm flex flex-row justify-end items-center font-body">
-          <div
-            className="MOBILE-MENU flex flex-col lg:hidden"
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          >
-            <>
-              <span className="w-8 bg-green-400 px-4 py-0.5 mb-2 mr-4"> </span>
-              <span className="w-8 bg-green-400 px-4 py-0.5 mb-2 mr-4"> </span>
-              <span className="w-8 bg-green-400 px-4 py-0.5 mb-2 mr-4"> </span>
-            </>
-            <div className={isMobileMenuOpen ? "showMenuNav" : "hideMenuNav"}>
-              <CloseOutlined
-                className="absolute top-0 right-0 px-4 py-4 text-2xl text-green-400"
-                onClick={() => setIsMobileMenuOpen(false)}
-              />
-              <ul>{mobileMenuItems}</ul>
-            </div>
+    <nav className="flex items-center justify-between flex-wrap py-6 bg-black w-screen max-w-full">
+      <div className="text-sm flex flex-row justify-end items-center font-body w-full">
+        <div
+          className="MOBILE-MENU flex flex-col lg:hidden"
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+        >
+          <>
+            <span className="w-8 bg-green-400 px-4 py-0.5 mb-2"> </span>
+            <span className="w-8 bg-green-400 px-4 py-0.5 mb-2"> </span>
+            <span className="w-8 bg-green-400 px-4 py-0.5 mb-2"> </span>
+          </>
+          <div className={isMobileMenuOpen ? "showMenuNav" : "hideMenuNav"}>
+            <CloseOutlined
+              className="absolute top-0 right-0 px-5 py-5 text-2xl text-green-400"
+              onClick={() => setIsMobileMenuOpen(false)}
+            />
+            <ul>{mobileMenuItems}</ul>
           </div>
-          <div className="DESKTOP-MENU hidden lg:flex">{desktopMenuItems}</div>
         </div>
+        <div className="DESKTOP-MENU hidden lg:flex">{desktopMenuItems}</div>
       </div>
       <style>{`
       .hideMenuNav {
         display: none;
       }
       .showMenuNav {
-        display: block;
-        position: absolute;
+        position: fixed;
         width: 100%;
         height: 100vh;
         top: 0;
