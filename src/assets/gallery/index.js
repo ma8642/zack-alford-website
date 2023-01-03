@@ -201,7 +201,7 @@ const galleryData = [
   {
     id: 3,
     title: "Bruce Springsteen",
-    titleSize: "text-base",
+    titleSize: "text-sm",
     year: "2011",
     src: springsteenMain,
     href: "#",
