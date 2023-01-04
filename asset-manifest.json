@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c2c9430b.chunk.css",
-    "main.js": "/static/js/main.cda88477.chunk.js",
-    "main.js.map": "/static/js/main.cda88477.chunk.js.map",
+    "main.js": "/static/js/main.05835b1a.chunk.js",
+    "main.js.map": "/static/js/main.05835b1a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.659c9cad.js",
     "runtime-main.js.map": "/static/js/runtime-main.659c9cad.js.map",
     "static/css/2.f30b721a.chunk.css": "/static/css/2.f30b721a.chunk.css",
@@ -61,7 +61,7 @@
     "static/media/bowie66.b8b07b59.webp": "/static/media/bowie66.b8b07b59.webp",
     "static/media/bowie67.427d1296.webp": "/static/media/bowie67.427d1296.webp",
     "static/media/bowie68.e129c27f.webp": "/static/media/bowie68.e129c27f.webp",
-    "static/media/bowie_main.41f83b0d.webp": "/static/media/bowie_main.41f83b0d.webp",
+    "static/media/bowie_main.285a0d3d.webp": "/static/media/bowie_main.285a0d3d.webp",
     "static/media/bruce-springsteen.5e650871.webp": "/static/media/bruce-springsteen.5e650871.webp",
     "static/media/bspring25.5c25f1dd.webp": "/static/media/bspring25.5c25f1dd.webp",
     "static/media/bspring26.02bdd893.webp": "/static/media/bspring26.02bdd893.webp",
@@ -124,7 +124,7 @@
     "static/media/gwn46.c4673405.webp": "/static/media/gwn46.c4673405.webp",
     "static/media/gwn47.63f9c822.webp": "/static/media/gwn47.63f9c822.webp",
     "static/media/gwn48.d11e257d.webp": "/static/media/gwn48.d11e257d.webp",
-    "static/media/gwn_main.61ba94de.webp": "/static/media/gwn_main.61ba94de.webp",
+    "static/media/gwn_main.a8fcb61c.webp": "/static/media/gwn_main.a8fcb61c.webp",
     "static/media/hoffs.dc43c28c.webp": "/static/media/hoffs.dc43c28c.webp",
     "static/media/hotei-greatest-hits.f6e38c42.webp": "/static/media/hotei-greatest-hits.f6e38c42.webp",
     "static/media/hotei01.1289af31.webp": "/static/media/hotei01.1289af31.webp",
@@ -216,6 +216,6 @@
     "static/css/2.f30b721a.chunk.css",
     "static/js/2.79ec3379.chunk.js",
     "static/css/main.c2c9430b.chunk.css",
-    "static/js/main.cda88477.chunk.js"
+    "static/js/main.05835b1a.chunk.js"
   ]
 }
