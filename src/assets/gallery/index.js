@@ -98,30 +98,30 @@ import springsteen6 from "../img/galleries/bruce_springsteen/bspring30.jpg";
 import springsteen7 from "../img/galleries/bruce_springsteen/bspring31.jpg";
 
 // b52s images
-import b521 from "../img/galleries/b52s/B52_1.jpg";
-import b522 from "../img/galleries/b52s/B52_2.jpg";
-import b523 from "../img/galleries/b52s/B52_3.jpg";
-import b524 from "../img/galleries/b52s/B52_4.jpg";
-import b525 from "../img/galleries/b52s/B52_5.jpg";
-import b526 from "../img/galleries/b52s/B52_6.jpg";
-import b527 from "../img/galleries/b52s/B52_7.jpg";
-import b528 from "../img/galleries/b52s/B52_8.jpg";
-import b529 from "../img/galleries/b52s/B52_9.jpg";
-import b5210 from "../img/galleries/b52s/B52_10.jpg";
-import b5211 from "../img/galleries/b52s/B52_11.jpg";
-import b5212 from "../img/galleries/b52s/B52_12.jpg";
-import b5213 from "../img/galleries/b52s/B52_13.jpg";
-import b5214 from "../img/galleries/b52s/B52_14.jpg";
-import b5215 from "../img/galleries/b52s/B52_15.jpg";
-import b5216 from "../img/galleries/b52s/B52_16.jpg";
-import b5217 from "../img/galleries/b52s/B52_17.jpg";
-import b5218 from "../img/galleries/b52s/B52_18.jpg";
+import b521 from "../img/galleries/b52s/B52_1.webp";
+import b522 from "../img/galleries/b52s/B52_2.webp";
+import b523 from "../img/galleries/b52s/B52_3.webp";
+import b524 from "../img/galleries/b52s/B52_4.webp";
+import b525 from "../img/galleries/b52s/B52_5.webp";
+import b526 from "../img/galleries/b52s/B52_6.webp";
+import b527 from "../img/galleries/b52s/B52_7.webp";
+import b528 from "../img/galleries/b52s/B52_8.webp";
+import b529 from "../img/galleries/b52s/B52_9.webp";
+import b5210 from "../img/galleries/b52s/B52_10.webp";
+import b5211 from "../img/galleries/b52s/B52_11.webp";
+import b5212 from "../img/galleries/b52s/B52_12.webp";
+import b5213 from "../img/galleries/b52s/B52_13.webp";
+import b5214 from "../img/galleries/b52s/B52_14.webp";
+import b5215 from "../img/galleries/b52s/B52_15.webp";
+import b5216 from "../img/galleries/b52s/B52_16.webp";
+import b5217 from "../img/galleries/b52s/B52_17.webp";
+import b5218 from "../img/galleries/b52s/B52_18.webp";
 // TODO missing 19
-import b5220 from "../img/galleries/b52s/B52_20.jpg";
-import b5221 from "../img/galleries/b52s/B52_21.jpg";
-import b5222 from "../img/galleries/b52s/B52_22.jpg";
-import b5223 from "../img/galleries/b52s/B52_23.jpg";
-import b5224 from "../img/galleries/b52s/B52_24.jpg";
+import b5220 from "../img/galleries/b52s/B52_20.webp";
+import b5221 from "../img/galleries/b52s/B52_21.webp";
+import b5222 from "../img/galleries/b52s/B52_22.webp";
+import b5223 from "../img/galleries/b52s/B52_23.webp";
+import b5224 from "../img/galleries/b52s/B52_24.webp";
 
 // hotei images
 import hotei1 from "../img/galleries/hotei/hotei01.jpg";
