@@ -89,13 +89,13 @@ import zucchero9 from "../img/galleries/zucchero/zucchero9.webp";
 import zucchero10 from "../img/galleries/zucchero/zucchero10.webp";
 
 // // springsteen images
-import springsteen1 from "../img/galleries/bruce_springsteen/bspring25.jpg";
-import springsteen2 from "../img/galleries/bruce_springsteen/bspring26.jpg";
-import springsteen3 from "../img/galleries/bruce_springsteen/bspring27.jpg";
-import springsteen4 from "../img/galleries/bruce_springsteen/bspring28.jpg";
-import springsteen5 from "../img/galleries/bruce_springsteen/bspring29.jpg";
-import springsteen6 from "../img/galleries/bruce_springsteen/bspring30.jpg";
-import springsteen7 from "../img/galleries/bruce_springsteen/bspring31.jpg";
+import springsteen1 from "../img/galleries/bruce_springsteen/bspring25.webp";
+import springsteen2 from "../img/galleries/bruce_springsteen/bspring26.webp";
+import springsteen3 from "../img/galleries/bruce_springsteen/bspring27.webp";
+import springsteen4 from "../img/galleries/bruce_springsteen/bspring28.webp";
+import springsteen5 from "../img/galleries/bruce_springsteen/bspring29.webp";
+import springsteen6 from "../img/galleries/bruce_springsteen/bspring30.webp";
+import springsteen7 from "../img/galleries/bruce_springsteen/bspring31.webp";
 
 // b52s images
 import b521 from "../img/galleries/b52s/B52_1.webp";
