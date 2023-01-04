@@ -150,31 +150,31 @@ import hotei23 from "../img/galleries/hotei/hotei23.webp";
 import hotei24 from "../img/galleries/hotei/hotei24.webp";
 
 // other images
-import other1 from "../img/galleries/other/other01.jpg";
-import other2 from "../img/galleries/other/other02.jpg";
-import other3 from "../img/galleries/other/other03.jpg";
-import other4 from "../img/galleries/other/other04.jpg";
-import other5 from "../img/galleries/other/other05.jpg";
-import other6 from "../img/galleries/other/other06.jpg";
-import other7 from "../img/galleries/other/other07.jpg";
-import other8 from "../img/galleries/other/other08.jpg";
-import other9 from "../img/galleries/other/other09.jpg";
-import other10 from "../img/galleries/other/other10.jpg";
-import other11 from "../img/galleries/other/other11.jpg";
-import other12 from "../img/galleries/other/other12.jpg";
-import other13 from "../img/galleries/other/other13.jpg";
-import other14 from "../img/galleries/other/other14.jpg";
-import other15 from "../img/galleries/other/other15.jpg";
-import other16 from "../img/galleries/other/other16.jpg";
-import other17 from "../img/galleries/other/other17.jpg";
-import other18 from "../img/galleries/other/other18.jpg";
-import other19 from "../img/galleries/other/other19.jpg";
-import other20 from "../img/galleries/other/other20.jpg";
-import other21 from "../img/galleries/other/other21.jpg";
-import other22 from "../img/galleries/other/other22.jpg";
-import other23 from "../img/galleries/other/other23.jpg";
-import other24 from "../img/galleries/other/other24.jpg";
-import other25 from "../img/galleries/other/other25.jpg";
+import other1 from "../img/galleries/other/other01.webp";
+import other2 from "../img/galleries/other/other02.webp";
+import other3 from "../img/galleries/other/other03.webp";
+import other4 from "../img/galleries/other/other04.webp";
+import other5 from "../img/galleries/other/other05.webp";
+import other6 from "../img/galleries/other/other06.webp";
+import other7 from "../img/galleries/other/other07.webp";
+import other8 from "../img/galleries/other/other08.webp";
+import other9 from "../img/galleries/other/other09.webp";
+import other10 from "../img/galleries/other/other10.webp";
+import other11 from "../img/galleries/other/other11.webp";
+import other12 from "../img/galleries/other/other12.webp";
+import other13 from "../img/galleries/other/other13.webp";
+import other14 from "../img/galleries/other/other14.webp";
+import other15 from "../img/galleries/other/other15.webp";
+import other16 from "../img/galleries/other/other16.webp";
+import other17 from "../img/galleries/other/other17.webp";
+import other18 from "../img/galleries/other/other18.webp";
+import other19 from "../img/galleries/other/other19.webp";
+import other20 from "../img/galleries/other/other20.webp";
+import other21 from "../img/galleries/other/other21.webp";
+import other22 from "../img/galleries/other/other22.webp";
+import other23 from "../img/galleries/other/other23.webp";
+import other24 from "../img/galleries/other/other24.webp";
+import other25 from "../img/galleries/other/other25.webp";
 
 const galleryData = [
   {
