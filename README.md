@@ -31,3 +31,4 @@ This is the code for Zack Alford's professional website.
 - [React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel)
 - [Simple Hamburger Menu Using React and Tailwind](https://www.codementor.io/@giorgiasambrotta/hamburger-menu-with-react-and-tailwind-css-1qx6sruvua)
 - [Configuring a website domain while hosting with github pages](https://stackoverflow.com/questions/49571103/reactjs-app-published-to-github-pages-with-custom-domain)
+- [Using WebP Images](https://css-tricks.com/using-webp-images/)
