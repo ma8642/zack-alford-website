@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c2c9430b.chunk.css",
-    "main.js": "/static/js/main.05835b1a.chunk.js",
-    "main.js.map": "/static/js/main.05835b1a.chunk.js.map",
+    "main.js": "/static/js/main.c5e4936a.chunk.js",
+    "main.js.map": "/static/js/main.c5e4936a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.659c9cad.js",
     "runtime-main.js.map": "/static/js/runtime-main.659c9cad.js.map",
     "static/css/2.f30b721a.chunk.css": "/static/css/2.f30b721a.chunk.css",
@@ -38,7 +38,7 @@
     "static/media/B52_8.1e039787.webp": "/static/media/B52_8.1e039787.webp",
     "static/media/B52_9.a11b13fb.webp": "/static/media/B52_9.a11b13fb.webp",
     "static/media/aliveandwell.36a1f3f7.webp": "/static/media/aliveandwell.36a1f3f7.webp",
-    "static/media/b52s_main.804ea553.webp": "/static/media/b52s_main.804ea553.webp",
+    "static/media/b52s_main.b94f7608.webp": "/static/media/b52s_main.b94f7608.webp",
     "static/media/bg-1.df8d8d63.jpg": "/static/media/bg-1.df8d8d63.jpg",
     "static/media/bg-2.6c516013.jpg": "/static/media/bg-2.6c516013.jpg",
     "static/media/billy-joel.d0ffe78a.webp": "/static/media/billy-joel.d0ffe78a.webp",
@@ -151,7 +151,7 @@
     "static/media/hotei22.a0f6ebe6.webp": "/static/media/hotei22.a0f6ebe6.webp",
     "static/media/hotei23.e1eaaa80.webp": "/static/media/hotei23.e1eaaa80.webp",
     "static/media/hotei24.3046700f.webp": "/static/media/hotei24.3046700f.webp",
-    "static/media/hotei_main.ab6b64dd.webp": "/static/media/hotei_main.ab6b64dd.webp",
+    "static/media/hotei_main.7244b752.webp": "/static/media/hotei_main.7244b752.webp",
     "static/media/je-sais.02d78fa3.webp": "/static/media/je-sais.02d78fa3.webp",
     "static/media/index.css": "/static/media/joshuamodlinger.69cd5801.webp",
     "static/media/kane.4a4ccc8f.webp": "/static/media/kane.4a4ccc8f.webp",
@@ -176,7 +176,7 @@
     "static/media/other12.8702c25f.webp": "/static/media/other12.8702c25f.webp",
     "static/media/other13.ade705fa.webp": "/static/media/other13.ade705fa.webp",
     "static/media/other14.babdbd64.webp": "/static/media/other14.babdbd64.webp",
-    "static/media/other15.00b3ee8f.webp": "/static/media/other15.00b3ee8f.webp",
+    "static/media/other15.1e226b3b.webp": "/static/media/other15.1e226b3b.webp",
     "static/media/other16.8bda7cd3.webp": "/static/media/other16.8bda7cd3.webp",
     "static/media/other17.378f7c19.webp": "/static/media/other17.378f7c19.webp",
     "static/media/other18.dca1d293.webp": "/static/media/other18.dca1d293.webp",
@@ -187,7 +187,7 @@
     "static/media/other23.75dbd3d6.webp": "/static/media/other23.75dbd3d6.webp",
     "static/media/other24.b796f8f0.webp": "/static/media/other24.b796f8f0.webp",
     "static/media/other25.956706ff.webp": "/static/media/other25.956706ff.webp",
-    "static/media/other_main.526b4b96.webp": "/static/media/other_main.526b4b96.webp",
+    "static/media/other_main.1e226b3b.webp": "/static/media/other_main.1e226b3b.webp",
     "static/media/pura-fe.06262598.webp": "/static/media/pura-fe.06262598.webp",
     "static/media/rumble-doll.4c46969c.webp": "/static/media/rumble-doll.4c46969c.webp",
     "static/media/scorpio-rising.0b4d9cba.webp": "/static/media/scorpio-rising.0b4d9cba.webp",
@@ -209,13 +209,13 @@
     "static/media/zucchero7.2bdf5ff8.webp": "/static/media/zucchero7.2bdf5ff8.webp",
     "static/media/zucchero8.7be7f418.webp": "/static/media/zucchero8.7be7f418.webp",
     "static/media/zucchero9.6bf53268.webp": "/static/media/zucchero9.6bf53268.webp",
-    "static/media/zucchero_main.de240808.webp": "/static/media/zucchero_main.de240808.webp"
+    "static/media/zucchero_main.c563d82b.webp": "/static/media/zucchero_main.c563d82b.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.659c9cad.js",
     "static/css/2.f30b721a.chunk.css",
     "static/js/2.79ec3379.chunk.js",
     "static/css/main.c2c9430b.chunk.css",
-    "static/js/main.05835b1a.chunk.js"
+    "static/js/main.c5e4936a.chunk.js"
   ]
 }
