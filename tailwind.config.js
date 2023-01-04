@@ -18,7 +18,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        connect: "url('/src/assets/connect/joshuamodlinger.png')",
+        connect: "url('/src/assets/connect/joshuamodlinger.webp')",
       },
       keyframes: {
         fade: {
