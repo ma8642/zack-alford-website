@@ -1,6 +1,6 @@
 import React from "react";
 import { gearData } from "../assets/gear";
-import bgImage from "../assets/gear/gear-bg.png";
+import bgImage from "../assets/gear/gear-bg.webp";
 
 const Gear = () => {
   // TODO figure out how to align-items-center this page content!

@@ -1,5 +1,5 @@
 import gear1 from "./zildjian.jpg";
-import gear2 from "./vater.png";
+import gear2 from "./vater.webp";
 import gear3 from "./yamaha.jpg";
 
 const gearData = [
