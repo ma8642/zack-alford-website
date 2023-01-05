@@ -38,7 +38,7 @@ const App = () => {
             <Connect />
           </Page>
         </div>
-        <p>{t("zack-alford-copywrite")}</p>
+        <p>{t("zack-alford-copyright")}</p>
         <small>{t("site-by")}</small>
         <a
           href="https://github.com/ma8642"
