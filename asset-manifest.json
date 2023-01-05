@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c2c9430b.chunk.css",
-    "main.js": "/static/js/main.50f056f2.chunk.js",
-    "main.js.map": "/static/js/main.50f056f2.chunk.js.map",
+    "main.js": "/static/js/main.bcf89834.chunk.js",
+    "main.js.map": "/static/js/main.bcf89834.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.659c9cad.js",
     "runtime-main.js.map": "/static/js/runtime-main.659c9cad.js.map",
     "static/css/2.f30b721a.chunk.css": "/static/css/2.f30b721a.chunk.css",
@@ -39,8 +39,8 @@
     "static/media/B52_9.a11b13fb.webp": "/static/media/B52_9.a11b13fb.webp",
     "static/media/aliveandwell.36a1f3f7.webp": "/static/media/aliveandwell.36a1f3f7.webp",
     "static/media/b52s_main.b94f7608.webp": "/static/media/b52s_main.b94f7608.webp",
-    "static/media/bg-1.df8d8d63.jpg": "/static/media/bg-1.df8d8d63.jpg",
-    "static/media/bg-2.6c516013.jpg": "/static/media/bg-2.6c516013.jpg",
+    "static/media/bg-1.daeee33b.webp": "/static/media/bg-1.daeee33b.webp",
+    "static/media/bg-2.05588ec8.webp": "/static/media/bg-2.05588ec8.webp",
     "static/media/billy-joel.d0ffe78a.webp": "/static/media/billy-joel.d0ffe78a.webp",
     "static/media/bodybag.95938c6f.webp": "/static/media/bodybag.95938c6f.webp",
     "static/media/bowie50.12bfed94.webp": "/static/media/bowie50.12bfed94.webp",
@@ -197,8 +197,8 @@
     "static/media/time-was.65785cf1.webp": "/static/media/time-was.65785cf1.webp",
     "static/media/tonight-im-yours.da175ed5.webp": "/static/media/tonight-im-yours.da175ed5.webp",
     "static/media/vater.464a9513.webp": "/static/media/vater.464a9513.webp",
-    "static/media/yamaha.d38b3af0.jpg": "/static/media/yamaha.d38b3af0.jpg",
-    "static/media/zildjian.23a804f1.jpg": "/static/media/zildjian.23a804f1.jpg",
+    "static/media/yamaha.d15421a7.webp": "/static/media/yamaha.d15421a7.webp",
+    "static/media/zildjian.c2f0cf04.webp": "/static/media/zildjian.c2f0cf04.webp",
     "static/media/zucchero1.d157e550.webp": "/static/media/zucchero1.d157e550.webp",
     "static/media/zucchero10.a45e0f03.webp": "/static/media/zucchero10.a45e0f03.webp",
     "static/media/zucchero2.78ac1268.webp": "/static/media/zucchero2.78ac1268.webp",
@@ -216,6 +216,6 @@
     "static/css/2.f30b721a.chunk.css",
     "static/js/2.79ec3379.chunk.js",
     "static/css/main.c2c9430b.chunk.css",
-    "static/js/main.50f056f2.chunk.js"
+    "static/js/main.bcf89834.chunk.js"
   ]
 }
