@@ -1,5 +1,5 @@
-import carousel1 from "../img/carousel/bg-1.jpg";
-import carousel2 from "../img/carousel/bg-2.jpg";
+import carousel1 from "../img/carousel/bg-1.webp";
+import carousel2 from "../img/carousel/bg-2.webp";
 
 const carouselData = [
   {

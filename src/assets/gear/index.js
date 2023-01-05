@@ -1,6 +1,6 @@
-import gear1 from "./zildjian.jpg";
+import gear1 from "./zildjian.webp";
 import gear2 from "./vater.webp";
-import gear3 from "./yamaha.jpg";
+import gear3 from "./yamaha.webp";
 
 const gearData = [
   {
