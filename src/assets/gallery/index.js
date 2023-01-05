@@ -233,7 +233,7 @@ const collectionsData = {
   0: [
     {
       src: gwn01,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>Zack with Music and Love of "L.A.M.B"</p>,
         <p>(Love, Angel, Music, Baby)</p>,
@@ -242,7 +242,7 @@ const collectionsData = {
     },
     {
       src: gwn02,
-      alt: "bar",
+      alt: "",
       desc: [
         <p>Flea, Legacy, Remedy, and Zack</p>,
         <p>Rehearsals Los Angeles 9/05</p>,
@@ -250,12 +250,12 @@ const collectionsData = {
     },
     {
       src: gwn03,
-      alt: "foo",
+      alt: "",
       desc: [<p>Zen Drumming</p>, <p>Rehearsals Los Angeles 9/05</p>],
     },
     {
       src: gwn04,
-      alt: "bar",
+      alt: "",
       desc: [
         <p>Zen drumming with moving sticks</p>,
         <p>Rehearsals Los Angeles 9/05</p>,
@@ -263,17 +263,17 @@ const collectionsData = {
     },
     {
       src: gwn05,
-      alt: "bar",
+      alt: "",
       desc: [<p>Gabriel McNair on Keys</p>, <p>Rehearsals Los Angeles 9/05</p>],
     },
     {
       src: gwn06,
-      alt: "bar",
+      alt: "",
       desc: [<p>Me and Steelo</p>, <p>Rehearsals Los Angeles 9/05</p>],
     },
     {
       src: gwn07,
-      alt: "bar",
+      alt: "",
       desc: [
         <p>Contemplation between songs</p>,
         <p>Rehearsals Los Angeles 9/05</p>,
@@ -281,32 +281,32 @@ const collectionsData = {
     },
     {
       src: gwn08,
-      alt: "bar",
+      alt: "",
       desc: [<p>Framed by D Drum skin</p>, <p>Rehearsals Los Angeles 9/05</p>],
     },
     {
       src: gwn09,
-      alt: "bar",
+      alt: "",
       desc: [<p>Your caption...</p>, <p>Rehearsals Los Angeles 9/05</p>],
     },
     {
       src: gwn10,
-      alt: "bar",
+      alt: "",
       desc: "iona, mia, sophie, gwen and zack",
     },
     {
       src: gwn11,
-      alt: "bar",
+      alt: "",
       desc: "Music and Love",
     },
     {
       src: gwn12,
-      alt: "foo",
+      alt: "",
       desc: "world's greatest soundwoman Michelle Sabolchick",
     },
     {
       src: gwn13,
-      alt: "bar",
+      alt: "",
       desc: [
         <p>ben perowski, zack, josh freese and chicken</p>,
         <p>Madison Square Garden</p>,
@@ -315,322 +315,322 @@ const collectionsData = {
     },
     {
       src: gwn15,
-      alt: "bar",
+      alt: "",
       desc: "chillin' backstage",
     },
     {
       src: gwn16,
-      alt: "bar",
+      alt: "",
       desc: "legflip & reno",
     },
     {
       src: gwn17,
-      alt: "bar",
+      alt: "",
       desc: "the human spinning top",
     },
     {
       src: gwn18,
-      alt: "bar",
+      alt: "",
       desc: "Birthday back stage at the Hollywood Bowl with Warren",
     },
     {
       src: gwn19,
-      alt: "bar",
+      alt: "",
       desc: "Gwen with birthday cake backstage at the Hollywood Bowl",
     },
     {
       src: gwn20,
-      alt: "bar",
+      alt: "",
       desc: "Angel",
     },
     {
       src: gwn21,
-      alt: "bar",
+      alt: "",
       desc: "Baby and Taylor",
     },
     {
       src: gwn22,
-      alt: "bar",
+      alt: "",
       desc: "DJ Jon",
     },
     {
       src: gwn23,
-      alt: "bar",
+      alt: "",
       desc: "Kris, Zack and Love",
     },
     {
       src: gwn24,
-      alt: "bar",
+      alt: "",
       desc: "Taylor and Warren",
     },
     {
       src: gwn25,
-      alt: "bar",
+      alt: "",
       desc: "Seattle sound check",
     },
     {
       src: gwn26,
-      alt: "bar",
+      alt: "",
       desc: "a serious spin",
     },
     {
       src: gwn27,
-      alt: "bar",
+      alt: "",
       desc: "another serious spin",
     },
     {
       src: gwn29,
-      alt: "bar",
+      alt: "",
       desc: "Hope somebody shows up eventually....",
     },
     {
       src: gwn30,
-      alt: "bar",
+      alt: "",
       desc: "the towering line array",
     },
     {
       src: gwn31,
-      alt: "bar",
+      alt: "",
       desc: "on the throne at Caesar's Palace",
     },
     {
       src: gwn32,
-      alt: "bar",
+      alt: "",
       desc: "Love and Angel freeze",
     },
     {
       src: gwn33,
-      alt: "bar",
+      alt: "",
       desc: "Music has a cold",
     },
     {
       src: gwn34,
-      alt: "bar",
+      alt: "",
       desc: "Ladies and Gentlemen... the austrian curtains",
     },
     {
       src: gwn35,
-      alt: "bar",
+      alt: "",
       desc: "intro",
     },
     {
       src: gwn36,
-      alt: "bar",
+      alt: "",
       desc: "gail and zack",
     },
     {
       src: gwn37,
-      alt: "bar",
+      alt: "",
       desc: "gail, zack, and warren",
     },
     {
       src: gwn38,
-      alt: "bar",
+      alt: "",
       desc: "wind it up",
     },
     {
       src: gwn39,
-      alt: "bar",
+      alt: "",
       desc: "danger zone",
     },
     {
       src: gwn40,
-      alt: "bar",
+      alt: "",
       desc: "drumline",
     },
     {
       src: gwn41,
-      alt: "bar",
+      alt: "",
       desc: "what's he looking at?",
     },
     {
       src: gwn42,
-      alt: "bar",
+      alt: "",
       desc: "crash freeze",
     },
     {
       src: gwn43,
-      alt: "bar",
+      alt: "",
       desc: "bubble pop",
     },
     {
       src: gwn44,
-      alt: "bar",
+      alt: "",
       desc: "bubble pop piggy back",
     },
     {
       src: gwn45,
-      alt: "bar",
+      alt: "",
       desc: "encore",
     },
     {
       src: gwn46,
-      alt: "bar",
+      alt: "",
       desc: "bow wow",
     },
     {
       src: gwn47,
-      alt: "bar",
+      alt: "",
       desc: "zack and kris",
     },
     {
       src: gwn48,
-      alt: "bar",
+      alt: "",
       desc: "Sweet bedside comfort at the Ritz",
     },
   ],
   1: [
     {
       src: bowie50,
-      alt: "foo",
+      alt: "",
       desc: 'set list for "Earthling" tour / festival leg',
     },
-    { src: bowie51, alt: "foo", desc: "Zack and David studio still 1997" },
+    { src: bowie51, alt: "", desc: "Zack and David studio still 1997" },
     {
       src: bowie52,
-      alt: "foo",
+      alt: "",
       desc: [<p>roadie shot</p>, <small>PHOTO by John Walsh</small>],
     },
-    { src: bowie53, alt: "foo", desc: "day off Cannes, France" },
+    { src: bowie53, alt: "", desc: "day off Cannes, France" },
     {
       src: bowie54,
-      alt: "foo",
+      alt: "",
       desc: 'with Carlos Alomar and fan "Outside" tour 1995',
     },
     {
       src: bowie55,
-      alt: "foo",
+      alt: "",
       desc: "Mike Garson, David and Reeves Gabrels moss garden, Kyoto, Japan",
     },
     {
       src: bowie56,
-      alt: "foo",
+      alt: "",
       desc: [<p>roadie shot 2</p>, <small>PHOTO by John Walsh</small>],
     },
-    { src: bowie57, alt: "foo", desc: "Mike Garson, David and Zack" },
-    { src: bowie58, alt: "foo" },
-    { src: bowie59, alt: "foo" },
-    { src: bowie61, alt: "foo" },
-    { src: bowie62, alt: "foo" },
+    { src: bowie57, alt: "", desc: "Mike Garson, David and Zack" },
+    { src: bowie58, alt: "" },
+    { src: bowie59, alt: "" },
+    { src: bowie61, alt: "" },
+    { src: bowie62, alt: "" },
     {
       src: bowie63,
-      alt: "foo",
+      alt: "",
       desc: "(yes it's grainy) front page from iceland newspaper",
     },
-    { src: bowie64, alt: "foo", desc: "another newspaper scan" },
-    { src: bowie65, alt: "foo" },
+    { src: bowie64, alt: "", desc: "another newspaper scan" },
+    { src: bowie65, alt: "" },
     {
       src: bowie66,
-      alt: "foo",
+      alt: "",
       desc: [<p>Saturday Night Live</p>, <small>1997</small>],
     },
     {
       src: bowie67,
-      alt: "foo",
+      alt: "",
       desc: [<p>Reeves and Zack</p>, <small>1997</small>],
     },
     {
       src: bowie68,
-      alt: "foo",
+      alt: "",
       desc: [<p>Rosie O'Donnell Show</p>, <small>1997</small>],
     },
   ],
   2: [
     {
       src: zucchero1,
-      alt: "foo",
+      alt: "",
       desc: 'Zack and bassist Paul "Polo" Jones 2002',
     },
-    { src: zucchero2, alt: "foo", desc: "James, Zack and Lisa Hunt" },
-    { src: zucchero3, alt: "foo", desc: "Zack, Polo and Mario" },
+    { src: zucchero2, alt: "", desc: "James, Zack and Lisa Hunt" },
+    { src: zucchero3, alt: "", desc: "Zack, Polo and Mario" },
     {
       src: zucchero4,
-      alt: "foo",
+      alt: "",
       desc: "Zuccherro with guest Paul Young, Zurich 2002",
     },
-    { src: zucchero5, alt: "foo", desc: "Polo and Zack" },
-    { src: zucchero6, alt: "foo", desc: "Mario" },
-    { src: zucchero7, alt: "foo", desc: "Zack soundcheck" },
-    { src: zucchero8, alt: "foo", desc: "Zack, the great Lisa Hunt" },
+    { src: zucchero5, alt: "", desc: "Polo and Zack" },
+    { src: zucchero6, alt: "", desc: "Mario" },
+    { src: zucchero7, alt: "", desc: "Zack soundcheck" },
+    { src: zucchero8, alt: "", desc: "Zack, the great Lisa Hunt" },
     {
       src: zucchero9,
-      alt: "foo",
+      alt: "",
       desc: [<p>could not resist this shot</p>, <p>Bologna 2002</p>],
     },
-    { src: zucchero10, alt: "foo", desc: "guess where ???" },
+    { src: zucchero10, alt: "", desc: "guess where ???" },
   ],
   3: [
     {
       src: springsteen1,
-      alt: "foo",
+      alt: "",
       desc: "pre tour show at The Bottom Line NYC 1992",
     },
-    { src: springsteen2, alt: "foo" },
-    { src: springsteen3, alt: "foo" },
-    { src: springsteen4, alt: "foo", desc: 'mid show "moment"' },
-    { src: springsteen5, alt: "foo" },
+    { src: springsteen2, alt: "" },
+    { src: springsteen3, alt: "" },
+    { src: springsteen4, alt: "", desc: 'mid show "moment"' },
+    { src: springsteen5, alt: "" },
     {
       src: springsteen6,
-      alt: "foo",
+      alt: "",
       desc: "from front page of a Swedish newspaper",
     },
-    { src: springsteen7, alt: "foo", desc: "Spain" },
+    { src: springsteen7, alt: "", desc: "Spain" },
   ],
   4: [
     {
       src: b521,
-      alt: "we",
+      alt: "",
       desc: [<p>Roam Video</p>, <small>PHOTO by Keith Bennett</small>],
     },
     {
       src: b522,
-      alt: "are",
+      alt: "",
       desc: [<p>Channel Z</p>, <small>PHOTO by Keith Bennett</small>],
     },
     {
       src: b523,
-      alt: "the",
+      alt: "",
       desc: [
         <p>Tracy Wormworth on b-b-b-bass!</p>,
         <small>PHOTO by Keith Bennett</small>,
       ],
     },
-    { src: b524, alt: "b", desc: [<small>PHOTO by Keith Bennett</small>] },
-    { src: b525, alt: "52s", desc: [<small>PHOTO by Keith Bennett</small>] },
+    { src: b524, alt: "", desc: [<small>PHOTO by Keith Bennett</small>] },
+    { src: b525, alt: "", desc: [<small>PHOTO by Keith Bennett</small>] },
     {
       src: b526,
-      alt: "bar",
+      alt: "",
       desc: [<p>Keith and Zack</p>, <small>PHOTO by Keith Bennett</small>],
     },
     {
       src: b527,
-      alt: "bar",
+      alt: "",
       desc: [
         <p>Backstage with Sterling Campbell during GO GO's/ B52's tour 2000</p>,
         <small>PHOTO by Keith Bennett</small>,
       ],
     },
-    { src: b528, alt: "bar", desc: "Zack at Ventura County Fair (2004)" },
+    { src: b528, alt: "", desc: "Zack at Ventura County Fair (2004)" },
     {
       src: b529,
-      alt: "we",
+      alt: "",
       desc: [<p>Sara Lee</p>, <small>PHOTO by Keith Bennett</small>],
     },
-    { src: b5210, alt: "the", desc: [<small>PHOTO by Keith Bennett</small>] },
+    { src: b5210, alt: "", desc: [<small>PHOTO by Keith Bennett</small>] },
     {
       src: b5211,
-      alt: "the",
+      alt: "",
       desc: [
         <p>radio broadcast from boat in San Fransisco harbour "Cosmic Tour"</p>,
         <small>PHOTO by Keith Bennett</small>,
       ],
     },
-    { src: b5212, alt: "b", desc: [<small>PHOTO by Keith Bennett</small>] },
-    { src: b5213, alt: "52s", desc: [<small>PHOTO by Keith Bennett</small>] },
-    { src: b5214, alt: "bar", desc: "SNL commercial break still" },
+    { src: b5212, alt: "", desc: [<small>PHOTO by Keith Bennett</small>] },
+    { src: b5213, alt: "", desc: [<small>PHOTO by Keith Bennett</small>] },
+    { src: b5214, alt: "", desc: "SNL commercial break still" },
     {
       src: b5215,
-      alt: "bar",
+      alt: "",
       desc: [
         <p>waiting on the set of Roam</p>,
         <small>PHOTO by Keith Bennett</small>,
@@ -638,7 +638,7 @@ const collectionsData = {
     },
     {
       src: b5216,
-      alt: "bar",
+      alt: "",
       desc: [
         <p>more waiting on the set of Roam</p>,
         <small>PHOTO by Keith Bennett</small>,
@@ -646,7 +646,7 @@ const collectionsData = {
     },
     {
       src: b5217,
-      alt: "we",
+      alt: "",
       desc: [
         <p>flipping out for the Roam video</p>,
         <small>PHOTO by Keith Bennett</small>,
@@ -654,29 +654,29 @@ const collectionsData = {
     },
     {
       src: b5218,
-      alt: "are",
+      alt: "",
       desc: [
         <p>1st gig of "Cosmic tour" at Toad's Place 1989</p>,
         <small>PHOTO by Susan Alzner</small>,
       ],
     },
-    { src: b5220, alt: "the", desc: [<small>PHOTO by Keith Bennett</small>] },
+    { src: b5220, alt: "", desc: [<small>PHOTO by Keith Bennett</small>] },
     {
       src: b5221,
-      alt: "b",
+      alt: "",
       desc: [
         <p>tailgate party for Super bowl 1993 with Pat Irwin</p>,
         <small>PHOTO by Keith Bennett</small>,
       ],
     },
-    { src: b5222, alt: "52s", desc: [<small>PHOTO by Keith Bennett</small>] },
-    { src: b5223, alt: "bar", desc: "Nice Cheetah..." },
-    { src: b5224, alt: "bar" },
+    { src: b5222, alt: "", desc: [<small>PHOTO by Keith Bennett</small>] },
+    { src: b5223, alt: "", desc: "Nice Cheetah..." },
+    { src: b5224, alt: "" },
   ],
   5: [
     {
       src: hotei1,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>Zack and Geisha. Osaka, Japan 2003</p>,
         <small>PHOTO by Kishi Toshiyuki</small>,
@@ -684,18 +684,18 @@ const collectionsData = {
     },
     {
       src: hotei2,
-      alt: "foo",
+      alt: "",
       desc: [<p>introducing...</p>, <small>PHOTO by Kishi Toshiyuki</small>],
     },
     {
       src: hotei3,
-      alt: "foo",
+      alt: "",
       desc: [<p>lighting check</p>, <small>PHOTO by Kishi Toshiyuki</small>],
     },
-    { src: hotei4, alt: "foo" },
+    { src: hotei4, alt: "" },
     {
       src: hotei5,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>bullet train blues</p>,
         <small>PHOTO by Kishi Toshiyuki</small>,
@@ -703,7 +703,7 @@ const collectionsData = {
     },
     {
       src: hotei6,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>Zack's caricature of Kishi Toshiyuki backstage</p>,
         <small>PHOTO by Kishi Toshiyuki</small>,
@@ -711,7 +711,7 @@ const collectionsData = {
     },
     {
       src: hotei7,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>party animal Jyuichi Watanabe</p>,
         <small>PHOTO by Kishi Toshiyuki</small>,
@@ -719,7 +719,7 @@ const collectionsData = {
     },
     {
       src: hotei8,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>tour massuer Niigata and friend</p>,
         <small>PHOTO by Kishi Toshiyuki</small>,
@@ -727,7 +727,7 @@ const collectionsData = {
     },
     {
       src: hotei9,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>Zack's caricature of Jyuich</p>,
         <small>PHOTO by Kishi Toshiyuki</small>,
@@ -735,27 +735,27 @@ const collectionsData = {
     },
     {
       src: hotei10,
-      alt: "foo",
+      alt: "",
       desc: [<p>Sendai stage shot</p>, <small>PHOTO by Kishi Toshiyuki</small>],
     },
     {
       src: hotei11,
-      alt: "foo",
+      alt: "",
       desc: [<small>PHOTO by Kishi Toshiyuki</small>],
     },
     {
       src: hotei12,
-      alt: "foo",
+      alt: "",
       desc: [<small>PHOTO by Kishi Toshiyuki</small>],
     },
     {
       src: hotei13,
-      alt: "foo",
+      alt: "",
       desc: [<small>PHOTO by Kishi Toshiyuki</small>],
     },
     {
       src: hotei14,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>soundcheck in Osaka</p>,
         <small>PHOTO by Kishi Toshiyuki</small>,
@@ -763,7 +763,7 @@ const collectionsData = {
     },
     {
       src: hotei15,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>Birthday in Kokura</p>,
         <small>PHOTO by Kishi Toshiyuki</small>,
@@ -771,17 +771,17 @@ const collectionsData = {
     },
     {
       src: hotei16,
-      alt: "foo",
+      alt: "",
       desc: [<small>PHOTO by Kishi Toshiyuki</small>],
     },
     {
       src: hotei17,
-      alt: "foo",
+      alt: "",
       desc: [<small>PHOTO by Kishi Toshiyuki</small>],
     },
     {
       src: hotei18,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>playing in Niigata</p>,
         <small>PHOTO by Kishi Toshiyuki</small>,
@@ -789,17 +789,17 @@ const collectionsData = {
     },
     {
       src: hotei19,
-      alt: "foo",
+      alt: "",
       desc: [<small>PHOTO by Kishi Toshiyuki</small>],
     },
     {
       src: hotei20,
-      alt: "foo",
+      alt: "",
       desc: [<small>PHOTO by Kishi Toshiyuki</small>],
     },
     {
       src: hotei21,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>Some of the best bars have a resident crocodile.</p>,
         <small>PHOTO by Kishi Toshiyuki</small>,
@@ -807,7 +807,7 @@ const collectionsData = {
     },
     {
       src: hotei22,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>Aaaah in Japanese is aaaah.</p>,
         <small>PHOTO by Kishi Toshiyuki</small>,
@@ -815,7 +815,7 @@ const collectionsData = {
     },
     {
       src: hotei23,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>I'm only gonna ask one more time...where are my drum sticks.</p>,
         <small>PHOTO by Kishi Toshiyuki</small>,
@@ -823,22 +823,22 @@ const collectionsData = {
     },
     {
       src: hotei24,
-      alt: "foo",
+      alt: "",
       desc: [<p>Omiya Kanpai</p>, <small>PHOTO by Kishi Toshiyuki</small>],
     },
   ],
   6: [
-    { src: other1, alt: "foo", desc: "Zack with David Bowie and the 'Prez'" },
-    { src: other2, alt: "foo", desc: "Zack, J.R. Robinson & Tommy Campbell" },
-    { src: other3, alt: "foo", desc: "Zack, J.R.Robinson & Tommy Campbell" },
+    { src: other1, alt: "", desc: "Zack with David Bowie and the 'Prez'" },
+    { src: other2, alt: "", desc: "Zack, J.R. Robinson & Tommy Campbell" },
+    { src: other3, alt: "", desc: "Zack, J.R.Robinson & Tommy Campbell" },
     {
       src: other4,
-      alt: "foo",
+      alt: "",
       desc: [<p>Zack and J.R. Robinson</p>, <small>Japan 2003</small>],
     },
     {
       src: other5,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>George Clinton</p>,
         <small>Church of Universal Love</small>,
@@ -847,12 +847,12 @@ const collectionsData = {
     },
     {
       src: other6,
-      alt: "foo",
+      alt: "",
       desc: "Zack with Sara Lee & Dennis Chambers (2000)",
     },
     {
       src: other7,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>OhhhhYeah !....Actor Jeffrey Jones and Zack</p>,
         <small>Universal Ampitheatre L.A. 1989</small>,
@@ -860,7 +860,7 @@ const collectionsData = {
     },
     {
       src: other8,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>Zack, Paul Reubens (aka...you know) , Kate Pierson</p>,
         <small>Universal Ampitheatre L.A. (1989)</small>,
@@ -868,7 +868,7 @@ const collectionsData = {
     },
     {
       src: other9,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>
           Steven Bernstein, Adam Rogers <small>(almost)</small> Pablo Calogero
@@ -880,7 +880,7 @@ const collectionsData = {
     },
     {
       src: other10,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>Don Was , Zack, Keith Strickland, Pat Irwin</p>,
         <small>Bearsville Studio 1991</small>,
@@ -888,7 +888,7 @@ const collectionsData = {
     },
     {
       src: other11,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>The awesome Frank Finley and Zack</p>,
         <small>Bodybag gig NYC 1993</small>,
@@ -896,7 +896,7 @@ const collectionsData = {
     },
     {
       src: other12,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>Jerome Smith and Zack</p>,
         <b>Built to Rock !</b>,
@@ -905,12 +905,12 @@ const collectionsData = {
     },
     {
       src: other13,
-      alt: "foo",
+      alt: "",
       desc: [<p>Frank Finley</p>, <small>Green Street Studios NYC 1991</small>],
     },
     {
       src: other14,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>Zack at Green Street Studios</p>,
         <small>New York City 1991</small>,
@@ -918,12 +918,12 @@ const collectionsData = {
     },
     {
       src: other15,
-      alt: "foo",
+      alt: "",
       desc: [<p>Hang glide anyone?</p>, <small>Zack in Rio 1991</small>],
     },
     {
       src: other16,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>
           Sterling Campbell, Keith Strickland (Mike Scarfe picture diving) and
@@ -934,7 +934,7 @@ const collectionsData = {
     },
     {
       src: other17,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>Tommy Aldridge and Zack</p>,
         <small>2006 NAMM Show Annaheim CA</small>,
@@ -943,7 +943,7 @@ const collectionsData = {
     },
     {
       src: other18,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>Zack and Fergie</p>,
         <small>backstage at Gwen Stefani show</small>,
@@ -952,7 +952,7 @@ const collectionsData = {
     },
     {
       src: other19,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>Zack and legend Steve Gadd</p>,
         <small>Groove All stars Cerritos, CA</small>,
@@ -961,7 +961,7 @@ const collectionsData = {
     },
     {
       src: other20,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>Zack and Lenny Kravitz</p>,
         <small>backstage at Rolling Stones show</small>,
@@ -970,7 +970,7 @@ const collectionsData = {
     },
     {
       src: other21,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>Pam Greer and Zack</p>,
         <small>on location at "L Word "</small>,
@@ -979,7 +979,7 @@ const collectionsData = {
     },
     {
       src: other22,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>Group Shot</p>,
         <small>Groove All stars Cerritos, CA.</small>,
@@ -988,17 +988,17 @@ const collectionsData = {
     },
     {
       src: other23,
-      alt: "foo",
+      alt: "",
       desc: "Kelly' Clarkson's \"Addicted tour\" summer 2006",
     },
     {
       src: other24,
-      alt: "foo",
+      alt: "",
       desc: "Kelly' Clarkson's \"Addicted tour\" summer 2006",
     },
     {
       src: other25,
-      alt: "foo",
+      alt: "",
       desc: [
         <p>Zack in the shadows behind Einar</p>,
         <small>(dude from the hills have eyes...NOT!)</small>,
