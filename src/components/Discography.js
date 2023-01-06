@@ -23,6 +23,8 @@ const Discography = () => {
   };
 
   const buttonCopy = maxAlbums < albumsData.length ? "More" : "Less";
+  console.log(maxAlbums);
+  console.log(albumsData.length);
 
   return (
     <div>
@@ -30,7 +32,12 @@ const Discography = () => {
         {albumsData.slice(0, maxAlbums)}
       </div>
       <div className="flex justify-center mt-4">
-        <FilledButton onClick={handleClickButton}>{buttonCopy}</FilledButton>
+        <FilledButton
+          onClick={handleClickButton}
+          disabled={maxAlbums >= albumsData.length}
+        >
+          {buttonCopy}
+        </FilledButton>
       </div>
     </div>
   );
