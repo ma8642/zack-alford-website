@@ -1,5 +1,6 @@
 import carousel1 from "../img/carousel/bg-1.webp";
 import carousel2 from "../img/carousel/bg-2.webp";
+import carousel3 from "../img/carousel/bg-3.webp";
 
 const carouselData = [
   {
@@ -12,11 +13,11 @@ const carouselData = [
     alt: "Black and white action shot of Zack smiling while he plays drums.",
     src: carousel2,
   },
-  //   {
-  //     id: 3,
-  //     alt: "Red-tinted photo of Zack playing drums.",
-  //     src: "/images/the-next-day.png",
-  //   },
+  {
+    id: 3,
+    alt: "Black and white action shot of Zack playing a Yamaha drumset.",
+    src: carousel3,
+  },
 ];
 
 export { carouselData };
