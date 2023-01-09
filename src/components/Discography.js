@@ -30,12 +30,14 @@ const Discography = () => {
         {albumsData.slice(0, maxAlbums)}
       </div>
       <div className="flex justify-center mt-4">
-        <FilledButton
-          onClick={handleClickButton}
-          disabled={maxAlbums >= albumsData.length}
-        >
-          {buttonCopy}
-        </FilledButton>
+        {maxAlbums < albumsData.length && (
+          <FilledButton
+            onClick={handleClickButton}
+            disabled={maxAlbums >= albumsData.length}
+          >
+            {buttonCopy}
+          </FilledButton>
+        )}
       </div>
     </div>
   );
