@@ -4,8 +4,10 @@ const FilledButton = (props) => {
   return (
     <button
       className={`p-5 text-black ${
-        props.disabled ? "bg-gray-400" : "bg-green-400"
-      } rounded flex items-center transform hover:scale-105`}
+        props.disabled
+          ? "bg-gray-400 pointer-events-none"
+          : "bg-green-400 hover:scale-105"
+      } rounded flex items-center transform`}
       onClick={props.onClick}
     >
       {props.children}

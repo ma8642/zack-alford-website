@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import albums from "../assets/discography";
 import FilledButton from "./buttons/FilledButton";
 
 const Discography = () => {
+  const { t } = useTranslation();
   const increment = 8;
   const [maxAlbums, setMaxAlbums] = useState(increment);
   const albumsData = albums.map((album, i) => (
@@ -17,14 +19,10 @@ const Discography = () => {
   const handleClickButton = () => {
     if (maxAlbums < albumsData.length) {
       setMaxAlbums(maxAlbums + increment);
-    } else {
-      setMaxAlbums(increment);
     }
   };
 
-  const buttonCopy = maxAlbums < albumsData.length ? "More" : "Less";
-  console.log(maxAlbums);
-  console.log(albumsData.length);
+  const buttonCopy = t("more");
 
   return (
     <div>
