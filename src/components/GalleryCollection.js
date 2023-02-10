@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import { CloseOutlined } from "@ant-design/icons";
 import { collectionsData } from "../assets/gallery";
 
@@ -30,18 +31,24 @@ const GalleryCollection = ({ gallery, handleCloseClick }) => {
         <div className="thumbnail-row grid gap-1 grid-cols-6 grid-rows-1 overflow-x-auto">
           {collection.map((photo, i) => {
             return (
-              <div
-                key={i}
-                onClick={() => setFocusedImage(photo)}
-                className="cursor-pointer"
-              >
-                <img
-                  key={i}
-                  src={photo.src}
-                  height="70px"
-                  width="70px"
-                  alt={photo.alt}
-                />
+              <div key={i} className="cursor-pointer">
+                <Link
+                  activeClass="active"
+                  to="gallery"
+                  onClick={() => setFocusedImage(photo)}
+                  spy={true}
+                  smooth={true}
+                  duration={250}
+                  containerId="main-container"
+                >
+                  <img
+                    key={i}
+                    src={photo.src}
+                    height="70px"
+                    width="70px"
+                    alt={photo.alt}
+                  />
+                </Link>
               </div>
             );
           })}
