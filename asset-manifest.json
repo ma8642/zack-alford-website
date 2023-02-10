@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba96453d.chunk.css",
-    "main.js": "/static/js/main.56528ebc.chunk.js",
-    "main.js.map": "/static/js/main.56528ebc.chunk.js.map",
+    "main.css": "/static/css/main.2516f41a.chunk.css",
+    "main.js": "/static/js/main.4b5c27ab.chunk.js",
+    "main.js.map": "/static/js/main.4b5c27ab.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.659c9cad.js",
     "runtime-main.js.map": "/static/js/runtime-main.659c9cad.js.map",
     "static/css/2.f30b721a.chunk.css": "/static/css/2.f30b721a.chunk.css",
-    "static/js/2.79ec3379.chunk.js": "/static/js/2.79ec3379.chunk.js",
-    "static/js/2.79ec3379.chunk.js.map": "/static/js/2.79ec3379.chunk.js.map",
+    "static/js/2.3bf3db8c.chunk.js": "/static/js/2.3bf3db8c.chunk.js",
+    "static/js/2.3bf3db8c.chunk.js.map": "/static/js/2.3bf3db8c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f30b721a.chunk.css.map": "/static/css/2.f30b721a.chunk.css.map",
-    "static/css/main.ba96453d.chunk.css.map": "/static/css/main.ba96453d.chunk.css.map",
-    "static/js/2.79ec3379.chunk.js.LICENSE.txt": "/static/js/2.79ec3379.chunk.js.LICENSE.txt",
+    "static/css/main.2516f41a.chunk.css.map": "/static/css/main.2516f41a.chunk.css.map",
+    "static/js/2.3bf3db8c.chunk.js.LICENSE.txt": "/static/js/2.3bf3db8c.chunk.js.LICENSE.txt",
     "static/media/123-soleils.15aa9042.webp": "/static/media/123-soleils.15aa9042.webp",
     "static/media/231-pacific.fef8e75a.webp": "/static/media/231-pacific.fef8e75a.webp",
     "static/media/B52_1.eabb76bd.webp": "/static/media/B52_1.eabb76bd.webp",
@@ -41,6 +41,7 @@
     "static/media/b52s_main.b94f7608.webp": "/static/media/b52s_main.b94f7608.webp",
     "static/media/bg-1.daeee33b.webp": "/static/media/bg-1.daeee33b.webp",
     "static/media/bg-2.05588ec8.webp": "/static/media/bg-2.05588ec8.webp",
+    "static/media/bg-3.4d7f13ad.webp": "/static/media/bg-3.4d7f13ad.webp",
     "static/media/billy-joel.d0ffe78a.webp": "/static/media/billy-joel.d0ffe78a.webp",
     "static/media/bodybag.95938c6f.webp": "/static/media/bodybag.95938c6f.webp",
     "static/media/bowie50.12bfed94.webp": "/static/media/bowie50.12bfed94.webp",
@@ -214,8 +215,8 @@
   "entrypoints": [
     "static/js/runtime-main.659c9cad.js",
     "static/css/2.f30b721a.chunk.css",
-    "static/js/2.79ec3379.chunk.js",
-    "static/css/main.ba96453d.chunk.css",
-    "static/js/main.56528ebc.chunk.js"
+    "static/js/2.3bf3db8c.chunk.js",
+    "static/css/main.2516f41a.chunk.css",
+    "static/js/main.4b5c27ab.chunk.js"
   ]
 }
