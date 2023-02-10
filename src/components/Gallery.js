@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import GalleryCollection from "./GalleryCollection";
 import { galleryData } from "../assets/gallery";
 
@@ -11,37 +12,47 @@ const Gallery = () => {
   const largeScreenTitleStyling = "lg:bg-transparent";
 
   const galleries = galleryData.map((gallery) => (
-    <div className="relative" onClick={() => setOpenCollection(gallery)}>
-      <div
-        className={`absolute inset-0 z-10 flex flex-col justify-between ${largeScreenGalleryStyling} duration-300 cursor-pointer`}
+    <div className="relative">
+      <Link
+        activeClass="active"
+        to="gallery"
+        onClick={() => setOpenCollection(gallery)}
+        spy={true}
+        smooth={true}
+        duration={250}
+        containerId="main-container"
       >
-        <div>
-          <h1
-            className={`tracking-wider ${
-              gallery.titleSize ?? "text-lg"
-            } md:text-3xl font-black -mt-2 ${mobileTitleStyling} ${largeScreenTitleStyling}`}
-          >
-            {gallery.title.toUpperCase()}
-          </h1>
-          <p
-            className={`mx-auto tracking-wider ${mobileTitleStyling} ${largeScreenTitleStyling}`}
-          >
-            {gallery.year}
-          </p>
+        <div
+          className={`absolute inset-0 z-10 flex flex-col justify-between ${largeScreenGalleryStyling} duration-300 cursor-pointer`}
+        >
+          <div>
+            <h1
+              className={`tracking-wider ${
+                gallery.titleSize ?? "text-lg"
+              } md:text-3xl font-black -mt-2 ${mobileTitleStyling} ${largeScreenTitleStyling}`}
+            >
+              {gallery.title.toUpperCase()}
+            </h1>
+            <p
+              className={`mx-auto tracking-wider ${mobileTitleStyling} ${largeScreenTitleStyling}`}
+            >
+              {gallery.year}
+            </p>
+          </div>
+          <div className="p-6"></div>
         </div>
-        <div className="p-6"></div>
-      </div>
-      <a href={gallery.href} className="relative">
-        <div className="h-48 flex flex-wrap content-center w-full">
-          <img
-            key={gallery.id}
-            src={gallery.src}
-            alt={`${gallery.title} gallery`}
-            maxWidth="100%"
-            width="100%"
-          />
-        </div>
-      </a>
+        <a href={gallery.href} className="relative">
+          <div className="h-48 flex flex-wrap content-center w-full">
+            <img
+              key={gallery.id}
+              src={gallery.src}
+              alt={`${gallery.title} gallery`}
+              maxWidth="100%"
+              width="100%"
+            />
+          </div>
+        </a>
+      </Link>
     </div>
   ));
 
