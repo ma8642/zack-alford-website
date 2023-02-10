@@ -32,12 +32,13 @@ const Gallery = () => {
         <div className="p-6"></div>
       </div>
       <a href={gallery.href} className="relative">
-        <div className="h-48 flex flex-wrap content-center">
+        <div className="h-48 flex flex-wrap content-center w-full">
           <img
             key={gallery.id}
             src={gallery.src}
             alt={`${gallery.title} gallery`}
-            maxWidth="10%"
+            maxWidth="100%"
+            width="100%"
           />
         </div>
       </a>
