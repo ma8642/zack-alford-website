@@ -5,15 +5,18 @@ const Biography = () => {
   const { t } = useTranslation();
   const text = [];
   let counter = 0;
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 7; i++) {
     if (i % 2 === 1) {
       text.push(<br />);
     } else {
       text.push(
         <li class="mt-3 mb-3 ml-6">
           <div class="absolute -left-2 mt-6 rounded-full border-4 bg-white"></div>
+          <h2 className="text-red-600">
+            {t(`biography-para-${counter + 1}.title`)}
+          </h2>{" "}
           <p key={i} className="sm:text-base md:text-lg text-white">
-            {t(`biography-para-${counter + 1}`)}
+            {t(`biography-para-${counter + 1}.text`)}
           </p>
         </li>
       );
