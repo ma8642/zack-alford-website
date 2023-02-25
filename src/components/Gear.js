@@ -23,7 +23,7 @@ const Gear = () => {
             className="hidden md:block"
           />
         </div>
-        <div className="flex flex-col justify-center">{gear}</div>
+        <div className="flex flex-col justify-center items-center">{gear}</div>
       </div>
     </div>
   );

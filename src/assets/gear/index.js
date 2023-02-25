@@ -1,6 +1,7 @@
 import gear1 from "./zildjian.webp";
 import gear2 from "./vater.webp";
 import gear3 from "./yamaha.webp";
+import gear4 from "./evans.webp";
 
 const gearData = [
   {
@@ -20,6 +21,12 @@ const gearData = [
     alt: "Yamaha Drums Logo",
     src: gear3,
     href: "https://usa.yamaha.com/products/musical_instruments/drums/index.html",
+  },
+  {
+    id: 4,
+    alt: "Evan's Drum Heads Logo",
+    src: gear4,
+    href: "https://www.daddario.com/products/percussion/evans-drumheads/",
   },
 ];
 
