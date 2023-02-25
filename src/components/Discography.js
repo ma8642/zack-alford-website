@@ -29,7 +29,7 @@ const Discography = () => {
       <div className="grid grid-cols-3 lg:grid-cols-5 gap-4">
         {albumsData.slice(0, maxAlbums)}
       </div>
-      <div className="flex justify-center mt-4">
+      <div className="flex justify-center mt-4 font-display">
         {maxAlbums < albumsData.length && (
           <FilledButton
             onClick={handleClickButton}

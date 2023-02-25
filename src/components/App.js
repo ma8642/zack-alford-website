@@ -38,16 +38,18 @@ const App = () => {
             <Connect />
           </Page>
         </div>
-        <p>{t("zack-alford-copyright")}</p>
-        <small>{t("site-by")}</small>
-        <a
-          href="https://github.com/ma8642"
-          className="hover:underline"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <small>Marley Alford</small>
-        </a>
+        <div className="footer font-display">
+          <p>{t("zack-alford-copyright")}</p>
+          <small>{t("site-by")}</small>
+          <a
+            href="https://github.com/ma8642"
+            className="hover:underline"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <small>Marley Alford</small>
+          </a>
+        </div>
       </main>
     </div>
   );

@@ -12,7 +12,7 @@ const Biography = () => {
       text.push(
         <li class="mt-3 mb-3 ml-6">
           <div class="absolute -left-2 mt-6 rounded-full border-4 bg-white"></div>
-          <h2 className="text-red-600">
+          <h2 className="text-red-600 font-display">
             {t(`biography-para-${counter + 1}.title`)}
           </h2>{" "}
           <p key={i} className="sm:text-base md:text-lg text-white">

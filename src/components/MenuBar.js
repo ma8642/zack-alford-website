@@ -48,7 +48,7 @@ const MenuBar = ({ pages }) => {
   });
   return (
     <nav className="flex items-center justify-between flex-wrap py-6 bg-black w-screen max-w-full">
-      <div className="text-sm flex flex-row justify-end items-center font-body w-full">
+      <div className="text-sm flex flex-row justify-end items-center font-display w-full">
         <div
           className="MOBILE-MENU flex flex-col lg:hidden"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
