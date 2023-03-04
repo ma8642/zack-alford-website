@@ -10,6 +10,7 @@ import galore from "../img/album_covers/galore.webp";
 import goodStuff from "../img/album_covers/goodstuff.webp";
 import hoffs from "../img/album_covers/hoffs.webp";
 import hoteiGreatestHits from "../img/album_covers/hotei-greatest-hits.webp";
+import jadeBird from "../img/album_covers/JadeBird.webp";
 import jeSais from "../img/album_covers/je-sais.webp";
 import kane from "../img/album_covers/kane.webp";
 import kenza from "../img/album_covers/kenza.webp";
@@ -17,6 +18,7 @@ import lettie from "../img/album_covers/lettie.webp";
 import maggiesDream from "../img/album_covers/maggiesdream.webp";
 import makeItBeautiful from "../img/album_covers/make-it-beautiful.webp";
 import mainStreetPreachers from "../img/album_covers/main-street-preachers.webp";
+import manoloGarcia from "../img/album_covers/manolo-garcia.webp";
 import maya from "../img/album_covers/maya.webp";
 import media from "../img/album_covers/media.webp";
 import nextDay from "../img/album_covers/the-next-day.webp";
@@ -27,6 +29,7 @@ import scorpioRising from "../img/album_covers/scorpio-rising.webp";
 import shake from "../img/album_covers/shake.webp";
 import soleils123 from "../img/album_covers/123-soleils.webp";
 import supersonic from "../img/album_covers/supersonic.webp";
+import sVega from "../img/album_covers/SVega.webp";
 import timeWas from "../img/album_covers/time-was.webp";
 import tonightImYours from "../img/album_covers/tonight-im-yours.webp";
 
@@ -216,6 +219,24 @@ const albums = [
     title: "Fetish",
     artist: "Hotei",
     src: fetish,
+  },
+  {
+    id: 32,
+    title: "Todo es ahora",
+    artist: "Manolo Garcia",
+    src: manoloGarcia,
+  },
+  {
+    id: 33,
+    title: "Tales from the Realm of the Queen of Pentacles",
+    artist: "Suzanna VEga",
+    src: sVega,
+  },
+  {
+    id: 34,
+    title: "Jade Bird",
+    artist: "Jade Bird",
+    src: jadeBird,
   },
 ];
 
