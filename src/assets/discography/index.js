@@ -229,7 +229,7 @@ const albums = [
   {
     id: 33,
     title: "Tales from the Realm of the Queen of Pentacles",
-    artist: "Suzanna VEga",
+    artist: "Suzanna Vega",
     src: sVega,
   },
   {
