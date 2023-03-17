@@ -33,8 +33,8 @@ const App = () => {
         <Page id="gear" title={t("gear")} titleContrast={true}>
           <Gear />
         </Page>
-        <div className="bg-connect bg-contain bg-no-repeat md:bg-cover bg-left md:bg-center">
-          <Page id="connect" title={t("connect")} fixed={true}>
+        <div className="bg-connect bg-contain bg-no-repeat md:bg-cover bg-top md:bg-center">
+          <Page id="connect" title={t("connect")}>
             <Connect />
           </Page>
         </div>

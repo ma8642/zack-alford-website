@@ -7,9 +7,7 @@ const Page = (props) => {
     <Element name={props.id} className="element min-h-screen">
       <section
         id={props.id}
-        className={`section ${
-          props.fixed ? "h-xl" : "h-full"
-        } flex flex-col justify-center items-center p-5`}
+        className="section md:h-xl flex flex-col justify-center items-center p-5"
       >
         <h1
           className={`title text-center ${
@@ -18,9 +16,7 @@ const Page = (props) => {
         >
           {props.title}
         </h1>
-        <div className={`p-10 h-full ${props.fixed ? "w-full" : "w-auto"}`}>
-          {props.children}
-        </div>
+        <div className="p-10 h-full w-full">{props.children}</div>
       </section>
     </Element>
   );
