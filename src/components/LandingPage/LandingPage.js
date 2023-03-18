@@ -14,7 +14,7 @@ const LandingPage = (props) => {
         <img
           src={carouselData[i].src}
           alt={carouselData[i].alt}
-          className="max-h-full max-w-full h-full"
+          className="object-cover"
         />
       </div>
     );
@@ -22,7 +22,7 @@ const LandingPage = (props) => {
 
   return (
     <Element name={props.id} className="element">
-      <section id={props.id} className="mb-20 h-xl bg-black text-white">
+      <section id={props.id} className="mb-20 bg-black text-white">
         <h1 className="text-left font-display text-7xl md:text-9xl w-1/2 z-10 absolute bottom-12 md:bottom-0 left-0 ml-2">
           {title}
         </h1>
