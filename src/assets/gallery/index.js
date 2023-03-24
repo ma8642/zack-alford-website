@@ -96,6 +96,7 @@ import springsteen4 from "../img/galleries/bruce_springsteen/bspring28.webp";
 import springsteen5 from "../img/galleries/bruce_springsteen/bspring29.webp";
 import springsteen6 from "../img/galleries/bruce_springsteen/bspring30.webp";
 import springsteen7 from "../img/galleries/bruce_springsteen/bspring31.webp";
+import springsteen8 from "../img/galleries/bruce_springsteen/bspring32.webp";
 
 // b52s images
 import b521 from "../img/galleries/b52s/B52_1.webp";
@@ -173,6 +174,9 @@ import other22 from "../img/galleries/other/other22.webp";
 import other23 from "../img/galleries/other/other23.webp";
 import other24 from "../img/galleries/other/other24.webp";
 import other25 from "../img/galleries/other/other25.webp";
+import other26 from "../img/galleries/other/other26.webp";
+import other27 from "../img/galleries/other/other27.webp";
+import other28 from "../img/galleries/other/other28.webp";
 
 const galleryData = [
   {
@@ -594,6 +598,11 @@ const collectionsData = {
       desc: "from front page of a Swedish newspaper",
     },
     { src: springsteen7, alt: "", desc: "Spain" },
+    {
+      src: springsteen8,
+      alt: "",
+      desc: '"The Other Band" - Top row: Zack, Cleo Kennedy, Bobby King, Angel Rogers. Bottom row: Tommy Sims, Carol Dennis, Shane Fontayne, Bruce Springsteen, Patti Scialfa, Roy Bittan, Crystal Taliefero, Gia Ciambotti',
+    },
   ],
   4: [
     {
@@ -1051,6 +1060,18 @@ const collectionsData = {
       src: other25,
       alt: "",
       desc: [<p>Zack in the shadows behind Einar Pedersen</p>],
+    },
+    {
+      src: other26,
+      alt: "",
+    },
+    {
+      src: other27,
+      alt: "",
+    },
+    {
+      src: other28,
+      alt: "",
     },
   ],
 };
