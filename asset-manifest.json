@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.73e714f5.chunk.css",
-    "main.js": "/static/js/main.79379cc3.chunk.js",
-    "main.js.map": "/static/js/main.79379cc3.chunk.js.map",
+    "main.css": "/static/css/main.8863858c.chunk.css",
+    "main.js": "/static/js/main.19fd053d.chunk.js",
+    "main.js.map": "/static/js/main.19fd053d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.659c9cad.js",
     "runtime-main.js.map": "/static/js/runtime-main.659c9cad.js.map",
     "static/css/2.f30b721a.chunk.css": "/static/css/2.f30b721a.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.3bf3db8c.chunk.js.map": "/static/js/2.3bf3db8c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.f30b721a.chunk.css.map": "/static/css/2.f30b721a.chunk.css.map",
-    "static/css/main.73e714f5.chunk.css.map": "/static/css/main.73e714f5.chunk.css.map",
+    "static/css/main.8863858c.chunk.css.map": "/static/css/main.8863858c.chunk.css.map",
     "static/js/2.3bf3db8c.chunk.js.LICENSE.txt": "/static/js/2.3bf3db8c.chunk.js.LICENSE.txt",
     "static/media/123-soleils.15aa9042.webp": "/static/media/123-soleils.15aa9042.webp",
     "static/media/231-pacific.fef8e75a.webp": "/static/media/231-pacific.fef8e75a.webp",
@@ -45,6 +45,7 @@
     "static/media/bg-1.daeee33b.webp": "/static/media/bg-1.daeee33b.webp",
     "static/media/bg-2.05588ec8.webp": "/static/media/bg-2.05588ec8.webp",
     "static/media/bg-3.4d7f13ad.webp": "/static/media/bg-3.4d7f13ad.webp",
+    "static/media/bg-4.c5eb3ed8.webp": "/static/media/bg-4.c5eb3ed8.webp",
     "static/media/billy-joel.d0ffe78a.webp": "/static/media/billy-joel.d0ffe78a.webp",
     "static/media/bodybag.95938c6f.webp": "/static/media/bodybag.95938c6f.webp",
     "static/media/bowie50.12bfed94.webp": "/static/media/bowie50.12bfed94.webp",
@@ -74,6 +75,7 @@
     "static/media/bspring29.53046110.webp": "/static/media/bspring29.53046110.webp",
     "static/media/bspring30.5d5273d5.webp": "/static/media/bspring30.5d5273d5.webp",
     "static/media/bspring31.fd927d43.webp": "/static/media/bspring31.fd927d43.webp",
+    "static/media/bspring32.1134cbc9.webp": "/static/media/bspring32.1134cbc9.webp",
     "static/media/bspring_main.b7576157.webp": "/static/media/bspring_main.b7576157.webp",
     "static/media/earthling.c6b8cadb.webp": "/static/media/earthling.c6b8cadb.webp",
     "static/media/evans.64ee6f43.webp": "/static/media/evans.64ee6f43.webp",
@@ -190,6 +192,9 @@
     "static/media/other23.75dbd3d6.webp": "/static/media/other23.75dbd3d6.webp",
     "static/media/other24.b796f8f0.webp": "/static/media/other24.b796f8f0.webp",
     "static/media/other25.956706ff.webp": "/static/media/other25.956706ff.webp",
+    "static/media/other26.1df53ff0.webp": "/static/media/other26.1df53ff0.webp",
+    "static/media/other27.7a59b5e1.webp": "/static/media/other27.7a59b5e1.webp",
+    "static/media/other28.979408f6.webp": "/static/media/other28.979408f6.webp",
     "static/media/other_main.1e226b3b.webp": "/static/media/other_main.1e226b3b.webp",
     "static/media/pura-fe.06262598.webp": "/static/media/pura-fe.06262598.webp",
     "static/media/rumble-doll.4c46969c.webp": "/static/media/rumble-doll.4c46969c.webp",
@@ -218,7 +223,7 @@
     "static/js/runtime-main.659c9cad.js",
     "static/css/2.f30b721a.chunk.css",
     "static/js/2.3bf3db8c.chunk.js",
-    "static/css/main.73e714f5.chunk.css",
-    "static/js/main.79379cc3.chunk.js"
+    "static/css/main.8863858c.chunk.css",
+    "static/js/main.19fd053d.chunk.js"
   ]
 }
