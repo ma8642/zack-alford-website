@@ -1064,14 +1064,17 @@ const collectionsData = {
     {
       src: other26,
       alt: "",
+      desc: "Zack and Klaus Voorman",
     },
     {
       src: other27,
       alt: "",
+      desc: "Zack and the great Levon Helm",
     },
     {
       src: other28,
       alt: "",
+      desc: "Nena band in Austria 2017",
     },
   ],
 };
