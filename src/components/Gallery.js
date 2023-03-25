@@ -58,10 +58,12 @@ const Gallery = () => {
 
   if (openCollection) {
     return (
-      <GalleryCollection
-        gallery={openCollection}
-        handleCloseClick={() => setOpenCollection(null)}
-      />
+      <div className="flex justify-center">
+        <GalleryCollection
+          gallery={openCollection}
+          handleCloseClick={() => setOpenCollection(null)}
+        />
+      </div>
     );
   }
 

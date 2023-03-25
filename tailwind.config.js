@@ -13,7 +13,7 @@ module.exports = {
     },
     width: {
       full: "100%",
-      xl: "95vw",
+      xl: "500px",
       screen: "100vw",
     },
     extend: {
