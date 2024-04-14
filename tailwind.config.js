@@ -17,9 +17,6 @@ module.exports = {
       screen: "100vw",
     },
     extend: {
-      backgroundImage: {
-        connect: "url('/src/assets/connect/joshuamodlinger.webp')",
-      },
       keyframes: {
         fade: {
           "0%, 100%": { opacity: 0 },

@@ -33,11 +33,9 @@ const App = () => {
         <Page id="gear" title={t("gear")} titleContrast={true}>
           <Gear />
         </Page>
-        <div className="bg-connect bg-contain bg-no-repeat md:bg-cover bg-top md:bg-center">
-          <Page id="connect" title={t("connect")}>
-            <Connect />
-          </Page>
-        </div>
+        <Page id="connect" title={t("connect")}>
+          <Connect />
+        </Page>
         <div className="footer font-display">
           <p>{t("zack-alford-copyright")}</p>
           <small>{t("site-by")}</small>
