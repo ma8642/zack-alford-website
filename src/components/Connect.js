@@ -8,7 +8,7 @@ const style =
 const ButtonsOverlay = () => {
   return (
     <div id="social-buttons" className="absolute top-1/2 left-1/2 bg-blue">
-      <div className="flex flex-col">
+      <div className="flex md:flex-col">
         <a
           href={process.env.REACT_APP_INSTA}
           target="_blank"
