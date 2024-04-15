@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.8863858c.chunk.css",
-    "main.js": "/static/js/main.19fd053d.chunk.js",
-    "main.js.map": "/static/js/main.19fd053d.chunk.js.map",
+    "main.css": "/static/css/main.2716e252.chunk.css",
+    "main.js": "/static/js/main.ee15e312.chunk.js",
+    "main.js.map": "/static/js/main.ee15e312.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.659c9cad.js",
     "runtime-main.js.map": "/static/js/runtime-main.659c9cad.js.map",
-    "static/css/2.f30b721a.chunk.css": "/static/css/2.f30b721a.chunk.css",
-    "static/js/2.3bf3db8c.chunk.js": "/static/js/2.3bf3db8c.chunk.js",
-    "static/js/2.3bf3db8c.chunk.js.map": "/static/js/2.3bf3db8c.chunk.js.map",
+    "static/css/2.c68f14bc.chunk.css": "/static/css/2.c68f14bc.chunk.css",
+    "static/js/2.a9892ed6.chunk.js": "/static/js/2.a9892ed6.chunk.js",
+    "static/js/2.a9892ed6.chunk.js.map": "/static/js/2.a9892ed6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.f30b721a.chunk.css.map": "/static/css/2.f30b721a.chunk.css.map",
-    "static/css/main.8863858c.chunk.css.map": "/static/css/main.8863858c.chunk.css.map",
-    "static/js/2.3bf3db8c.chunk.js.LICENSE.txt": "/static/js/2.3bf3db8c.chunk.js.LICENSE.txt",
+    "static/css/2.c68f14bc.chunk.css.map": "/static/css/2.c68f14bc.chunk.css.map",
+    "static/css/main.2716e252.chunk.css.map": "/static/css/main.2716e252.chunk.css.map",
+    "static/js/2.a9892ed6.chunk.js.LICENSE.txt": "/static/js/2.a9892ed6.chunk.js.LICENSE.txt",
     "static/media/123-soleils.15aa9042.webp": "/static/media/123-soleils.15aa9042.webp",
     "static/media/231-pacific.fef8e75a.webp": "/static/media/231-pacific.fef8e75a.webp",
     "static/media/B52_1.eabb76bd.webp": "/static/media/B52_1.eabb76bd.webp",
@@ -77,6 +77,7 @@
     "static/media/bspring31.fd927d43.webp": "/static/media/bspring31.fd927d43.webp",
     "static/media/bspring32.1134cbc9.webp": "/static/media/bspring32.1134cbc9.webp",
     "static/media/bspring_main.b7576157.webp": "/static/media/bspring_main.b7576157.webp",
+    "static/media/connect-bg_joshuamodlinger.69cd5801.webp": "/static/media/connect-bg_joshuamodlinger.69cd5801.webp",
     "static/media/earthling.c6b8cadb.webp": "/static/media/earthling.c6b8cadb.webp",
     "static/media/evans.64ee6f43.webp": "/static/media/evans.64ee6f43.webp",
     "static/media/fetish.45da4ba4.webp": "/static/media/fetish.45da4ba4.webp",
@@ -160,7 +161,6 @@
     "static/media/hotei24.3046700f.webp": "/static/media/hotei24.3046700f.webp",
     "static/media/hotei_main.7244b752.webp": "/static/media/hotei_main.7244b752.webp",
     "static/media/je-sais.02d78fa3.webp": "/static/media/je-sais.02d78fa3.webp",
-    "static/media/index.css": "/static/media/joshuamodlinger.69cd5801.webp",
     "static/media/kane.4a4ccc8f.webp": "/static/media/kane.4a4ccc8f.webp",
     "static/media/kenza.e6129e69.webp": "/static/media/kenza.e6129e69.webp",
     "static/media/lettie.1633254e.webp": "/static/media/lettie.1633254e.webp",
@@ -221,9 +221,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.659c9cad.js",
-    "static/css/2.f30b721a.chunk.css",
-    "static/js/2.3bf3db8c.chunk.js",
-    "static/css/main.8863858c.chunk.css",
-    "static/js/main.19fd053d.chunk.js"
+    "static/css/2.c68f14bc.chunk.css",
+    "static/js/2.a9892ed6.chunk.js",
+    "static/css/main.2716e252.chunk.css",
+    "static/js/main.ee15e312.chunk.js"
   ]
 }
